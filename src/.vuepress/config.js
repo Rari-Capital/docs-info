@@ -1,0 +1,35 @@
+const { description } = require("../../package");
+
+module.exports = {
+  title: "Rari Capital",
+  description: description,
+
+  head: [
+    ["meta", { name: "theme-color", content: "#42C346" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+    ]
+  ],
+
+  themeConfig: {
+    repo: "Rari-Capital/docs",
+    docsDir: "/",
+    nav: [
+      { text: "Introduction", link: "/" },
+      { text: "Products", link: "/products/" },
+      { text: "Ecosystem", link: "/ecosystem/" },
+      { text: "Risks", link: "/risks/" },
+      { text: "Contribute", link: "https://docs.rari.capital/" }
+    ],
+    sidebarDepth: 10,
+    sidebar: {
+      "/": [""],
+      "/products/": [""],
+      "/ecosystem/": [""],
+      "/risks/": [""]
+    },
+    smoothScroll: true
+  }
+};

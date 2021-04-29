@@ -1,0 +1,13 @@
+{
+  "name": "@rari-capital/docs",
+  "version": "0.0.1",
+  "description": "Rari Capital docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
