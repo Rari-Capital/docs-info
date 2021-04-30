@@ -1,4 +1,5 @@
 # @rari-capital/docs
+
 Rari Capital Documentation
 
 **What is Rari Capital?** 
@@ -403,4 +404,308 @@ Once connected, users can view the multi-pool dashboard. Users may then withdraw
 After choosing a pool and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, select any of the supported crypto-assets and withdraw from the pool. This can be done by selecting the asset menu, choosing your desired asset, the amount, and by pressing the "Withdraw" button.
 
 It is worth noting that it will cost less gas to withdraw in any tokens currently active within the protocol, as it will require fewer swaps. Conversely, this means that it will require more gas for withdrawals in assets not currently active.
+
+**How to Earn $RGT**
+
+## Overview
+
+$RGT is the native governance token behind the Rari Capital Protocol. It can be mined through the Rari portal during the distribution schedule or purchased from several exchanges listed below.
+
+## Public Liquidity Mining Program - Concluded
+
+Any user can participate in the $RGT liquidity mining program and earn $RGT distributions. To do so, one must be an active depositor in any of our three pools; the Rari Stable Pool, the Rari Yield Pool, or the Rari ETH Pool. Rewards will be distributed proportionally to the amount of deposits that a user has within the protocol across all pools compared to the total deposits within the protocol across all pools.
+
+For example, if a user has $400,000 in the protocol and the protocol has $4,000,000 and 300,000 $RGT are being distributed on that day and the user held their money in for the entire day, they would earn 10% of the distribution: 30,000 $RGT tokens.
+
+### Tutorial
+
+**Step 1: Connect a wallet**
+
+The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. If you do not have a wallet, we recommend you refer to [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1) for MetaMask.  Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [app.rari.capital](http://app.rari.capital).
+
+**Step 2: Deposit into a pool**
+
+Once connected, users can view the multi-pool dashboard, equipped with a comparative graph of the returns between each fund. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a support token of their choice to deposit.
+
+**Step 3: Track your distributions**
+
+After depositing, any funds within the Rari Protocol during the liquidity mining program will qualify for $RGT distributions. You can track and claim your RGT by selecting the "Claim RGT" button in the top right of the dashboard.
+
+**How to make a governance proposal**
+
+## Template
+
+When making a proposal, begin by gauging interest for your idea from the Rari Capital community on our public forums, Discord, or Twitter.
+
+*Please follow the template below for all forum posts:*
+
+**Summary:** A simple description of the proposal's end result and desired change; should be no more than a few succinct sentences.
+
+- *Background:**Provide context to the problem your proposal wishes to address or to the area of the protocol you intend to improve.
+- *Abstract:**Clearly describe how the proposal wishes to change/improve the protocol.
+- *Motivation:**Explain **why** this proposal is necessary or useful for the protocol.
+
+**For:** Illustrate in one or two sentences what this position supports
+
+**Against:** Illustrate in one or two sentences what this position supports
+
+## Rari Capital DAO Improvement Proposals
+
+To post and formulate a governance proposal for the Rari Capital DAO, users must follow a specific template and follow all directions on the according links:
+
+1. Start the conversation on Discord: https://discord.gg/mtb6W57Ap6
+2. Post final proposal to "Rari Capital DAO Improvement Proposals": https://forums.rari.capital/t/rari-capital-dao-improvement-proposals and discuss there for 2 days
+3. Post to Rari Capital DAO Snapshot page to cast the final vote: https://vote.rari.capital/#/ and leave voting open for 2 days
+
+## Rari Capital DAO Fuse Pool Proposals
+
+To post and formulate a governance proposal for the Rari Capital DAO Fuse Pools, users must follow a specific template and follow all directions on the according links:
+
+1. Start the conversation on Discord: https://discord.gg/mtb6W57Ap6
+2. Post final proposal to "Rari Capital DAO Improvement Proposals": https://forums.rari.capital/t/rari-capital-dao-fuse-pool-proposals and discuss there for 2 days
+3. Post to Rari Capital DAO Snapshot page to cast the final vote: https://vote.rari.capital/#/ and leave voting open for 2 days
+
+**What is $RGT?**
+
+## Overview
+
+The $RGT is the Rari Governance Token. It can be used to **propose** and **vote** proposals made by any token-holding community members. Users can soon also **delegate** their voting power to another address to pool voting power. There has been no sale of $RGT from the DAO, all of it was liquidity mined or given to the founding team as part of our fair launch.
+
+## Features
+
+### Governance (live)
+
+The $RGT token will then be used to formalize a DAO that is responsible for maintaining the Rari Protocol through the following processes:
+
+- Creating proposals that will better the Rari Protocol or products in the Rari family
+- Voting on proposals that will maintain and improve the Rari Protocol or products in the Rari family
+
+Every aspect of Rari Capital will be controlled by the governance mechanism. The governance also controls the Rari Treasury. Token holders are expected to vote with the protocols future in mind. The team is actively pursuing a transition to on-chain governance and removing the need to be reliant on a multi-sig to initiate changes.
+
+It is only through governance that new tokens can be minted, created or liquidated. The only proposal that comes close to this is [RIP-1](https://vote.rari.capital/#/rari/proposal/QmU3334PXSAGd3kiSZo4FZkKPpNL5qvHiNwRZVTKkcCvv9) which is yet to be implemented.
+
+
+
+## Overview
+
+10,000,000 $RGT will be created natively on the Ethereum blockchain. 87.5% of these tokens (8,750,000 $RGT), will be distributed through our public liquidity mining program while the remaining 12.5% is dedicated to compensation for the Rari Team. The liquidity mining program will be conducted over 60 days following a dynamic schedule as shown below.
+
+## Breakdown
+
+- **Total Supply: 10,000,000**
+- **Public Liquidity Mining Rewards: 87.5% over 60 days**
+- **Rari Team Rewards: 12.5% over 2 years**
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c84617a-5680-44b2-8bc2-e549c4e8e905/Screenshot_(131).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c84617a-5680-44b2-8bc2-e549c4e8e905/Screenshot_(131).png)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20f56988-fa02-4db5-965a-8ad383af6783/Screen_Shot_2020-10-19_at_10.46.27_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20f56988-fa02-4db5-965a-8ad383af6783/Screen_Shot_2020-10-19_at_10.46.27_AM.png)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52901abf-2101-4202-95b7-6859677a6cac/Screen_Shot_2020-10-19_at_10.46.43_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52901abf-2101-4202-95b7-6859677a6cac/Screen_Shot_2020-10-19_at_10.46.43_AM.png)
+
+### Public Liquidity Mining Rewards
+
+The liquidity mining program is built to enable decentralization and ensure alignment between the protocol development and the users. Through this 60-day program, 87.5% of the total supply of $RGT will be proportionally distributed to Rari protocol users. This distribution occurs proportionally across all deposits for all pools that a user has within the protocol. The pools that are earning include: Rari ETH Pool, Rari Stable Pool and Rari Yield Pool.
+
+For example, if a user has $400,000 in the protocol and the protocol has $4,000,000 and 300,000 $RGT are being distributed on that day and the user held their money for the entire day, they would earn 10% of the distribution: 30,000 $RGT tokens. To view our spreadsheet for the day-by-day breakdown of our RGT, click [here](https://docs.google.com/spreadsheets/d/1qXDQB7OgGbWgvcUZv9AbNFsKdViPjlyQiQ8FqcQTUlU/edit?usp=sharing). Distributions began on Oct 20, 2020 and will end on Dec 19, 2020.
+
+Users who withdrew the $RGT during the distribution period were faced a proportional burn based on when they sold the asset. The burn could be found [here](https://docs.google.com/spreadsheets/d/1CVD4VmYWtAg3sXdlQYpZAu7nhSAe2ATmOLQRFjMwBHs/edit#gid=0).
+
+### Team Rewards
+
+12.5% of the token supply will be used to reward the Rari Team for their work on the protocol through the $RGT token. This 12.5% will be using the Rari Vesting Schedule over a 2 year plan. The $RGT tokens are a tool to ensure long-term alignment between the team and the project. Read more about the vesting plan [here](https://medium.com/rari-capital/an-updated-take-on-vesting-8b3aa8c3a902).
+
+### Fundraising
+
+The Rari Capital team and protocol have never pursued fundraising. There has been no sale of $RGT. $RGT is a valueless asset that functions for the sole purpose of governance.
+
+### RIP-1
+
+The community voted to initiate RIP-1 which continues token emissions with an additional 10M $RGT over a 2.5 year period. The schedule can be found here: https://docs.google.com/spreadsheets/d/1tDHhf2oCUCJKUNrPJgFerEGePIJgVlfvjmtmOlhDf7I/edit#gid=0. RIP-1 has not yet been implemented but is under audit review to be activated shortly.
+
+**Risks**
+
+## Overview
+
+When investing in anything, there are risks, and for investing in Rari Capital, there are a few sources of risk with varying levels of severity: underlying risk, the “lego” risk of our integrated protocols, customer side risk, and risk within the Rari product.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b751b7d-630c-4bf5-af52-b7a028689644/RariCapitalRiskFinal.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b751b7d-630c-4bf5-af52-b7a028689644/RariCapitalRiskFinal.jpg)
+
+### **Underlying Risk**
+
+The Ethereum Virtual Machine, or EVM, is what powers everything on the Ethereum blockchain. As Rari is currently on the said blockchain, it has an innate risk tied to the EVM. If the EVM fails or breaks, Rari will break. However, this is extremely unlikely as such a bug could devastate the entire Ethereum ecosystem.
+
+### **Integrated Protocols**
+
+Since Rari has several protocols (currently including 0x, dYdX, and Compound) integrated to maximize profits, we carry the “lego” risk of these protocols. For example, an integrated protocol could lose our funds from a bug or hack; however, along with the failure of the EVM, this is one of the more severe and unlikely risks. There are varying levels of severity with this as well, as an integrated lending protocol may fail to generate interest despite appearing as the ideal protocol, but wouldn’t result in the loss of consumer funds.
+
+### **Customer Side**
+
+In terms of consumer side risk, there is always the possibility of a bug or hack of a user’s browser or OS which could cause a loss of funds, or, more mildly, it may temporarily break withdrawals.
+
+### **Rari Fund**
+
+There are 3 sources of risk within the product itself: the frontend, the rebalancer, and the smart contracts.
+
+### **Frontend**
+
+In the frontend, breaches and bugs can occur either in code, domain, or hosting, with the most extreme cases involving a loss of customer funds, but lesser incidents resulting in withdrawals temporarily breaking, without a loss of funds.
+
+### **Rebalancer**
+
+The rebalancer has a risk of a bug or hack of code/hosting or general theft of a balancer’s private key that could cause stablecoins to be traded via 0x at poor prices. However, the more moderate situations would be if a bug caused funds to be allocated incorrectly.
+
+### **Contracts**
+
+The risk for our contracts lies in the possibility of a standard bug or hack of our Solidity code as well as the possibility of a hacker compromising 2 of the 3 keys in the Rari multisig federation and “upgrading” a contract to code that steals customer funds. A smaller source of risk is the use of the “experimental” feature of Solidity ABIEncoderv2 where we are using Solidity version 0.5.7. The known bugs are fixed and the feature is used widely, but it is still technically “experimental.”
+
+### Divergence
+
+In our **yield pool**, there is divergence risk, which occurs when the pool's stablecoins move from their peg (this occurs more often and at higher severity with synthetic assets, such as DAI and sUSD but still happens with centralized coins like USDC and USDT). These assets can either rise or fall in price relative to USD, leading to very small increases and decreases in the total pool dollar amount locked. During these events, user balances experience slight fluctuations, both positive and negative, and have the opportunity to see small losses during the negative fluctuations, as the total price of the assets in the pool has dropped.
+
+To counter this, it is advised to not deposit and withdraw in quick succession, as you are more at risk to see divergence, whereas long-term deposits will notice negligible differences, as returns will outweigh any possible price fluctuations.
+
+**Learn more here:** https://medium.com/rari-capital/raris-divergence-risk-12ec11609af7
+
+### **Summary**
+
+To summarize, investing in Rari Capital has a wide spectrum of degrees of risk, with the more traumatic cases being the least likely, spanning from the EVM breaking down or an incorporated protocol falling apart all the way to a browser bug temporarily pausing a transaction. We hope this has given you a greater understanding of the risk breakdown for investing in Rari Capital.
+
+**Rari Capital Strategy Assessment Framework****
+
+## Overview
+
+To admit new strategies and protocols into the Rari Capital pools, such as the stable pool and yield pool, each strategy must be evaluated for risk. This evaluation occurs to help determine which pool a specific strategy belongs in and if the strategy is suitable for the protocol.  To conduct this analysis, we have created a strategy assessment framework to compare strategy risks at a glance, while offering a structure to facilitate thorough appraisal.
+
+First, there are brackets for strategies to be sorted into. Currently, a strategy can fall into the lending, yield farming, or automated market maker categories. It is worth noting that as DeFi evolves, this framework will adapt and establish new categories for newly innovated strategies. Furthermore, within each category, there is a specific risk framework catered to each strategy style, which is combined to synthesize an overall strategy score.
+
+Strategy risk scores can then be presented to the community in governance proposals to add new strategies to the Rari Protocol.
+
+We will be publishing a public form for community members to conduct their own checks on strategies in the future. Shown below is a brief outline of the covered areas, inspired by [DeFi Score's](https://defiscore.io/) metrics.
+
+## Lending
+
+This is the risk assessment framework for lending strategies. Each section has a designated score allocation and the overall score is calculated from their distributions.
+
+### Smart Contract Risk
+
+- Audit
+- Bug Bounty
+- Contract History
+
+### Financial Risk
+
+- Collateral Ratio
+- Liquidity
+- Asset Risk
+
+### Centralization Risk
+
+- Protocol Administration
+- Oracles
+- Team Background
+
+## Yield Aggregating
+
+This is the risk assessment framework for yield aggregating strategies. Each section has a designated score allocation and the overall score is calculated from their distributions.
+
+### Smart Contract Risk
+
+- Audit
+- Bug Bounty
+- Contract History
+
+### Financial Risk
+
+- Liquidity
+- Asset Risk
+
+### Centralization Risk
+
+- Protocol Administration
+- Team Background
+
+### Lego Risk
+
+- Unique Alpha vs. Integrations
+
+## Automated Market Making
+
+This is the risk assessment framework for AMM strategies. Each section has a designated score allocation and the overall score is calculated from their distributions.
+
+### Smart Contract Risk
+
+- Audit
+- Bug Bounty
+- Contract History
+
+### Financial Risk
+
+- Liquidity
+- Impermanent Loss
+- Asset Risk
+
+### Centralization Risk
+
+- Protocol Administration
+- Team Background
+
+**Safeguarded Launch**
+
+Rari Capital begun its stealth model in April 2020. By June 2020, the Rari protocol had undergone a security review by Quantstamp and reviews by other 3rd parties, but we knew that wasn't enough. In July, we launched Rari V1, which optimized lending across two major protocols: Compound Finance and dYdX, as well as rebalancing between stablecoins using 0x. This version had a deposit limit of $350 to ensure user security. Some of the other ways that we take security seriously include:
+
+- Assessing each underlying protocol prior to integration (link to assessment framework [here](https://www.notion.so/Rari-Strategy-Assessment-Framework-2d1edffcf80f4750973f6e90e97b70a4))
+- Deposit limit scaling up over time
+- Transparent posts
+- Open sourced
+- Community focused
+- Veteran team in crypto and DeFi
+- Audits
+
+Over the past two months, we have gradually increased our deposit limit in response to our successful audits and the total supply in the protocol.
+
+We are now extremely happy to announce that we have finally removed our deposit limit and our audit reports will be published soon. Please remember that not all risks are avoidable in DeFi and there are always inherent risks. Please take caution when depositing into protocols. Only deposit what you are willing to lose.
+
+
+
+**Ecosystem**
+
+**Fees**
+
+## Overview
+
+The Rari Capital robo-advisor has a few set of fees for the protocol, including a performance fee and a withdrawal fee. There is also a time-based transfer fee for early $RGT transfers.
+
+### Performance Fee & Withdrawal Fee
+
+These fees power Rari's revenue and are generated from the Rari protocol on the following occasions:
+
+**Stable Pool: 17.5% profits**
+
+**Yield Pool: 12.5% profits + 0.5% withdrawal**
+
+(The withdrawal fee is required to prevent arbitrage within this pool since it is composed of various stablecoins which may have minor price fluctuations)
+
+**ETH Pool: 17.5% of profits**
+
+RIP-3 updated our fee structure to be as seen above.
+
+### Where Do the Fees Go?
+
+These fees are then entered as Protocol Revenues which you can read more about [here](https://www.notion.so/Protocol-Revenues-7154f4fa138045fc9b04f08ee906ce17).
+
+**Rari Capital Governance**
+
+## Overview
+
+The Rari Governance empowers anybody to be able to dictate the future of the Rari Protocol. The $RGT, or Rari Governance Token, is able to control every aspect of the protocol, treasury and charity. Governance has been designed to be as seamless as possible and ensure that it is easy for everyone to participate.
+
+## How to Participate
+
+The only requirement to participate is that you have to own $RGT. This will be distributed to all users across the 60-day distribution schedule and will be available for purchase on exchanges. Then, using your $RGT, you will be able to vote on community drafted proposals or draft your own proposals to govern the Rari Protocol and ecosystem. Link: [how to create a proposal](https://www.notion.so/How-to-Make-a-Governance-Proposal-f11a43bb31de491bbc29a69373a0e687).
+
+## Governance Forums
+
+The Rari Governance Forums can be found here: https://forums.rari.capital/
+
+
 
