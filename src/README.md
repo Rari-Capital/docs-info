@@ -1,203 +1,96 @@
 # Introduction
 
-The yield aggregator is Rari's product that enables anyone to instantly deposit a supported asset and receive an interest generating one.
+*Rari Capital is a decentralized protocol that consists of products to earn yield and borrow crypto assets within DeFi.* 
 
 ## Overview
 
-### R(X)PT (Rari (X) Pool Tokens)
+In our opinion, it is inherently clear that the majority of people turn to DeFi with one goal in mind: to compound their wealth. Rari Capital began by delivering on this mission in a safe way that enables individuals to autonomously and easily earn yield on their stable assets in a lossless manner. From there, it transformed into a solution that leveraged yield farming strategies to increase the returns offered to users. Now, Rari Capital is an autonomous solution to earn yield within any risk appetite.
 
-Each user's share of a Rari Pool is represented by their R(X)PT (Rari (X) Pool Token) balance, an example being the Rari Stable Pool being represented by RSPT aka Rari Stable Pool Token. When you deposit funds to a Rari Pool, an equivalent amount (value-wise) of pool tokens is minted to your account. When you withdraw funds from the pool, the equivalent amount of value in the pool token is burned from your account. As soon as you deposit, you start earning yield. Essentially, Rari pool tokens holdings and yield are split up across the pool token holders proportionally to their balances.
+The liquidity ending up in Rari Capital empowers the protocol to work in an expansionary way: providing other projects (L1, L2, DeFi projects) with liquidity and even terraforming itself into a base DeFi layer. Rari Capital aims to attract all of DeFi’s liquidity, deploying it in the most capital efficient and globally beneficial manner. Being aware of the negative impacts of Ethereum (gas, slowness, scalability, etc.), we are fully prepared to transverse capital between chains through Rari Capital-made bridges.
 
-### Deposits
+## How does Rari Capital earn yield?
 
-Only certain stablecoins are accepted for direct deposits (direct meaning without exchange to an accepted currency). To deposit another currency, you must exchange your funds before depositing. Fortunately, Rari can exchange and deposit your funds in the same transaction via [0x](https://0x.org/) and/or [mStable](https://mstable.org/) (please be aware that exchanges via 0x are subject to slippage due to price spread as well as an ETH protocol fee, and exchanges via mStable are subject to a small denominational percentage fee, but can avoid slippage and even get you a bonus).
+Currently, the yield aggregator product optimizes for yield across a series of stable-assets (swapping via 0x) in the stable and yield pools and Ethereum in the ETH pool. It earns yield by lending and farming across various DeFi protocols like Compound, dYdX, KeeperDAO, mStable, yEarn, and Aave. We are actively expanding our strategy set to focus on more sustainable yields off of the chain. We expect lending to compose the minority of the pool's allocation once mass protocol expansion has begun.
 
-See Contract Usage section below for more information on how to deposit via the smart contracts and API section below for a detailed reference on the smart contract methods involved. See the Rari SDK for easy implementation and the web client for easy usage.
+### Overview
 
-### Withdrawals
+The first pool is the Stable Pool ($RSPT) which interacts safely with exclusively audited contracts. The next pool is the yield pool ($RYPT) that will maximize for yield at all costs, whether it is leverage or unaudited contracts--the yield pool will always have the highest returns. Lastly, the ETH ($REPT) fund will work to deliver safe and stable returns with ETH as the base asset.
 
-Only the stablecoins currently held by the Rari Stable Pool are available for direct withdrawals. To withdraw another currency, you must exchange your funds after withdrawing. Fortunately, Rari can withdraw and exchange your funds in the same transaction via [0x](https://0x.org/) and/or [mStable](https://mstable.org/) (please be aware that exchanges via 0x are subject to slippage due to price spread as well as an ETH protocol fee, and exchanges via mStable are subject to a small denominational percentage fee, but can avoid slippage and even get you a bonus).
+https://camo.githubusercontent.com/20dfa311f02a37b19cf95f56fa400fd50272cb05aebdeee7e277a06ad5b79d10/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f7365637572652e6e6f74696f6e2d7374617469632e636f6d2f66656361326533302d333165392d343863332d393939322d6538326637323033343831662f706f6f6c732e706e67
 
-See the Contract Usage section belowfor more information on how to withdraw via the smart contracts and API section below for a detailed reference on the smart contract methods involved. See the Rari SDK for easy implementation and the web client for easy usage.
+## Rari Capital Stable Pool
 
-### Structure
+The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token to mint the native token, $RSPT. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). Once a token holder, the Rari protocol is working autonomously to deliver the highest yield on your USDC.
 
-The Rari Stable Pool is composed of 5 user-facing **smart contracts** in total (see [`DEPLOYED.md`](https://github.com/Rari-Capital/rari-stable-pool-contracts/blob/master/DEPLOYED.md) for deployed addresses):
+- **Lending USDC on Compound**
+- **Lending USDC on Aave**
+- **Lending USDC on dYdX**
+- **Providing liquidity to mStable**
 
-- `RariFundManager` is the Rari Stable Pool's main contract, handling deposits, withdrawals, USD balances, interest, fees, etc.
-- `RariFundController` holds supplied funds and is used by the rebalancer to deposit and withdraw from pools and make exchanges.
-- `RariFundToken` is the contract behind the Rari Stable Pool Token (RSPT), an ERC20 token used to internally account for the ownership of funds supplied to the Rari Stable Pool.
-- `RariFundPriceConsumer` retrieves stablecoin prices from Chainlink's public price feeds (used by `RariFundManager` and `RariFundController`).
-- `RariFundProxy` includes wrapper functions built on top of `RariFundManager`: exchange and deposit, withdraw and exchange, and deposit without paying gas via the Gas Station Network (GSN).
+## Rari Capital Yield Pool
 
-A **rebalancer** controls which pools hold which currencies at any given time but only has permission to move funds between pools and exchange currencies, not withdraw funds elsewhere.
+The Rari Capital Yield Pool provides users with the opportunity to earn a high yield by depositing ETH or any ERC20 token to mint the native token, $RYPT. Once a token holder, the Rari protocol is algorithmically finding you the highest yield through the "risky" strategies. It will automatically rebalance between stablecoins to further achieve a higher yield. Some of the strategies include:
 
-### Security
+- **Lending Dai, USDC and USDT on Compound**
+- **Lending Dai, USDC, TUSD, USDT, sUSD and BUSD on Aave**
+- **Lending Dai, USDC on dYdX**
+- **Providing liquidity to mStable**
 
-Rari's Ethereum-based smart contracts are written in Solidity and audited by [Quantstamp](https://quantstamp.com/) (as well as various other partners) for security. Rari does not have control over your funds: instead, the Ethereum blockchain executes all secure code across its entire decentralized network (making it very difficult and extremely costly to rewrite history), and your funds are only withdrawable by you.
 
-The rebalancer only has permission to move funds between pools and exchange currencies, not withdraw funds elsewhere. Losses due to exchange slippage in a 24-hour period are limited proportionally to the total supply for security since 0x orders can come from anywhere. However, the rebalancer can approve any amount of funds to the pools and exchanges integrated.
 
-Please note that at the moment, smart contract upgrades are approved via a multisig federation controlled by various trusted parties. Each of the upgrades need to be voted on by governance at: vote.rari.capital for them to go live.
+## Rari Capital ETH Pool
 
-Please note that using our web client online at [app.rari.capital](https://app.rari.capital/) is not nearly as trustworthy as downloading, verifying, and using it offline. Lastly, the rebalancer can only rebalance funds to different pools and currencies (with limits on slippage).
+The Rari Capital ETH Pool allows Rari users to deposit ETH or any ERC20 tokens to immediately start earning interest through the $REPT. While maintaining exposure to the price of ETH, users are earning yield through various means like:
 
-## Contract Usage
+- **Earning yield from liquidations (facilitated by KeeperDAO)**
+- **Lending ETH on Compound**
+- **Lending ETH on Aave**
+- **Lending ETH on dYdX**
+- **Lending ETH on Alpha Finance**
 
-The following document contains instructions on common usage of the Rari Stable Pool smart contracts' APIs.
+If you are interested in learning more about each of the strategies and our framework for identifying which ones to implement, check it out [here](https://www.notion.so/Rari-Strategy-Assessment-Framework-2d1edffcf80f4750973f6e90e97b70a4).
 
-- See API section below for a more detailed API reference on `RariFundController`, `RariFundManager`, `RariFundToken`, `RariFundPriceConsumer`, and `RariFundProxy`.
-- See [EIP-20: ERC-20 Token Standard](https://eips.ethereum.org/EIPS/eip-20) for reference on all common functions of ERC20 tokens like RSPT.
-- Smart contract ABIs are available in the `abi` properties of the JSON files in the `build` folder.
+### Overview
 
-_If you're using JavaScript, don't waste your time directly integrating our smart contracts: the [Rari JavaScript SDK](https://github.com/Rari-Capital/rari-dApp/tree/master/src/rari-sdk) makes programmatic deposits and withdrawals as easy as just one line of code!_
+To use the Rari Protocol, users can deposit funds into one of three pools. Each pool has specific strategies to capture yield, however, the process to deposit is universal across the protocol. This is a guide to explain how to deposit funds into the protocol and withdraw from pools. Before depositing, make sure to research the individual pools you will be interacting with.
 
-### Stable Pool APY
+## How to Deposit
 
-- Get current raw APY (before fees):
-  1. Get raw currency/subpool allocations (including unclaimed fees on interest): `(string[], uint256[], RariFundController.LiquidityPool[][], uint256[][], uint256[]) RariFundProxy.getRawFundBalancesAndPrices()` returns an array of currency codes, an array of corresponding fund controller contract balances for each currency code, an array of arrays of pool indexes for each currency code, an array of arrays of corresponding balances at each pool index for each currency code, and an array of prices in USD (scaled by 1e18) for each currency code.
-  2. Multiply the APY of each pool of each currency by its fund controller balance (converted to USD).
-  3. Divide the sum of these products by the sum of all fund controller contract balances and pool balances of each currency (converted to USD) to get the current Stable Pool APY.
-- **Get current APY (after fees):** subtract the product of the current raw APY and `uint256 RariFundManager.getInterestFeeRate()` divided by 1e18 from the current raw Stable Pool APY.
-- Get APY over time range (after fees):
-  1. Get RSPT exchange rates at start and end of time range: divide `RariFundManager.getFundBalance()` by `RariFundToken.totalSupply()` to get the exchange rate of RSPT in USD (scaled by 1e18).
-  2. Divide the ending exchange rate by the starting exchange rate, raise this quotient to the power of 1 year divided by the length of the time range, and subtract one to get the Stable Pool APY over this time range.
+**Step 1: Connect a wallet**
 
-### My Balance and Interest
+The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. If you do not have a wallet, we recommend you refer to [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1) for MetaMask. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [v2.rari.capital](https://v2.rari.capital/).
 
-- **Get my USD balance supplied:** `uint256 RariFundManager.balanceOf(address account)` returns the total balance in USD (scaled by 1e18) supplied to the Rari Stable Pool by `account`.
-- **Get my interest accrued:** Subtract total deposits and transfers in (in USD) and add total withdrawals and transfers out (in USD) from `uint256 RariFundManager.balanceOf(address account)`.
+**Step 2: Choose a pool**
 
-### Deposit
+Once connected, users can view the multi-pool dashboard, equipped with a comparative graph of the returns between each pool. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a supported asset of their choice to deposit.
 
-1. User chooses to deposit one of our directly supported tokens (DAI, USDC, USDT, TUSD, BUSD, and sUSD), ETH, or one of the tokens listed by the 0x swap tokens API (see [documentation](https://0x.org/docs/api#get-swapv0tokens) and [endpoint](https://api.0x.org/swap/v0/tokens)) in an amount no greater than the balance of their Ethereum account.
+**Step 3: Deposit a supported asset**
 
-2. User calls `string[] RariFundManager.getAcceptedCurrencies()` to get an array of currency codes currently accepted for direct deposit to the Stable Pool.
+After choosing a pool and selecting the deposit button, users can then select any of the supported crypto-assets and deposit them within the pool. This can be done by selecting the asset menu, choosing your desired asset, inputting your desired amount, or hitting the "max" button to select the maximum amount in your wallet, and hitting the deposit button. For MetaMask users, you will then receive a transaction approval window, where first-time users must approve contract interactions, and all users must approve of individual transactions.
 
-   - If desired deposit currency is accepted:
+It is worth noting that depositing in a currently active token will require less gas for the transaction than depositing an inactive asset. This means that it will use more gas to deposit an inactive asset, as it will also need more swaps to reach an active asset.
 
-     - Generally, user simply approves tokens and deposits them:
+Additionally, you are able to deposit hundreds of different assets that will instantly be swapped on deposit through our integration with 0x.
 
-       1. User approves tokens to `RariFundManager` by calling `approve(address spender, uint256 amount)` on the ERC20 contract of the desired input token where `spender` is `RariFundManager` (to approve unlimited funds, set `amount` to `uint256(-1)`).
-       2. Deposit with `bool RariFundManager.deposit(string currencyCode, uint256 amount)`
+**Step 4: Track your interest accrued**
 
-     - To avoid paying gas, if the user's Ethereum account has no past deposit, the deposit amount is >= 250 USD, and the ETH balance returned by
+After depositing, your returns can be viewed either within the individual pool dashboards or on the multi-pool dashboard, where you can rotate through returns across the entire protocol for various time periods.
 
-       ```solidity
-       RelayHub(0xd216153c06e857cd7f72665e0af1d7d82172f494).balanceOf(0xb6b79d857858004bf475e4a57d4a446da4884866)
-       ```
+## How to Withdraw
 
-       is enough to cover the necessary gas, the user can submit their transaction via the Gas Station Network (GSN):
+**Step 1: Connect a wallet**
 
-       1. User approves tokens to `RariFundProxy` by calling `approve(address spender, uint256 amount)` on the ERC20 contract of the desired input token where `spender` is `RariFundProxy` (to approve unlimited funds, set `amount` to `uint256(-1)`).
+The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [app.rari.capital](http://app.rari.capital/). This allows users to view and interact with their deposited funds.
 
-       2. To get the necessary approval data (a signature from our trusted signer allowing the user to use our ETH for gas), POST the JSON body
+**Step 2: Choose a pool**
 
-          ```js
-          {
-            from,
-              to,
-              encodedFunctionCall,
-              txFee,
-              gasPrice,
-              gas,
-              nonce,
-              relayerAddress,
-              relayHubAddress;
-          }
-          ```
+Once connected, users can view the multi-pool dashboard. Users may then withdraw from the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt a new window.
 
-          to
+**Step 3: Withdraw into a supported asset**
 
-          ```
-          https://app.rari.capital/checkSig.php
-          ```
+After choosing a pool and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, select any of the supported crypto-assets and withdraw from the pool. This can be done by selecting the asset menu, choosing your desired asset, the amount, and by pressing the "Withdraw" button.
 
-          - Note that `checkSig.php` may go offline at some point in the future, in which case the user should deposit normally as described above.
-
-       3. User calls `bool RariFundProxy.deposit(string currencyCode, uint256 amount)` via the Gas Station Network (GSN).
-
-   - If desired deposit currency is not accepted, get exchange data from mStable (preferably) and/or 0x:
-
-     - If desired deposit currency is DAI, USDC, USDT, TUSD, or mUSD, until the user fulfills their entire deposit, exchange to any depositable currency among DAI, USDC, USDT, TUSD, or mUSD via mStable and deposit:
-
-       1. Get exchange data from mStable:
-          - If desired deposit currency is DAI, USDC, USDT, or TUSD, check `(bool, string, uint256, uint256) MassetValidationHelper(0xabcc93c3be238884cc3309c19afd128fafc16911).getMaxSwap(0xe2f2a5c287993345a840db3b0845fbc70f5935a5, address _input, address _output)`. If the first returned value is `true`, the user can exchange a maximum input amount of the third returned value.
-          - If desired deposit currency is mUSD, check `(bool, string, uint256 output, uint256 bassetQuantityArg) MassetValidationHelper(0xabcc93c3be238884cc3309c19afd128fafc16911).getRedeemValidity(0xabcc93c3be238884cc3309c19afd128fafc16911, uint256 _mAssetQuantity, address _outputBasset)`. If the first returned value is `true`, the user can exchange a maximum input amount of `bassetQuantityArg` (the fourth returned value).
-       2. User calls `bool RariFundProxy.exchangeAndDeposit(string inputCurrencyCode, uint256 inputAmount, string outputCurrencyCode)` to exchange and deposit.
-
-     - If exchange via mStable is not possible (or if the user wants to exchange the rest of their deposit via 0x if mStable cannot exchange it all), retrieve order data from 0x:
-
-       1. User retrieves data from 0x swap quote API (see [documentation](https://0x.org/docs/api#get-swapv0quote) and [endpoint](https://api.0x.org/swap/v0/quote?sellToken=DAI&buyToken=USDC&sellAmount=1000000000000000000)) where:
-
-          - `sellToken` is their input currency
-          - `buyToken` is a directly depositable currency to which the desired deposit currency will be exchanged
-          - `sellAmount` is the input amount to be sent by the user
-
-       2. User approves tokens to `RariFundProxy` by calling `approve(address spender, uint256 amount)` on the ERC20 contract of the desired input token where `spender` is `RariFundProxy` (to approve unlimited funds, set `amount` to `uint256(-1)`).
-
-       3. User calls
-
-          ```solidity
-          bool RariFundProxy.exchangeAndDeposit(address inputErc20Contract, uint256 inputAmount, string outputCurrencyCode, LibOrder.Order[] orders, bytes[] signatures, uint256 takerAssetFillAmount)
-          ```
-
-          where:
-
-          - `orders` is the orders array returned by the 0x API
-          - `signatures` in an array of signatures from the orders array returned by the 0x API
-          - `takerAssetFillAmount` is the input amount sent by the user
-
-### Withdraw
-
-1. User ensures that their account possesses enough USD (represented internally by RSPT) to make their withdrawal.
-2. User calls `uint256 RariFundManager.getRawFundBalance(string currencyCode)` to get the raw total balance (currently held by the Stable Pool and available for direct withdrawal) of the desired withdrawal currency.
-   - If the returned balance >= withdrawal amount, user calls `bool RariFundManager.withdraw(string currencyCode, uint256 amount)`
-   - If returned balance < withdrawal amount:
-     1. Until the whole withdrawal amount (including the directly withdrawable balance returned above) is filled, try to withdraw and exchange each of the other currencies held by the Stable Pool (DAI, USDC, USDT, TUSD, BUSD, sUSD, and mUSD) to the desired output currency:
-        1. User calls `uint256 RariFundManager.getRawFundBalance(string currencyCode)` to get the raw total balance held by the Stable Pool of the potential input currency in question.
-        2. Get exchange data from mStable (preferably) and/or 0x:
-           - If output currency is DAI, USDC, USDT, TUSD, or mUSD, get exchange data via mStable:
-             - If input currency is DAI, USDC, USDT, or TUSD, check `(bool, string, uint256, uint256) MassetValidationHelper(0xabcc93c3be238884cc3309c19afd128fafc16911).getMaxSwap(0xe2f2a5c287993345a840db3b0845fbc70f5935a5, address _input, address _output)`. If the first returned value is `true`, the user can exchange a maximum input amount of the third returned value.
-             - If input currency is mUSD, check `(bool, string, uint256 output, uint256 bassetQuantityArg) MassetValidationHelper(0xabcc93c3be238884cc3309c19afd128fafc16911).getRedeemValidity(0xabcc93c3be238884cc3309c19afd128fafc16911, uint256 _mAssetQuantity, address _outputBasset)`. If the first returned value is `true`, the user can exchange a maximum input amount of `bassetQuantityArg` (the fourth returned value).
-           - If exchange via mStable is not possible (or if the user wants to exchange additional funds via 0x if mStable cannot exchange it all), retrieve order data from 0x:
-             - If the raw total balance of this input currency is enough to cover the remaining withdrawal amount, user retrieves data from the 0x swap quote API (see [documentation](https://0x.org/docs/api#get-swapv0quote) and [endpoint](https://api.0x.org/swap/v0/quote?sellToken=DAI&buyToken=USDC&sellAmount=1000000000000000000)) where:
-               - `sellToken` is the input currency to be directly withdrawn from the Stable Pool
-               - `buyToken` is the output currency to be sent to the user
-               - `buyAmount` is the amount of output currency to be sent to the user in this exchange only
-     2. User calls `bool RariFundProxy.withdrawAndExchange(string[] inputCurrencyCodes, uint256[] inputAmounts, address outputErc20Contract, LibOrder.Order[][] orders, bytes[][] signatures, uint256[] makerAssetFillAmounts, uint256[] protocolFees)` where:
-        1. inputCurrencyCodes is an array of input currency codes
-           1. To directly withdraw the output currency without exchange in the same transaction, simply include the output currency code in `inputCurrencyCodes`.
-        2. `inputAmounts` is an array of input currency amounts
-           1. To directly withdraw as much of the output currency without exchange in the same transaction, set the corresponding `inputAmounts` item to the directly withdrawable raw total balance of that currency.
-        3. `outputErc20Contract` is the ERC20 token contract address of the output currency to be sent to the user
-        4. `orders` is an array of orders arrays returned by the 0x API
-           1. To exchange one of `inputCurrencyCodes` via mStable or to directly withdraw the output currency in the same transaction, set the corresponding `orders` item to an empty array.
-        5. `signatures` is an array of arrays of signatures from the orders array returned by the 0x API
-           1. To exchange one of `inputCurrencyCodes` via mStable or to directly withdraw the output currency in the same transaction, set the corresponding `signatures` item to an empty array.
-        6. `makerAssetFillAmounts` is an array of output currency amounts to be sent to the user
-           1. To exchange one of `inputCurrencyCodes` via mStable or to directly withdraw the output currency in the same transaction, set the corresponding `makerAssetFillAmounts` item to 0.
-        7. `protocolFees` is an array of protocol fee amounts in ETH wei to be sent to 0x
-           1. To exchange one of `inputCurrencyCodes` via mStable instead of 0x or to directly withdraw the output currency in the same transaction, set the corresponding `protocolFees` item to 0.
-
-### RSPT (Rari Stable Pool Token)
-
-### Introduction
-
-Your RSPT (Rari Stable Pool Token) balance is a _token-based representation of your Rari Stable Pool balance._
-
-- RSPT is minted to you when you deposit to the Stable Pool and redeemed (i.e., burned) when you withdraw from the Stable Pool.
-- Accrued interest is constantly added to your USD balance supplied to the Stable Pool, meaning the USD value of your RSPT increases. However, your RSPT balance itself does not increase: instead, the exchange rate of RSPT increases at the same rate for every user as they accrue interest.
-- When you transfer your RSPT, you transfer your holdings supplied to the Stable Pool (deposits + interest).
-
-### Usage
-
-- **Get RSPT exchange rate:** Divide `RariFundManager.getFundBalance()` by `RariFundToken.totalSupply()` to get the exchange rate of RSPT in USD (scaled by 1e18).
-- **Get my RSPT balance (internal representation of my USD balance supplied):** `uint256 RariFundToken.balanceOf(address account)` returns the amount of RSPT owned by `account`.
-- **Transfer RSPT:** `bool RariFundToken.transfer(address recipient, uint256 amount)` transfers `amount` RSPT to `recipient` (as with other ERC20 tokens like RSPT).
-- **Approve RSPT:** `bool RariFundToken.approve(address spender, uint256 amount)` approves `spender` to spend the specified `amount` of RSPT on behalf of `msg.sender`
-  - As with the `approve` functions of other ERC20 contracts, beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
-- See [EIP-20: ERC-20 Token Standard](https://eips.ethereum.org/EIPS/eip-20) for reference on all common functions of ERC20 tokens like RSPT.
+It is worth noting that it will cost less gas to withdraw in any tokens currently active within the protocol, as it will require fewer swaps. Conversely, this means that it will require more gas for withdrawals in assets not currently active.
 
 ### Total Supply & Interest
 
