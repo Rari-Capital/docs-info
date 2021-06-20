@@ -89,3 +89,4 @@ gasReporterOutput.json
 **/echidna_corpus
 **/crytic-export
 .vscode/
+src/.vuepress/dist/
