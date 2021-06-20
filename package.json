@@ -1,7 +1,7 @@
 {
-  "name": "@rari-capital/docs",
+  "name": "@rari-capital/docs-info",
   "version": "0.0.1",
-  "description": "Rari Capital docs",
+  "description": "Rari Capital Info Docs",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
