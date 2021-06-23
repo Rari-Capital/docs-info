@@ -6,6 +6,10 @@ The Rari Capital DAO is a community run protocol that utilizes contributors to p
 
 *Looking forward to seeing you there and having you as a contributor to the Rari Capital DAO!*
 
+------
+
+
+
 ## Technical Roles
 
 ### **Asset supply caps**

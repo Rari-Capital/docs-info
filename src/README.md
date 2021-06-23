@@ -1,10 +1,32 @@
 # Welcome to Rari Capital DAO!
 
-*Rari Capital is a suite of decentralized products that consists of a series of protocols to earn yield and borrow crypto assets within DeFi in the easiest manner.* 
+Rari Capital is a suite of decentralized financial protocols on a mission to bridge the gap between technial minds and non-techical minds, in order to bring the next billion users into this ecosystem.
+
+We have a series of products that both create yield, deliver yield, and let you expand further on your crypto assets.
+
+Enjoy this experence, we are changing the world of finance together as one large community within the Rari Capital Decentralized Autonomous Organization!
 
 ## Overview
 
-It is inherently clear that the majority of people turn to DeFi with one goal in mind: to compound their wealth. Rari Capital began by delivering on this mission in a safe way that enables individuals to autonomously and easily earn yield on their stablecoin assets in a lossless manner. From there, it transformed into a solution that leveraged yield farming strategies to increase the returns offered to users. Now, Rari Capital is an autonomous solution to earn yield within any risk appetite.
+This website contains a robust collection of dcumentation to educate you on the Rari Capital products, and the surrounding DeFi ecosystem. All of the code can be found on [Github](Github.com/raricapital) and is sustained by core contributors and the community.  
 
-The liquidity ending up in Rari Capital empowers the protocol to work in an expansionary way: providing other projects (L1, L2, DeFi projects) with liquidity and even terraforming itself into a base DeFi layer. Rari Capital aims to attract all of DeFi’s liquidity, deploying it in the most capital efficient and globally beneficial manner. Being aware of the negative impacts of Ethereum (gas, slowness, scalability, etc.), we are fully prepared to transverse capital between chains through Rari Capital-made bridges.
+Throughout this guide, you will find:
+
+- Detailed overviews of each product
+- Step-by-step tutorials
+- Risks
+- Security measures
+- Governance mechanims  
+- Grant opportunities 
+- Frequently asked questions 
+- DeFi term glossary
+- Support channels
+
+Still not finding what you are looking for? Reach out in our [Discord](Discord.comjhfjjsdjfjsvdkakak)!
+
+
+
+
+
+
 

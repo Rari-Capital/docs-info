@@ -1,10 +1,16 @@
-## Yield Aggregator
+# Yield Aggregator
 
-The Rari Capital yield aggregator consists of a series of three pools that are constatnyl searching for the highest yield autonomously across DeFi lending protocols. 
+The Rari Capital yield aggregator consists of a series of three distincy pools that are autonomously searching for the highest yield across DeFi lending opportunities, including Fuse, our own internal interest rate protocol within the Rari Capital ecosystem.
 
 ## How does Rari Capital earn yield?
 
-Currently, the yield aggregator protocol optimizes for yield across a series of stable-assets (swapping via 0x) in the USDC and DAI pools, and Ethereum in the ETH pool. The pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and now Fuse Pools! We are actively expanding our strategy set to focus on more sustainable yields off of the chain. We expect lending to compose the minority of the pool's allocation once mass protocol expansion has begun. In the coming months, we will be exploring using Fuse strategies exclusively in the yield earning pools. This will allow for a more controlled environment as well as reduce smart contract risk by integrating external strategies. 
+Currently, the yield aggregator protocol optimizes for yield across a series of protocols across the Ethereum DeFi ecosystem. The USDC and DAI pools are broadcasted into stable-asset strategies, while the ETH pool maintains exposure to price volatility of the currency. These pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and now Fuse Pools! We are actively expanding our strategy set to focus on more sustainable yields on and off of the blockchain. The pools are now playing an active role within Fuse by provodiung liquidity to borrowers, as well as letting pool depositors reap the benefits of high yield opportunities.
+
+The follow numbers represent backtested numbers if you had deposited into each pool. (This information is not audited and is purely meant for information purposes):
+
+- USDC: __% 
+- DAI: ___% 
+- ETH: ___% 
 
 ## Rari Capital USDC Pool
 
@@ -42,7 +48,7 @@ If you are interested in learning more about each of the strategies and our fram
 
 **Step 1: Connect a wallet**
 
-The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. If you do not have a wallet, we recommend you refer to [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1) for MetaMask. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [v2.rari.capital](https://v2.rari.capital/).
+The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Earn Portal](https://app.rari.capital/Earn).
 
 **Step 2: Choose a pool**
 
@@ -64,7 +70,7 @@ After depositing, your returns can be viewed either within the individual pool d
 
 **Step 1: Connect a wallet**
 
-The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [app.rari.capital](http://app.rari.capital/). This allows users to view and interact with their deposited funds.
+The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Earn Portal](https://app.rari.capital/Earn).
 
 **Step 2: Choose a pool**
 
@@ -75,3 +81,9 @@ Once connected, users can view the multi-pool dashboard. Users may then withdraw
 After choosing a pool and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, select any of the supported crypto-assets and withdraw from the pool. This can be done by selecting the asset menu, choosing your desired asset, the amount, and by pressing the "Withdraw" button.
 
 It is worth noting that it will cost less gas to withdraw in any tokens currently active within the protocol, as it will require fewer swaps. Conversely, this means that it will require more gas for withdrawals in assets not currently active.
+
+------
+
+If you would like an interactive version of this step-by-step process, we have pubished a [Earn YouTube Tutorial](YouTube.com/RariCapital) to help guide you even more.
+
+If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help!

@@ -10,9 +10,9 @@ As always, DeFi is experiential technology in the financial sector and you shoul
 
 The Rari Capital products have been audited by [Quantstamp](https://quantstamp.com/),[Omniscia](https://omniscia.io/),and [OpenZeppelin](https://openzeppelin.com/). (Some reports are not public yet, but will be shared soon once finalized.)
 
-### 1. [Rari Capital V1 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital)
+### 1. [Rari Capital Yield Aggregator V1 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital)
 
-### 2. [Rari Capital V2 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital-v-2)
+### 2. [Rari Capital Yield Aggregator V2 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital-v-2)
 
 ### 3. [Rari Capital Fuse by Quantstamp](https://certificate.quantstamp.com/full/fuse-contracts)
 

@@ -12,10 +12,6 @@ ETH and all major ERC20 tokens are accepted into the Rari Capital interest-beari
 
 The Rari Capital contributors is responsible for being one of the groups that maintains the Rari Capital Protocol. With $RGT rewards distributed monthly over 2 years, the Rari Capital founding contributors compensation is directly tied to protocol performance, aligning incentives to support users.
 
-### Who is on the Rari Capital contributor group?
-
-We have an extremely strong contributor group with backgrounds from MyCrypto, Netflix, Salesforce and various other notable startups. 
-
 ## Feedback & Support
 
 The Rari Capital contributors are always available to help you on our Discord or by email:
