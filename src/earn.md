@@ -20,6 +20,7 @@ The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token to m
 - **Lending USDC on [Aave](https://aave.com/)**
 - **Lending USDC on [dYdX](https://dydx.exchange/)**
 - **Providing liquidity to [mStable](https://mstable.org/)**
+- **Lending USDC to [Fuse Pools](app.rari.capital/fuse)**
 
 ## Rari Capital DAI Pool
 
@@ -29,6 +30,7 @@ The Rari Capital DAI Pool allows users to deposit DAI or any ERC20 token to mint
 - **Lending DAI on [Aave](https://aave.com/)**
 - **Lending DAI on [dYdX](https://dydx.exchange/)**
 - **Providing liquidity to [mStable](https://mstable.org/)**
+- **Lending DAI to [Fuse Pools](app.rari.capital/fuse)**
 
 
 
@@ -41,6 +43,7 @@ The Rari Capital ETH Pool allows Rari users to deposit ETH or any ERC20 tokens t
 - **Lending DAI on [Aave](https://aave.com/)**
 - **Lending DAI on [dYdX](https://dydx.exchange/)**
 - **Providing liquidity to [mStable](https://mstable.org/)**
+- **Lending ETH to [Fuse Pools](app.rari.capital/fuse)**
 
 If you are interested in learning more about each of the strategies and our framework for identifying which ones to implement, check it out [here](https://www.notion.so/Rari-Strategy-Assessment-Framework-2d1edffcf80f4750973f6e90e97b70a4).
 
