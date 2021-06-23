@@ -22,7 +22,7 @@ module.exports = {
         text: "Products",
         ariaLabel: "Product Menu",
         items: [
-          { text: "Earn", link: "/earn/" },
+          { text: "Earn", link: "/earn.md" },
           { text: "Fuse", link: "/fuse.md" },
           { text: "Tranches", link: "/tranches.md" },
           { text: "Pool2", link: "/pool2.md" },
