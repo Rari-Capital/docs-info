@@ -2,7 +2,7 @@ const { description } = require("../../package");
 
 module.exports = {
   title: "Rari Capital",
-  //  description: description,
+  //description: description,
 
   head: [
     ["meta", { name: "theme-color", content: "#42C346" }],
@@ -22,29 +22,33 @@ module.exports = {
         text: "Products",
         ariaLabel: "Product Menu",
         items: [
-          { text: "Earn", link: "/products/earn.md/" },
-          { text: "Fuse", link: "/products/fuse/fuse.md/" },
-          { text: "Tranches", link: "/products/tranches/TRANCHES.md/" },
-          { text: "Pool2", link: "/products/pool2/pool2.md" },
+          { text: "Earn", link: "/earn/" },
+          { text: "Fuse", link: "/fuse.md" },
+          { text: "Tranches", link: "/tranches.md" },
+          { text: "Pool2", link: "/pool2.md" },
         ],
       },
-      { text: "Ecosystem", link: "/ecosystem/" },
+      { text: "Grants", link: "/ecosystem/" },
     { 
-         text: "Risks",
-        ariaLabel: "Risk Menu",
+         text: "Security",
+        ariaLabel: "Security Menu",
         items: [
+        { text: "Overview", link: "/security/" },
+        { text: "Rari Safety Score", link: "/rss.md" },
         { text: "Yield Aggregator Capital Allocation Risks", link: "/risks/" },
-        { text: "Yield Aggregator Strategy Assessment", link: "/products/yasa/README copy.md" },
+        { text: "Yield Aggregator Strategy Assessment", link: "/products/yasa/SA.md" },
         { text: "Safeguarded Launches for all products", link: "/products/yasa/README copy.md" },
         
             ],
     },
-      { text: "Security", link: "/security/" },
+      
       {
         text: "Governance",
         ariaLabel: "Governance Menu",
         items: [
           { text: "Overview", link: "/governanceoverview.md" },
+          { text: "Current Contributors", link: "/currentcontributors.md" },
+           { text: "DAO Structure", link: "/daostructure.md" },  
           { text: "Forums", link: "https://forums.rari.capital/" },
           { text: "Vote", link: "https://vote.rari.capital/" },
         ],
@@ -59,7 +63,7 @@ module.exports = {
           { text: "Discord", link: "http://discord.gg/mtb6W57Ap6" },
         ],
   },
-      { text: "Contribute", link: "https://docs.rari.capital/" },
+      { text: "Code Documentation", link: "https://docs.rari.capital/" },
     ],
 
     sidebarDepth: 10,
