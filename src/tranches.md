@@ -74,5 +74,7 @@ After choosing the tranche you deposited into and selecting the transaction butt
 
 ------
 
+If you would like an interactive version of this step-by-step process, the Saffron Finance team pubished a [Tranche YouTube Tutorial](YouTube.com/SaffronFinance) to help guide you even more.
+
 If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help. Saffron Finance is in our Discord serve as well!
 

@@ -58,7 +58,7 @@ Deployer and owner of the pool. This can be a singular Ethereum address, a multi
 
 ## Supported Price Oracles
 
-*Is there an oracle missing? Ping @DavidLucid in the #Fuse [Discord]([http://discord.gg/mtb6W57Ap6](https://t.co/nGY7gkihfQ?amp=1)) channel to have it added!*
+*Is there an oracle missing? Ping @DavidLucid in the [Discord]([http://discord.gg/mtb6W57Ap6](https://t.co/nGY7gkihfQ?amp=1)) #Fuse channel to have it added!*
 
 - AlphaHomora V1
 - AlphaHomora V2
