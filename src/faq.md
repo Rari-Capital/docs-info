@@ -1,3 +1,4 @@
+
 - # Frequently Asked Questions
 
   ### Liquidity mining program
@@ -8,6 +9,9 @@
 
   10,000,000 $RGT was created natively on the Ethereum blockchain. 87.5% of these tokens (8,750,000 $RGT), were distributed through a public liquidity mining program while the remaining 12.5% is dedicated to compensation for the founding Rari Capital members. The liquidity mining program was conducted over 60 days following a dynamic schedule as shown below.
 
+![Screenshot_(131) (1)](https://user-images.githubusercontent.com/50163445/123557865-213a0600-d748-11eb-988e-6e1b22a11abb.png)
+
+
   ### Public Liquidity Mining Rewards
 
   The liquidity mining program is built to enable decentralization and ensure alignment between the protocol development and the users. Through this 60-day program, 87.5% of the total supply of $RGT will be proportionally distributed to Rari protocol users. This distribution occurs proportionally across all deposits for all pools that a user has within the protocol. The pools that are earning include: Rari ETH Pool, Rari Stable Pool and Rari Yield Pool.
@@ -15,6 +19,10 @@
   For example, if a user has $400,000 in the protocol and the protocol has $4,000,000 and 300,000 $RGT are being distributed on that day and the user held their money for the entire day, they would earn 10% of the distribution: 30,000 $RGT tokens. To view our spreadsheet for the day-by-day breakdown of our RGT, click [here](https://docs.google.com/spreadsheets/d/1qXDQB7OgGbWgvcUZv9AbNFsKdViPjlyQiQ8FqcQTUlU/edit?usp=sharing). Distributions began on Oct 20, 2020 and will end on Dec 19, 2020.
 
   Users who withdrew the $RGT during the distribution period were faced a proportional burn based on when they sold the asset. The burn could be found [here](https://docs.google.com/spreadsheets/d/1CVD4VmYWtAg3sXdlQYpZAu7nhSAe2ATmOLQRFjMwBHs/edit#gid=0).
+  
+  <img width="661" alt="Screen_Shot_2020-10-19_at_10 46 27_AM (1)" src="https://user-images.githubusercontent.com/50163445/123557870-2f882200-d748-11eb-93ee-ea121c1ae069.png">
+<img width="597" alt="Screen_Shot_2020-10-19_at_10 46 43_AM" src="https://user-images.githubusercontent.com/50163445/123557872-357e0300-d748-11eb-8821-84d1ce13d6b6.png">
+
 
   ### Team Rewards
 
