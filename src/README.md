@@ -1,10 +1,12 @@
 # Welcome to Rari Capital DAO!
 
-Rari Capital is a suite of decentralized financial protocols on a mission to bridge the gap between technial minds and non-techical minds, in order to bring the next billion users into this ecosystem.
+Rari Capital is a suite of decentralized financial protocols on a mission to bridge the gap between technial minds and non-techical minds, in order to bring the next billion users into this industry.
 
 We have a series of products that both create yield, deliver yield, and let you expand further on your crypto assets.
 
 Enjoy this experence, we are changing the world of finance together as one large community within the Rari Capital Decentralized Autonomous Organization!
+
+Are you ready to ***Break Free*** from your current lifestyle? Now is your time.
 
 ## Overview
 
