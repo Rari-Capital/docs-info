@@ -43,7 +43,9 @@ module.exports = {
           {
             text: "Safeguarded Launches for all products",
             link: "/products/yasa/README copy.md"
-          }
+          },
+          { text: "Pool Admin Guide", link: "/pooladminguide.md" },
+          
         ]
       },
 
