@@ -8,8 +8,6 @@ The Rari Capital yield aggregator consists of a series of three pools that are c
 
 Currently, the yield aggregator protocol optimizes for yield across a series of stable-assets (swapping via 0x) in the USDC and DAI pools, and Ethereum in the ETH pool. The pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and now Fuse Pools! We are actively expanding our strategy set to focus on more sustainable yields off of the chain. We expect lending to compose the minority of the pool's allocation once mass protocol expansion has begun. In the coming months, we will be exploring using Fuse strategies exclusively in the yield earning pools. This will allow for a more controlled environment as well as reduce smart contract risk by integrating external strategies. 
 
-![E4vpYizVEAIf755](https://user-images.githubusercontent.com/50163445/123555553-51c77300-d73b-11eb-871c-177589cc1768.jpg)
-
 ## Rari Capital USDC Pool
 
 The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token to mint the native token, $RSPT. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). Once a token holder, the Rari protocol is working autonomously to deliver the highest yield on your USDC.
