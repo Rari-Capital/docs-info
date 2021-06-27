@@ -4,6 +4,8 @@
 
 The Rari Capital yield aggregator consists of a series of three pools that are constantly searching for the highest yield autonomously across DeFi lending protocols. 
 
+![E4vpYizVEAIf755](https://user-images.githubusercontent.com/50163445/123555669-f6e24b80-d73b-11eb-8378-4ae041a4be4e.jpg)
+
 ## How does Rari Capital earn yield?
 
 Currently, the yield aggregator protocol optimizes for yield across a series of stable-assets (swapping via 0x) in the USDC and DAI pools, and Ethereum in the ETH pool. The pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and now Fuse Pools! We are actively expanding our strategy set to focus on more sustainable yields off of the chain. We expect lending to compose the minority of the pool's allocation once mass protocol expansion has begun. In the coming months, we will be exploring using Fuse strategies exclusively in the yield earning pools. This will allow for a more controlled environment as well as reduce smart contract risk by integrating external strategies. 
