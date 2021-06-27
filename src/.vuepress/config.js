@@ -32,18 +32,12 @@ module.exports = {
         items: [
           { text: "Overview", link: "/security/" },
           { text: "Rari Safety Score", link: "/rss.md" },
-          {
-            text: "Yield Aggregator Capital Allocation Risks",
-            link: "/risks/"
-          },
-          {
-            text: "Yield Aggregator Strategy Assessment",
-            link: "/products/yasa/SA.md"
-          },
-          {
-            text: "Safeguarded Launches for all products",
-            link: "/products/yasa/README copy.md"
-          }
+          {text: "Yield Aggregator Capital Allocation Risks", link: "/risks/"},
+          {text: "Yield Aggregator Strategy Assessment", link: "/products/yasa/SA.md"},
+          {text: "Safeguarded Launches for all products", link: "/products/yasa/README copy.md"},
+            { text: "Oracle Documentation", link: "/oracle.md" },
+            { text: "Liquidation Process and Backtesting", link: "/process.md" },
+            { text: "Guide For Pool Admins", link: "/guide.md" },
         ]
       },
 
