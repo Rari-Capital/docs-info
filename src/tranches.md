@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranted rates as well as [SFI](Coingecko.com/SFI) (Saffron's token) emmissions as added incentives for provifing liquidity. 
+The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as [SFI](Coingecko.com/SFI) (Saffron's token) emissions as added incentives for providing liquidity. 
 
 Starting, December 27th at 6am UTC, users begun providing liquidity to the [Saffron/Rari DAI adapter pool](https://app.saffron.finance/#liquidity) as part of [Epoch 4](https://medium.com/saffron-finance/saffron-epoch-4-85dda2f9e0bb). 
 
@@ -22,11 +22,11 @@ The DAI/Rari pool is incentivized with a new amount of SFI every two weeks! This
 
 ## How to Deposit Into Saffron/Rari DAI Tranche
 
-If you would like an interactive version of this step-by-step process, the Saffron Finance team pubished a [Tranche YouTube Tutorial](YouTube.com/SaffronFinance) to help guide you even more.
+If you would like an interactive version of this step-by-step process, the Saffron Finance team published a [Tranche YouTube Tutorial](YouTube.com/SaffronFinance) to help guide you even more.
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
+The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
 
 **Step 2: Choose a DAI Tranche That Fits Your Desired Risk Profile**
 
@@ -47,11 +47,7 @@ After depositing, your returns and rewards can be viewed within the Tranches das
 
 ## [#](http://localhost:8080/earn.html#how-to-withdraw)How to Withdraw
 
-**Step 1: Connect a Wallet**
-
-The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
-
-**Step 2: Choose a DAI Tranche That Holds Your Deposit**
+**Step 1: Choose a DAI Tranche That Holds Your Deposit**
 
 - S Tranche
 
@@ -65,7 +61,7 @@ Reduced interest earned. Covered in case of failure by A tranche.: SFI Earnings:
 
 10x interest earned. Cover provided to AA tranche in case of failure: *SFI Earnings:* **10%**
 
-**Step 3: Withdraw Into a Supported Asset**
+**Step 2: Withdraw Into a Supported Asset**
 
 After choosing the tranche you deposited into and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, withdraw DAI from the pool. You will no longer be a user of the DAI tranche and your DAI can now be found in your Ethereum wallet. 
 
