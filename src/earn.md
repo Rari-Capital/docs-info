@@ -1,18 +1,17 @@
-# Yield Aggregator
+# Earn
+## Yield Aggregator
 
-An autonomous algorithm that rebalances users' funds into the highest yielding opportunities. Provides liquidity to Fuse pools for borrowers.
+The yield aggregator is our autonomous algorithm that searches for the highest yield through a collection of safety-assessed DeFi lending protocols. To participate, you can choose from three distinct pools to deposit into: USDC, DAI, and ETH.  You will earn yield on your deposit, typically seen as APY%, and you may withdraw your funds at any time into any of our supported assets.
 
-------
-
-The Rari Capital yield aggregator consists of a series of three distinct pools that are autonomously searching for the highest yield throughout an assortment of safety assessed DeFi lending protocols, including Fuse, our own internal interest rate protocol within the Rari Capital ecosystem.
+Our yield aggregator finds yield through partnered protocols as well as our internal Fuse protocol which collects borrowing and lending fees of customized assets.
 
 ![E4vpYizVEAIf755](https://user-images.githubusercontent.com/50163445/123555712-36a93300-d73c-11eb-870f-72ac74a2b87d.jpg)
 
 ## How Does Rari Capital Earn Yield?
 
-The Yield Aggregator Protocol optimizes for yield across a series of protocols across the Ethereum DeFi ecosystem. The USDC and DAI pools are broadcasted into stable-asset strategies, while the ETH pool maintains exposure to price volatility of the currency. These pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and Fuse Pools. We are actively expanding our strategy set to focus on more sustainable yields on and off of the blockchain. The pools are now playing an active role within Fuse by providing liquidity to borrowers, as well as letting pool depositors reap the benefits of high yield opportunities.
+The Yield Aggregator system optimizes for the highest returns across a series of protocols across the Ethereum DeFi ecosystem. Our USDC and DAI pools are broadcast into stable-asset strategies, while the ETH pool maintains exposure to price volatility of Ethereum. These pools earn yield for users by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and Fuse Pools. We are actively expanding our strategy set to focus on more sustainable yields on and off of the blockchain. The pools are now playing an active role within Fuse by providing liquidity to borrowers, as well as letting pool depositors reap the benefits of high yield opportunities.
 
-The follow numbers represent backtested numbers if you had deposited into each pool. (This information is not audited and is purely meant for information purposes):
+The following numbers represent backtested calculations if you had deposited into each pool. (This information is not audited and is purely meant for information purposes):
 
 - USDC: __% 
 - DAI: ___% 
@@ -20,7 +19,7 @@ The follow numbers represent backtested numbers if you had deposited into each p
 
 ## Rari Capital USDC Pool
 
-The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token and given $RSPT in return, the token that tracks your interest accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of $RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
+The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of $RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
 
 **Integrated Strategies:**
 
@@ -37,7 +36,7 @@ The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token and 
 
 ## Rari Capital DAI Pool
 
-The Rari Capital DAI Pool allows users to deposit DAI or any ERC20 token and given $RDPT in return, the token that tracks your interest accruing position. All ERC20s will be swapped to DAI (meaning there is slippage for all deposits except DAI). As a holder of $RDPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
+The Rari Capital DAI Pool allows users to deposit DAI or any ERC20 token and receive $RDPT in return. The $RDPT token tracks your interest-accruing position. All ERC20s will be swapped to DAI (meaning there is slippage for all deposits except DAI). As a holder of $RDPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
 
 **Integrated Strategies:**
 
@@ -56,7 +55,7 @@ The Rari Capital DAI Pool allows users to deposit DAI or any ERC20 token and giv
 
 ## Rari Capital ETH Pool
 
-The Rari Capital DAI Pool allows users to deposit ETH or any ERC20 token and given $REPT in return, the token that tracks your interest accruing position. All ERC20s will be swapped to ETH (meaning there is slippage for all deposits except ETH). As a holder of $REPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
+The Rari Capital DAI Pool allows users to deposit ETH or any ERC20 token and receive $REPT in return. The $REPT token tracks your interest-accruing position. All ERC20s will be swapped to ETH (meaning there is slippage for all deposits except ETH). As a holder of $REPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
 
 **Integrated Strategies:**
 
@@ -81,7 +80,7 @@ The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletCo
 
 **Step 2: Choose a Pool**
 
-Once connected, users can view the multi-pool dashboard, equipped with a comparative graph of the returns between each pool. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a supported asset of their choice to deposit.
+Once connected, users are able to view the multi-pool dashboard, equipped with a comparative graph of the returns between each pool. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a supported asset of their choice to deposit.
 
 **Step 3: Deposit a Supported Asset**
 
