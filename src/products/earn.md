@@ -2,6 +2,10 @@
 
 ## Yield Aggregator
 
+An autonomous alogorthim that rebalances users' funds into the highest yielding opportunities. Provides liquidity to Fuse pools for borrowers.
+
+------
+
 The Rari Capital yield aggregator consists of a series of three pools that are constantly searching for the highest yield autonomously across DeFi lending protocols. 
 
 ![E4vpYizVEAIf755](https://user-images.githubusercontent.com/50163445/123555669-f6e24b80-d73b-11eb-8378-4ae041a4be4e.jpg)

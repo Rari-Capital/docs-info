@@ -54,7 +54,7 @@ module.exports = {
         ariaLabel: "Governance Menu",
         items: [
           { text: "Overview", link: "/governanceoverview.md" },
-          { text: "Current Contributors", link: "/currentcontributors.md" },
+         // { text: "Current Contributors", link: "/currentcontributors.md" },
           { text: "DAO Structure", link: "/daostructure.md" },
           { text: "Forums", link: "https://forums.rari.capital/" },
           { text: "Vote", link: "https://vote.rari.capital/" }

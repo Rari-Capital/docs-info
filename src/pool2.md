@@ -6,7 +6,7 @@ The Rari Capital DAO is incentizing decentralized exchange liquidity of RGT on [
 
 ## How to Deposit
 
-**Step 1: Connect a wallet**
+**Step 1: Connect a Wallet**
 
 The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://app.rari.capital/Pool2).
 
@@ -14,25 +14,15 @@ The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletCo
 
 Once connected, users can now deposit their Sushi LP Tokens by pressing the *Deposit* button.
 
-**Step 3: Track your LP Position and RGT rewards**
+**Step 3: Track Your LP Position and RGT Rewards**
 
 Once you have deposited into Pool2, you will now be able to view your balance and RGT available to be claimed
 
 ## How to Withdraw
 
-**Step 1: Connect a wallet**
+**Step 1: Choose RGT-ETH Pool and Withdraw SLP**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://app.rari.capital/Pool2).
-
-**Step 2: Choose RGT-ETH Pool**
-
-Once connected, users can now deposit their Sushi LP Tokens by pressing the *Withdraw* button and can claim RGT rewards by pressing *Claim RGT.* 
-
-**Step 3: Withdraw into a supported asset**
-
-After choosing a pool and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, select any of the supported crypto-assets and withdraw from the pool. This can be done by selecting the asset menu, choosing your desired asset, the amount, and by pressing the "Withdraw" button.
-
-It is worth noting that it will cost less gas to withdraw in any tokens currently active within the protocol, as it will require fewer swaps. Conversely, this means that it will require more gas for withdrawals in assets not currently active.
+Once connected, users can now withdraw their Sushiswap LP Tokens by pressing the *Withdraw* button and can claim RGT rewards by pressing *Claim RGT.* 
 
 ------
 

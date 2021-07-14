@@ -2,13 +2,13 @@
 
 ## The bubbles
 
-I propose a solution that begins with organizing all of the individuals within the DAO into bubbles. Each DAO will likely have their own organization structure but for Rari Capital, each task we pursue can be split into three main categories: 
+Each DAO will likely have their own organization structure but for Rari Capital, each task we pursue can be split into three main categories: 
 
 1. **Operations:** Overseeing the protocol’s maintenance and conducting active management on the products. 
 2. **Strategy:** Ensuring that the protocol grows and stays competitive on a macro-scale. 
 3. **Development:** Developing and securing each of the products and protocols. 
 
-While these are the core categories, they are not very specific. For that, I propose bubbles, to function as these working groups on specific overarching goals. Think of those three categories as large bubbles and these are each smaller bubbles within each of them. Below, you can find each of the small bubbles for the categories outlined above: 
+While these are the core categories, they are not very specific. For that, bubbles function as these working groups on specific overarching goals. Think of those three categories as large bubbles and these are each smaller bubbles within each of them. Below, you can find each of the small bubbles for the categories outlined above: 
 
 1. **Operations:** Legal, Relationship Upkeep, Marketing (Social, Education, Partnerships), Security Coordination, Design, Community Management, Contributor Management
 2. **Strategy:** Protocol Design, Risk Assessment, Treasury Management, Bridge, Direct TVL Growth

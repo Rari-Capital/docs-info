@@ -2,7 +2,7 @@
 
 ### Overview
 
-When investing in anything, there are risks, and for investing in Rari Capital, there are a few sources of risk with varying levels of severity: underlying risk, the “lego” risk of our integrated protocols, customer side risk, and risk within the Rari product.
+When interacting with any type of DeFi protocol, there are risks, and for using in Rari Capital, there are a few sources of risk with varying levels of severity: underlying risk, the “lego” risk of our integrated protocols, customer side risk, and risk within the Rari product.
 
 ![Rari Capital Yield Aggregator Risks] (RariCapitalRiskFinal.jpg)
 
@@ -38,5 +38,5 @@ The risk for our contracts lies in the possibility of a standard bug or hack of 
 
 ### **Summary**
 
-To summarize, investing in Rari Capital has a wide spectrum of degrees of risk, with the more traumatic cases being the least likely, spanning from the EVM breaking down or an incorporated protocol falling apart all the way to a browser bug temporarily pausing a transaction. We hope this has given you a greater understanding of the risk breakdown for investing in Rari Capital.
+To summarize, using the Rari Capital protocol has a wide spectrum of degrees of risk, with the more traumatic cases being the least likely, spanning from the EVM breaking down or an incorporated protocol falling apart all the way to a browser bug temporarily pausing a transaction. We hope this has given you a greater understanding of the risk breakdown for using the Rari Capital products.
 

@@ -1,6 +1,20 @@
-# Rari Capital DAO Governance Proposals
+# Governance Proposals
 
-## 
+## Rari Capital DAO Improvement Proposals
+
+To post and formulate a governance proposal for the Rari Capital DAO, users must follow a specific template and follow all directions on the according links:
+
+1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
+2. Post final proposal to [Rari Capital DAO Improvement Proposals](https://forums.rari.capital/t/rari-capital-dao-improvement-proposals) and discuss there for 2 days
+3. Post to [Rari Capital DAO Snapshot page]( https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
+
+## Rari Capital DAO Fuse Pool Proposals
+
+To post and formulate a governance proposal for the Rari Capital DAO Fuse Pools, users must follow a specific template and follow all directions on the according links:
+
+1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
+2. Post final proposal to [Rari Capital DAO Fuse Proposals](https://forums.rari.capital/t/rari-capital-dao-fuse-pool-proposals) and discuss there for 2 days
+3. Post to [Rari Capital DAO Snapshot page]( https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
 
 ## Template
 
@@ -21,20 +35,4 @@ When making a proposal, begin by gauging interest for your idea from the Rari Ca
 Finally, please add a poll option on your forum post as well.
 
 
-
-## Rari Capital DAO Improvement Proposals
-
-To post and formulate a governance proposal for the Rari Capital DAO, users must follow a specific template and follow all directions on the according links:
-
-1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
-2. Post final proposal to [Rari Capital DAO Improvement Proposals](https://forums.rari.capital/t/rari-capital-dao-improvement-proposals) and discuss there for 2 days
-3. Post to [Rari Capital DAO Snapshot page]( https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
-
-## Rari Capital DAO Fuse Pool Proposals
-
-To post and formulate a governance proposal for the Rari Capital DAO Fuse Pools, users must follow a specific template and follow all directions on the according links:
-
-1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
-2. Post final proposal to [Rari Capital DAO Fuse Proposals](https://forums.rari.capital/t/rari-capital-dao-fuse-pool-proposals) and discuss there for 2 days
-3. Post to [Rari Capital DAO Snapshot page]( https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
 

@@ -1,8 +1,16 @@
 # Welcome to Rari Capital DAO!
 
-Rari Capital is a suite of decentralized financial protocols on a mission to bridge the gap between technial minds and non-techical minds, in order to bring the next billion users into this industry.
+Rari Capital is a suite of decentralized financial protocols on a mission to bridge the gap between technical minds and non-technical minds, in order to bring the next billion users into this industry.
 
 We have a series of products that both create yield, deliver yield, and let you expand further on your crypto assets.
+
+**Fuse:** Open interest rate protocol that provides users the ability to create and manage lending/borrowing pools.
+
+**Yield Aggregator:** An autonomous alogorthim that rebalances users' funds into the highest yielding opportunities. Provides liquidity to Fuse pools for borrowers.
+
+**Tranches:** Peer to peer risk exchange protocol that utilizes the Yield Aggregator DAI pool for customized risk and return profiles.
+
+**Pool 2:** Incentives for RGT liquidity providers on decentralized exchanges.
 
 Enjoy this experence, we are changing the world of finance together as one large community within the Rari Capital Decentralized Autonomous Organization!
 
