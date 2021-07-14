@@ -1,6 +1,6 @@
 # Yield Aggregator
 
-An autonomous alogorthim that rebalances users' funds into the highest yielding opportunities. Provides liquidity to Fuse pools for borrowers.
+An autonomous algorithm that rebalances users' funds into the highest yielding opportunities. Provides liquidity to Fuse pools for borrowers.
 
 ------
 
