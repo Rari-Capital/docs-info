@@ -12,13 +12,13 @@ We have a series of products that both create yield, deliver yield, and let you 
 
 **Pool 2:** Incentives for RGT liquidity providers on decentralized exchanges.
 
-Enjoy this experence, we are changing the world of finance together as one large community within the Rari Capital Decentralized Autonomous Organization!
+Enjoy this experience, we are changing the world of finance together as one large community within the Rari Capital Decentralized Autonomous Organization!
 
 Are you ready to ***Break Free*** from your current lifestyle? Now is your time.
 
 ## Overview
 
-This website contains a robust collection of dcumentation to educate you on the Rari Capital products, and the surrounding DeFi ecosystem. All of the code can be found on [Github](Github.com/raricapital) and is sustained by core contributors and the community.  
+This website contains a robust collection of documentation to educate you on the Rari Capital products, and the surrounding DeFi ecosystem. All of the code can be found on [Github](Github.com/raricapital) and is sustained by core contributors and the community.  
 
 Throughout this guide, you will find:
 
@@ -26,7 +26,7 @@ Throughout this guide, you will find:
 - Step-by-step tutorials
 - Risks
 - Security measures
-- Governance mechanims  
+- Governance mechanisms  
 - Grant opportunities 
 - Frequently asked questions 
 - DeFi term glossary
