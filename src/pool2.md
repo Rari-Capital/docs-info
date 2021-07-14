@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Rari Capital DAO is incentizing decentralized exchange liquidity of RGT on [Sushiswap](Sushi.com). Once you stake both RGT and ETH on Sushiswap in the [RGT-ETH Pool](https://app.sushi.com/add/ETH/0xd291e7a03283640fdc51b121ac401383a46cc623), you can stake your SLP tokens on the Pool2 dashboard to earn RGT rewards. 
+The Rari Capital DAO is incentivizing decentralized exchange liquidity of RGT on [Sushiswap](Sushi.com). Once you stake both RGT and ETH on Sushiswap in the [RGT-ETH Pool](https://app.sushi.com/add/ETH/0xd291e7a03283640fdc51b121ac401383a46cc623), you can stake your SLP tokens on the Pool2 dashboard to earn RGT rewards. 
 
 ## How to Deposit
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://app.rari.capital/Pool2).
+The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://app.rari.capital/Pool2).
 
 **Step 2: Choose RGT-ETH Pool**
 
