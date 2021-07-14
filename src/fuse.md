@@ -1,14 +1,14 @@
 # Fuse
 
-[Fuse](app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rater than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference. 
+[Fuse](app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rather than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference. 
 
-If you would like an interactive version of this step-by-step process, we have pubished a [Fuse YouTube Tutorial](https://www.youtube.com/watch?v=V-JLIqZGWYo) to help guide you even more.
+If you would like an interactive version of this step-by-step process, we have published a [Fuse YouTube Tutorial](https://www.youtube.com/watch?v=V-JLIqZGWYo) to help guide you even more.
 
 ## How to Earn Interest 
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
+The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
 
 **Step 2: Become Friendly With the Fuse Dashboard**
 
@@ -28,9 +28,9 @@ Once connected, users will see *Supply Balance* and *Borrow Balance.* It's okay 
 
    *Note: this is a transaction that will cost gas.* 
 
-You have now supplied your first asset to a Fuse pool! On your main dashboard, you see wil see *Supply Balance* populate with the equivalanet amount (in dollars) to your newly supplied asset. 
+You have now supplied your first asset to a Fuse pool! On your main dashboard, you see will see *Supply Balance* populate with the equivalent amount (in dollars) to your newly supplied asset. 
 
-*Note: This asset will no longer appear in your wallet as it is now in the Fuse Protocol. You will immediately receieve an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
+*Note: This asset will no longer appear in your wallet as it is now in the Fuse Protocol. You will immediately  an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
 
 *You will only earn interest when the pool is being utilized by borrowers*
 
@@ -40,7 +40,7 @@ You have now supplied your first asset to a Fuse pool! On your main dashboard, y
 
 Now that you have supplied assets, you have the opportunity to borrow assets in the same Fuse pool! Why might you do this? Users are constantly seen borrowing against their assets to gain leverage (borrowing stablecoins to buy more tokens) or borrowing to short an asset (selling an asset and buying it back at a later date), or even a chance to take out money against an appreciating asset that you do not wish to sell. 
 
-*Note: There is a signficant amount of risk when borrowing assets, and you should do your own research and education before using this functionality*
+*Note: There is a significant amount of risk when borrowing assets, and you should do your own research and education before using this functionality*
 
 1. Select the asset that you would like to borrow 
 
@@ -54,7 +54,7 @@ Now that you have supplied assets, you have the opportunity to borrow assets in 
 
 Ethereum based assets can be extremely volatile in price action, meaning your supplied amount can change rapidly which could cause the amount you can borrow to change abruptly based on price moments. 
 
-A *Liquidation* occures when your *Borrow Limit* reaches its full capacity. Once this health bar (at the top of your dashboard) reaches 100%, your balances will be liquidated. This can come from collateral (supplied amount) dropping in value, or borrowed assets surging in value. When you get liquidated, a computer within the community will repay a percentage of your outstanding borrowed amount, as well as keeping a reward  from your collateral based on the *liquidation incentive* percentage found on each Fuse pool's dashboard. 
+A *Liquidation*  when your *Borrow Limit* reaches its full capacity. Once this health bar (at the top of your dashboard) reaches 100%, your balances will be liquidated. This can come from collateral (supplied amount) dropping in value, or borrowed assets surging in value. When you get liquidated, a computer within the community will repay a percentage of your outstanding borrowed amount, as well as keeping a reward  from your collateral based on the *liquidation incentive* percentage found on each Fuse pool's dashboard. 
 
 *Note: You should always do your own research regarding liquidations and find the safe haven for your health limit. When borrowing assets, you should consistently be checking the monitor to avoid unforeseen liquidations*
 
@@ -72,7 +72,7 @@ When you are ready to return back the borrowed asset, you will follow the same s
 
 If you would like to stop earning interest on your supplied asset and retain ownership of it in your Ethereum wallet, it is time to remove the token from the Fuse pool.
 
-*Note: In the background, you have now redeemed your fToken for the underlying amount that we discussed earlier. This is an example of a decentralied system as the protocol never took custody of your funds.*
+*Note: In the background, you have now redeemed your fToken for the underlying amount that we discussed earlier. This is an example of a  system as the protocol never took custody of your funds.*
 
 1. Select the asset that you are currently supply and press the withdraw tab
 
@@ -92,7 +92,7 @@ If there is an oracle feed supported by the protocol that reports price informat
 
 - **Platform Fee**
 
-10% fee of all intrerest accrued is dsitributed to the [$RGT community owned treasury](https://etherscan.io/address/0x10dB6Bce3F2AE1589ec91A872213DAE59697967a).
+10% fee of all  accrued is distributed to the [$RGT community owned treasury](https://etherscan.io/address/0x10dB6Bce3F2AE1589ec91A872213DAE59697967a).
 
 - **Admin Fee**
 
@@ -100,11 +100,11 @@ Fuse pool creators can choose to add a fee on top of the protocol fee.
 
 - **Liquidation Incentive (Description From [Compound Finance](Compound.Finance))**
 
-The additional collateral given to liquidiators as an incentive to perform liquidation of underwater accounts. For example, if the liquidation incentive is 1.1, liquidatores recevie an extra 10% of the bottrowers collateral for every unit they close. 
+The additional collateral given to liquidators as an incentive to perform liquidation of underwater accounts. For example, if the liquidation incentive is 1.1,  receive an extra 10% of the borrower's collateral for every unit they close. 
 
 - **Whitelist**
 
-Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road once we partner with a partner to help us build out the infastructure. 
+Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road once we partner with a partner to help us build out the . 
 
 - **Close Factor** **(Description From [Compound Finance](Compound.Finance))**
 
@@ -128,7 +128,7 @@ Reserves are an accounting entry in each fToken contract that represents a porti
 
 - **Pool Admin**
 
-Deployer and owner of the pool. This can be a singular Ethereum address, a multi-sig, DAO contract, etc. The address that owns and manages the pool is responsbile for parameter upkeep. 
+Deployer and owner of the pool. This can be a singular Ethereum address, a multi-sig, DAO contract, etc. The address that owns and manages the pool is  for parameter upkeep. 
 
 ## Supported Price Oracles
 
