@@ -3,7 +3,7 @@
 
   ### What is Rari Capital?
 
-  We are a DeFi protocol that allows you to lend, borrow and earn yield on your crypto assets through our own protocol and autonomously maximizing cross-platform yield with protocols such as Compound.  We do the work for you.  We were founded on the philosophy of providing users a safe, non-speculative options to increase our users' returns within DeFi.  Currently, even with our more speculative options, we provide risk assessment (risk and safety scores) to help everyone make informed choices when deploying their capital. In addition to stablecoin and ETH pools, our Fuse product enables customizable pools based on risk appetite and we provide a Pool Risk Score for each.
+  We are a DeFi protocol that allows you to lend, borrow and earn yield on your crypto assets through our own protocol and autonomously maximizing cross-platform yield with protocols such as Compound.  We do the work for you.  We were founded on the philosophy of providing users safe, non-speculative options to increase returns within DeFi.  Currently, even with our more speculative options, we provide risk assessment (risk and safety scores) to help everyone make informed choices when deploying their capital. In addition to stablecoin and ETH pools, our Fuse product enables customizable pools based on risk appetite and we provide a Pool Risk Score for each.
 
   ### Token Distribution
 
