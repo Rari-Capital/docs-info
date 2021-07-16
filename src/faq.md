@@ -1,22 +1,26 @@
 
 - # Frequently Asked Questions
 
-  ### Liquidity mining program
+  ### What is Rari Capital?
 
-  The $RGT public liquidity mining program began at 9:00 AM PT on October 20th. It was automatic for all deposits into the Rari Capital yield aggregator. Deposits made ahead of time were instantly eligible once the program starts. Earned $RGT is dependent on the user's balance relative to total TVL.
+  We are a DeFi protocol that allows you to lend, borrow and earn yield on your crypto assets through our own protocol and autonomously maximizing cross-platform yield with protocols such as Compound.  We do the work for you.  We were founded on the philosophy of providing users a safe, non-speculative options to increase our users' returns within DeFi.  Currently, even with our more speculative options, we provide risk assessment (risk and safety scores) to help everyone make informed choices when deploying their capital. In addition to stablecoin and ETH pools, our Fuse product enables customizable pools based on risk appetite and we provide a Pool Risk Score for each.
 
   ### Token Distribution
 
-  10,000,000 $RGT was created natively on the Ethereum blockchain. 87.5% of these tokens (8,750,000 $RGT), were distributed through a public liquidity mining program while the remaining 12.5% is dedicated to compensation for the founding Rari Capital members. The liquidity mining program was conducted over 60 days following a dynamic schedule as shown below.
+  10,000,000 $RGT were created natively on the Ethereum blockchain. 87.5% of these tokens (8,750,000 $RGT), were distributed through a public liquidity mining program while the remaining 12.5% are dedicated to compensation for the founding Rari Capital members. The liquidity mining program was conducted over 60 days following a dynamic schedule as shown below.
 
 ![Screenshot_(131) (1)](https://user-images.githubusercontent.com/50163445/123557865-213a0600-d748-11eb-988e-6e1b22a11abb.png)
+
+  ### Liquidity mining program
+
+  The $RGT public liquidity mining program began at 9:00 AM PT on October 20th, 2020 and lasted for 60 days. This process was automatic for all deposits into the Rari Capital yield aggregator. Deposits made ahead of time were instantly eligible once the program started. Earned $RGT was dependent on the user's balance relative to total TVL.
 
 
   ### Public Liquidity Mining Rewards
 
-  The liquidity mining program is built to enable decentralization and ensure alignment between the protocol development and the users. Through this 60-day program, 87.5% of the total supply of $RGT will be proportionally distributed to Rari protocol users. This distribution occurs proportionally across all deposits for all pools that a user has within the protocol. The pools that are earning include: Rari ETH Pool, Rari Stable Pool and Rari Yield Pool.
+  The liquidity mining program was built to enable decentralization and ensure alignment between the protocol development and the users. Through this 60-day program, 87.5% of the total supply of $RGT were be proportionally distributed to Rari protocol users. This distribution occured proportionally across all deposits for all pools that a user had within the protocol. These pools included: Rari ETH Pool, Rari Stable Pool and Rari Yield Pool.
 
-  For example, if a user has $400,000 in the protocol and the protocol has $4,000,000 and 300,000 $RGT are being distributed on that day and the user held their money for the entire day, they would earn 10% of the distribution: 30,000 $RGT tokens. To view our spreadsheet for the day-by-day breakdown of our RGT, click [here](https://docs.google.com/spreadsheets/d/1qXDQB7OgGbWgvcUZv9AbNFsKdViPjlyQiQ8FqcQTUlU/edit?usp=sharing). Distributions began on Oct 20, 2020 and will end on Dec 19, 2020.
+  For example, if a user had $400,000 in the protocol and the protocol had $4,000,000 locked + 300,000 $RGT being distributed on that day, and the user held their money for the entire day, they would earn 10% of the distribution: 30,000 $RGT tokens. To view our spreadsheet for the day-by-day breakdown of our RGT, click [here](https://docs.google.com/spreadsheets/d/1qXDQB7OgGbWgvcUZv9AbNFsKdViPjlyQiQ8FqcQTUlU/edit?usp=sharing). Distributions began on Oct 20, 2020 and ended on Dec 19, 2020.
 
   Users who withdrew the $RGT during the distribution period were faced a proportional burn based on when they sold the asset. The burn could be found [here](https://docs.google.com/spreadsheets/d/1CVD4VmYWtAg3sXdlQYpZAu7nhSAe2ATmOLQRFjMwBHs/edit#gid=0).
   

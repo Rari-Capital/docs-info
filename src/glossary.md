@@ -4,11 +4,11 @@
 
 ### **Aave**
 
-Aave is an open-sourced money market platform on the Ethereum blockchain. Users can deposit assets as collateral for borrowing of another asset. This is an interest bearing protocol, that Rari Capital has integrated!
+Aave is an open-source money market platform on the Ethereum blockchain. Users can deposit assets as collateral for borrowing of other assets. This is an interest-bearing protocol that Rari Capital has integrated!
 
 ### **Address (Wallet)**
 
-Digital wallet with address (0x........) allows you to receive transitions on the blockchain. The address is a character string that is used as your "personal id/identification"
+A digital wallet with address (0x...) allows you to receive transactions on the blockchain. The address is a character string that is used as your "personal identification".
 
 ### APY
 

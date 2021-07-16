@@ -4,7 +4,7 @@ This is a simple guide with recommended values. For deeper understanding, check 
 
 #### Liquidation incentive
 
-Set a higher liq incentive like `15%` or `20%` if the asset is illiquid, or if it is very volatile, or if it is a complex position that requires a lot of gas to unwind. Else can set safer like `10%`.
+Set a higher liq incentive like `15%` or `20%` if the asset is illiquid, or if it is very volatile, or if it is a complex position that requires a lot of gas to unwind. Else you can set a safer percentage like `10%`.
 
 #### Close factor
 

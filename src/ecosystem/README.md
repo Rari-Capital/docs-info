@@ -1,6 +1,6 @@
 # Grant Opportunities
 
-The Rari Capital DAO is a community run protocol that utilizes contributors to push the protocol forward. This could be affiliated products, integrations, and so much more. Let's build together!
+The Rari Capital DAO is a community-run protocol that utilizes contributors to push the protocol forward. This could be affiliated products, integrations, and so much more. Let's build together!
 
 *Questions? Please join the Rari Capital Discord: http://discord.gg/mtb6W57Ap6 and join #grants by selecting the "Rari Capital Community Developer" role in #essentials.*
 

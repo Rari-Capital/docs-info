@@ -2,9 +2,9 @@
 
 Introduction 
 
-Securing all Rari Capital products is the most important aspect of the protocol's development process. All code is properly tested and audited before public deployment. Contributors to the protocol care deeply about the code that they produce and proceed through all safety measures.
+Securing all Rari Capital products is the most important aspect of the protocol's development process. All code is properly tested and audited before public deployment. Contributors to the protocol care deeply about the code that they produce and proceed through all essential safety measures.
 
-As always, DeFi is experiential technology in the financial sector and you should do proper research and make your own decisions before interacting with a protocol like Rari Capital. 
+As always, this is a reminder that DeFi is experimental technology in the financial sector and one should do proper research and make your own decisions before interacting with a protocol like Rari Capital. 
 
 ### Audits 
 
