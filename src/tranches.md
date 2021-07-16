@@ -9,8 +9,11 @@ Starting December 27th at 6am UTC, users begun providing liquidity to the [Saffr
 ## **What is a Tranche?**
 
 Tranches allow users further dynamic exposure based on personal risk appetite and preferences. Saffron Finance has 3 different user-facing tranches:
+
 **AA Tranche** LPs adding to this tranche earn less interest but in return are covered in the case of platform risk or loss.  This tranche also earns 95% of SFI tokens.
+
 **A Tranche** These LPs earn more interest but lose their principal and interest in the case of platform risk.
+
 **S Tranche** This tranche is used to balance with the AA and A tranches to maintain equilibirum in reference to the tranche interest rate multiplier.
 
 [for reference: https://app.saffron.finance/#docs]
