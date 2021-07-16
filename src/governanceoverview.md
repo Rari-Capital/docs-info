@@ -18,7 +18,7 @@ To post and formulate a governance proposal for the Rari Capital DAO Fuse Pools,
 
 ## Template
 
-When making a proposal, begin by gauging interest for your idea from the Rari Capital community through our Discord. Once the community is aware of your proposal, please proceed with the following steps. 
+When making a proposal, begin by gauging interest for your idea from the Rari Capital community through our Discord. Once the community is aware of your proposal, please proceed with the following steps: 
 
 *Please follow the template below for all forum posts:*
 

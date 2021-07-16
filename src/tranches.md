@@ -2,15 +2,27 @@
 
 ## Overview
 
-The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as [SFI](Coingecko.com/SFI) (Saffron's token) emissions as added incentives for providing liquidity. 
+The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as Saffron Finance's native token [SFI](Coingecko.com/SFI) emissions as an added incentive for providing liquidity. 
 
-Starting, December 27th at 6am UTC, users begun providing liquidity to the [Saffron/Rari DAI adapter pool](https://app.saffron.finance/#liquidity) as part of [Epoch 4](https://medium.com/saffron-finance/saffron-epoch-4-85dda2f9e0bb). 
+Starting December 27th at 6am UTC, users begun providing liquidity to the [Saffron/Rari DAI adapter pool](https://app.saffron.finance/#liquidity) as part of [Epoch 4](https://medium.com/saffron-finance/saffron-epoch-4-85dda2f9e0bb). 
+
+## **What is a Tranche?**
+
+Tranches allow users further dynamic exposure based on personal risk appetite and preferences. Saffron Finance has 3 different user-facing tranches:
+
+**AA Tranche**: LPs adding to this tranche earn less interest but in return are covered in the case of platform risk or loss.  This tranche also earns 95% of SFI tokens.
+
+**A Tranche**: These LPs earn more interest but lose their principal and interest in the case of platform risk.
+
+**S Tranche**: This tranche is used to balance with the AA and A tranches to maintain equilibirum in reference to the tranche interest rate multiplier.
+
+[for reference: https://app.saffron.finance/#docs]
 
 ## **What Does This Mean for Rari Capital Users?**
 
-Saffron Finance has opened up a DAI tranche specifically designed for Rari’s new DAI pool! Why would they do this? The Rari Capital DAI Pool lends across multiple lending protocols, including Fuse, and is constantly rebalancing and optimizing for the highest yield possible. **This is very special for users in DeFi as this is the first known tranche that allows anyone to take advantage of a yield aggregator, like Rari Capital, performing as the underlying interest generating machine within the trance.**
+Saffron Finance has opened up a DAI tranche specifically designed for Rari’s new DAI pool! Why would they do this? The Rari Capital DAI Pool lends across multiple lending protocols, including Fuse, and is constantly rebalancing and optimizing for the highest yield possible. **This is very special for users in DeFi as this is the first known tranche that allows anyone to take advantage of a yield aggregator like Rari Capital performing as the underlying interest-generating machine within the trance.**
 
-As part of this partnership, Saffron Finance has integrated the Rari DAI Pool into their tranche offerings and us at Rari Capital designed and built our own interface to easily interact with the latest tranche.
+As part of this partnership, Saffron Finance has integrated the Rari DAI Pool into their tranche offerings and at Rari Capital we designed and built our own interface to easily interact with the latest tranche.
 
 Whether you use the Saffron Finance website or the Rari Capital portal, you will easily be able to deposit/withdraw/track all of your positions!
 
@@ -18,7 +30,7 @@ Whether you use the Saffron Finance website or the Rari Capital portal, you will
 
 ## Liquidity Incentives
 
-The DAI/Rari pool is incentivized with a new amount of SFI every two weeks! This means that all deposits into this trance will be rewarded with SFI distributions throughout each epoch!
+The DAI/Rari pool is incentivized with a new amount of SFI every two weeks! This means that all deposits into this trance will be rewarded with SFI distributions throughout each epoch.
 
 ## How to Deposit Into Saffron/Rari DAI Tranche
 
@@ -60,6 +72,8 @@ Reduced interest earned. Covered in case of failure by A tranche.: SFI Earnings:
 - A Tranche 
 
 10x interest earned. Cover provided to AA tranche in case of failure: *SFI Earnings:* **10%**
+
+When participating in tranches, keep in mind that liquidity is locked and deployed for 2 week periods called **epochs**.  At the end of the epoch period, interest rate is calculated and distributed, along with SFI tokens.
 
 **Step 2: Withdraw Into a Supported Asset**
 
