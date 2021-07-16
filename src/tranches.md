@@ -16,7 +16,7 @@ Tranches allow users further dynamic exposure based on personal risk appetite an
 
 **S Tranche**: This tranche is used to balance with the AA and A tranches to maintain equilibirum in reference to the tranche interest rate multiplier.
 
-[for reference: https://app.saffron.finance/#docs]
+[For reference, Saffron Finance Documentation:](https://app.saffron.finance/#docs)
 
 ## **What Does This Mean for Rari Capital Users?**
 
