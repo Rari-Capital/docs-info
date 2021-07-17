@@ -11,12 +11,6 @@ Our yield aggregator finds yield through partnered protocols as well as our inte
 
 The Yield Aggregator system optimizes for the highest returns across a series of protocols within the Ethereum DeFi ecosystem. Our USDC and DAI pools are broadcast into stable-asset strategies, while the ETH pool maintains exposure to price volatility of Ethereum. These pools earn yield for users by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and Fuse Pools. We are actively expanding our strategy set to focus on more sustainable yields on and off of the blockchain. The pools are now playing an active role within Fuse by providing liquidity to borrowers, as well as letting pool depositors reap the benefits of high yield opportunities.
 
-The following numbers represent backtested calculations if you had deposited into each pool. (This information is not audited and is purely meant for information purposes):
-
-- USDC: __% 
-- DAI: ___% 
-- ETH: ___% 
-
 ## Rari Capital USDC Pool
 
 The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of $RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
