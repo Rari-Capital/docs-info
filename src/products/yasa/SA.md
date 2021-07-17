@@ -1,4 +1,4 @@
-# Yield Aggregator Strategy Assesment Overview
+# Strategy Assesment Overview
 
 To admit new strategies and protocols into the Rari Capital pools, such as the stable pool and yield pool, each strategy must be evaluated for risk. This evaluation occurs to help determine which pool a specific strategy belongs in and if the strategy is suitable for the protocol.  To conduct this analysis, we have created a strategy assessment framework to compare strategy risks at a glance, while offering a structure to facilitate thorough appraisal.
 
