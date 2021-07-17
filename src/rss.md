@@ -51,7 +51,7 @@ volatility also depends on liquidity, but we will include that in a different sc
 
 #### Liquidity score (l=0,1,2,3,4)
 
-We can assume lower the liquidity today, more likely it'll be even worse in the future
+We can assume the lower the liquidity today, more likely it'll be even lower in the future
 
 if liquidable amount at allowed slippage < $200k, l1 = 2
 else if liquidable amount at allowed slippage < $1m, l1 = 1
