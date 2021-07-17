@@ -22,7 +22,7 @@ The DAI/Rari pool is incentivized with a new amount of SFI every two weeks! This
 
 ## How to Deposit Into Saffron/Rari DAI Tranche
 
-If you would like an interactive version of this step-by-step process, the Saffron Finance team published a [Tranche YouTube Tutorial](YouTube.com/SaffronFinance) to help guide you even more.
+If you would like an interactive version of this step-by-step process, the Saffron Finance team published a [Tranche YouTube Tutorial](https://www.youtube.com/watch?v=yX2Nf6rdikk) to help guide you even more.
 
 **Step 1: Connect a Wallet**
 
@@ -31,11 +31,12 @@ The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletCon
 **Step 2: Choose a DAI Tranche That Fits Your Desired Risk Profile**
 
 - S Tranche
-  - Liquidity added to other tranches as needed: *SFI Earnings:* **90%**
-
+  - Liquidity added to other tranches as needed.
+  - SFI Earnings: **90%**
+  
 - AA Tranche (Not active yet)
   - Reduced interest earned. Covered in case of failure by A tranche. 
-  - SFI Earnings: *SFI Earnings:* **0%**
+  - SFI Earnings: **0%**
 
 - A Tranche 
   - 10x interest earned. Cover provided to AA tranche in case of failure.
@@ -43,23 +44,17 @@ The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletCon
 
 **Step 4: Track Your Interest and SFI Rewards Accrued**
 
-After depositing, your returns and rewards can be viewed within the Tranches dashboard. 
+After depositing, your returns and rewards can be viewed within the [Tranches Dashboard](https://app.rari.capital/tranches). 
 
 ## [#](http://localhost:8080/earn.html#how-to-withdraw)How to Withdraw
 
-**Step 1: Choose a DAI Tranche That Holds Your Deposit**
+**Step 1: Choose The DAI Tranche That Holds Your Deposit**
 
 - S Tranche
 
-Liquidity added to other tranches as needed: *SFI Earnings:* **90%**
-
 - AA Tranche (Not active yet)
 
-Reduced interest earned. Covered in case of failure by A tranche.: SFI Earnings: *SFI Earnings:* **0%**
-
 - A Tranche 
-
-10x interest earned. Cover provided to AA tranche in case of failure: *SFI Earnings:* **10%**
 
 **Step 2: Withdraw Into a Supported Asset**
 
@@ -67,7 +62,7 @@ After choosing the tranche you deposited into and selecting the transaction butt
 
 ------
 
-If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help. Saffron Finance is in our Discord server as well!
+If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord]([https://discord.gg/HzUMPuT) for assistance and a community member will always be wiling to help. Saffron Finance is in our Discord server as well.
 
 ## **About Saffron Finance**
 
