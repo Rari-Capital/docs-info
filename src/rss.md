@@ -1,71 +1,26 @@
-# Risk and Safety Scores (WIP) 
+# Fuse - Risk and Safety Scores
 
+The framework is similar to our [standard lending market framework](https://medium.com/rari-capital/rari-safety-scores-17893c4d998) that analyzes markets such as [Compound ](https://compound.finance/)or [Aave](https://aave.com/), but it contains a few key changes that make this assessment crucial for the future Rari Capital ecosystem. Changes include adding an “editable” category to account for upgradeable pools, taking averages for asset scores, collateral factors, etc., but to summarize, we’ve made a few changes to account for Fuse’s unique multi-asset markets that focus on catching dangerously configured pools. With the liquidity and relative liquidity sections, it also captures risk assessment of poorly funded pools that can result in paused or broken exits for users.
 
-Overall grade, G_pool = max(G_asset) over all assets in the pool
-G_asset = max(h,c,v,l)
+One of the most important categories is the “minimum asset score” in critical variables. If an asset in a Fuse pool is rated below a 60, the pool automatically fails the critical variable section and loses 20% of the score. This protects against pools created with hidden rug pull assets designed to manipulate funds. You can also read about asset scores in our [previous RSS article](https://medium.com/rari-capital/rari-safety-scores-17893c4d998).
 
-G = 0 means top quality
-G = 1 means good quality
-G = 2 means average quality
-G = 3 or 4 means use at your own risk
+These scores will be displayed on our Fuse UI with the following grading system to help users compare and contrast markets (exact scores can be viewed by hovering over the grade):
 
-Max has been used to ensure that if even one criteria is failed, the pool risk score is lowered.
+- A++: score ≥ 95
+- A+: score ≥ 90
+- A: score ≥ 80
+- A-: score ≥ 70
+- B: score ≥ 60
+- C: score ≥ 50
+- D: score ≥ 40
+- F: score ≥ 30
 
-#### Historical score (h)
+Disclaimer: immediately following the launch of Fuse, markets may display low scores due to a lack of initial liquidity.
 
-Use the simulation described in previous [model](https://medium.com/rari-capital/fuse-rari-safety-scores-d8778b46c4aa) and backtest.
+# Fuse with the Yield Aggregator and Tanks
 
-if safe for last 3 months, h = 0
-else if safe for last 1 month, h = 1
-else, h = 3
+Ultimately, while these scores will educate users on market risks, it allows us to automate lending on Fuse. Essentially, as we move forward with Tanks and continue upgrading our base yield aggregator, with RSS we can create yield aggregator pools for dozens of Fuse supported assets to capture new yield for assets such as UNI, DIGG, YFI, etc. Furthermore, Tanks will also be able to automatically lend across the best and safest Fuse markets to borrow stables and fund the stable pool to earn additional yield. Interestingly, those stable pool funds could hypothetically be further lent on Fuse using RSS.
 
-#### Crash score (c=0,1,2,3)
+This conveniently addresses concerns about fragmented liquidity in Fuse pools, as our existing and new yield aggregator pools, combined with Tanks, will supply liquidity to the best Fuse markets available. Hopefully, this will achieve a healthy balance between consolidated liquidity, sustainable high yield opportunities, and market options for users.
 
-To detect scam/hack/peg break
-
-Initalise c = 0
-
-if no audit from *insert list of firms here*, c++
-if MC < 3% * FDV, c++
-if no discord/telegram or twitter, c++
-
-DAO and team can override crash score if they feel a token is safe or unsafe for subjective reasons.
-
-#### Volatility score (v=0,1,2,3)
-
-We can assume that assets with low MC and high volatility have a higher propensity for that volatility to rise even further.
-
-if MC < $100m, v1 = 2
-else if MC < $600m, v1 = 1
-else v1 = 0
-
-If volatility is high, let's see what happens if volatility doubles
-
-s = max price move in say 15 min
-if s > 10% and 2s < (1 - cf - li) and 2s < (li - slippage), v2 = 1 ?
-else v2 = 0
-
-v = v1 + v2
-
-volatility also depends on liquidity, but we will include that in a different score
-
-#### Liquidity score (l=0,1,2,3,4)
-
-We can assume the lower the liquidity today, more likely it'll be even lower in the future
-
-if liquidable amount at allowed slippage < $200k, l1 = 2
-else if liquidable amount at allowed slippage < $1m, l1 = 1
-else l1 = 0
-
-We can assume that liquidity incentives being pulled can be a risk.
-
-if significant liquidity incentives being pulled within a month, l2 = 1
-else l2 = 0
-
-We can assume that less number of humans providing liquidity increases chances of it being removed suddenly.
-
-if number of addresses holding LP tokens < ...,  l3 = 1
-else l3 = 0
-
-l = l1 + l2 + l3
-
+Rari Safety Scores, and Fuse RSS in particular, will be continuously monitored and updated to maintain safety. While we created the framework, we eventually want RSS to be controlled by the DAO to make it decentralized and community-driven. In the meantime, we’re accepting feedback from community members on how to improve it.

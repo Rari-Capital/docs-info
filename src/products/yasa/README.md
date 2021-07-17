@@ -1,4 +1,4 @@
-# Capital Allocation Risks (Yield Aggregator)
+# Capital Allocation Risks
 
 ### Overview
 
