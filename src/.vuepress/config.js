@@ -14,7 +14,6 @@ module.exports = {
     repo: "Rari-Capital/docs",
     docsDir: "/",
     nav: [
-      { text: "Introduction", link: "/" },
       {
         text: "Products",
         ariaLabel: "Product Menu",
@@ -44,8 +43,7 @@ module.exports = {
             text: "Safeguarded Launches for all products",
             link: "/products/yasa/README copy.md"
           },
-          { text: "Pool Admin Guide", link: "/pooladminguide.md" },
-          
+          { text: "Pool Admin Guide", link: "/pooladminguide.md" }
         ]
       },
 
@@ -54,7 +52,7 @@ module.exports = {
         ariaLabel: "Governance Menu",
         items: [
           { text: "Overview", link: "/governanceoverview.md" },
-         // { text: "Current Contributors", link: "/currentcontributors.md" },
+          { text: "Current Contributors", link: "/currentcontributors.md" },
           { text: "DAO Structure", link: "/daostructure.md" },
           { text: "Forums", link: "https://forums.rari.capital/" },
           { text: "Vote", link: "https://vote.rari.capital/" }
@@ -74,12 +72,7 @@ module.exports = {
     ],
 
     sidebarDepth: 10,
-    sidebar: {
-      "/": [""],
-      "/products/": [""],
-      "/ecosystem/": [""],
-      "/risks/": [""]
-    },
+    sidebar: "auto",
     smoothScroll: true
   }
 };
