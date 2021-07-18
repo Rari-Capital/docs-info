@@ -68,7 +68,7 @@ module.exports = {
           { text: "Discord", link: "http://discord.gg/mtb6W57Ap6" }
         ]
       },
-      { text: "Code Documentation", link: "https://docs.rari.capital/" }
+      { text: "Developer Documentation", link: "https://docs.rari.capital/" }
     ],
 
     sidebarDepth: 10,
