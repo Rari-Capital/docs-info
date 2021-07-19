@@ -58,7 +58,7 @@ The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletCon
 
 After depositing, your returns and rewards can be viewed within the [Tranches Dashboard](https://app.rari.capital/tranches). 
 
-## [#](http://localhost:8080/earn.html#how-to-withdraw)How to Withdraw
+## How to Withdraw
 
 **Step 1: Choose The DAI Tranche That Holds Your Deposit**
 
