@@ -80,7 +80,7 @@ It is worth noting that it will cost less gas to withdraw in any tokens currentl
 
 ## Tranches
 
-The Rari Capital DAI pool is integrated within Saffron Finance, a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranted rates as well as SFI (Saffron's token) emmissions as added incentives.
+The Rari Capital DAI pool is integrated within Saffron Finance, a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranted rates as well as SFI (Saffron's token) emmissions as an added incentive.
 
 
 

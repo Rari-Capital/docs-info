@@ -48,7 +48,7 @@
 
   ### RIP-1
 
-  The community voted to initiate RIP-1 which continues token emissions with an additional 10M $RGT over a 2.5 year period. The schedule can be found [here:](https://docs.google.com/spreadsheets/d/1tDHhf2oCUCJKUNrPJgFerEGePIJgVlfvjmtmOlhDf7I/edit#gid=0.) RIP-1 has not yet been implemented but is under audit review to be activated shortly.
+  The community voted to initiate RIP-1 which continues token emissions with an additional 10M $RGT over a 2.5 year period. The schedule can be found [here](https://docs.google.com/spreadsheets/d/1tDHhf2oCUCJKUNrPJgFerEGePIJgVlfvjmtmOlhDf7I/edit#gid=0.). RIP-1 has not yet been implemented but is under audit review to be activated shortly.
 
   ### Accepted assets
 
