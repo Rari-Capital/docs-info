@@ -28,9 +28,9 @@ When making a proposal, begin by gauging interest for your idea from the Rari Ca
 - **Abstract:** Clearly describe how the proposal wishes to change/improve the protocol.
 - **Motivation:** Explain why this proposal is necessary or useful for the protocol.
 
-**For:** Illustrate in one or two sentences what this position supports
+**For:** Illustrate in one or two sentences what this position supports.
 
-**Against:** Illustrate in one or two sentences what this position supports
+**Against:** Illustrate in one or two sentences what this position supports.
 
 Finally, please add a poll option on your forum post as well.
 

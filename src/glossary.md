@@ -102,6 +102,10 @@ Blockchain-based software program that allows developers to interact with the Et
 
 Government issued currency.
 
+### Fuse Pools
+
+Rari Capital's own customized lending and borrowing pools.
+
 ### Gas Fees
 
 Rewards paid to validators that confirm each transaction on the blockchain. Paid in ETH.
@@ -188,7 +192,7 @@ Return on Investment.
 
 ### **Scalability**
 
-The more power available, the faster the blockchain will run.
+Relates to the limitations of the blockchain in processing transactions (speed or transactions per block).
 
 ### Smart Contract
 

@@ -5,6 +5,16 @@
 
   We are a DeFi protocol that allows you to lend, borrow and earn yield on your crypto assets through our own protocol and autonomously maximizing cross-platform yield with protocols such as Compound.  We do the work for you.  We were founded on the philosophy of providing users safe, non-speculative options to increase returns within DeFi.  Currently, even with our more speculative options, we provide risk assessment (risk and safety scores) to help everyone make informed choices when deploying their capital. In addition to stablecoin and ETH pools, our Fuse product enables customizable pools based on risk appetite and we provide a Pool Risk Score for each.
 
+  ### Has Rari's Protocol Been Audited?
+
+  We have a long-term relationship with and receive regular audit reports from leading security firm [Quantstamp](https://quantstamp.com/). Our Stable and ETH Pools interact only with audited contracts. Our Yield Pool may interact with unaudited contracts.  We have also worked with other top auditing firms including OpenZeppelin.  Please see the [Security](https://docs-info.vercel.app/security/) section of the documentation for more information.
+
+  Keep in mind that security audits do not totally eliminate risk, especially as far as Rari interacting with other protocols as "money legos". So please be responsible.
+
+  ### Where can I follow along in Rari's Development?
+
+  You can find regular updates on our [Medium page](https://raricapital.medium.com/), [Discord](https://discord.gg/QkHAJNqh) and of course our [Github](https://github.com/Rari-Capital).
+
   ### Token Distribution
 
   10,000,000 $RGT were created natively on the Ethereum blockchain. 87.5% of these tokens (8,750,000 $RGT), were distributed through a public liquidity mining program while the remaining 12.5% are dedicated to compensation for the founding Rari Capital members. The liquidity mining program was conducted over 60 days following a dynamic schedule as shown below.
@@ -44,9 +54,9 @@
 
   ETH and all major ERC20 tokens are accepted into the Rari Capital interest-bearing pools. In the USDC and DAI pools, your deposit will be converted into the current allocations of the pool. In the ETH pool, you will maintain exposure to the price of ETH.
 
-  ### What is the Rari Capital contributors responsibility?
+  ### What is the responsibility of Rari Capital contributors?
 
-  The Rari Capital contributors is responsible for being one of the groups that maintains the Rari Capital Protocol. With $RGT rewards distributed monthly over 2 years, the Rari Capital founding contributors compensation is directly tied to protocol performance, aligning incentives to support users.
+  The Rari Capital contributors are one of the groups that maintains the Rari Capital Protocol. With $RGT rewards distributed monthly over 2 years, the Rari Capital founding contributors' compensation is directly tied to protocol performance, aligning incentives to support users.
 
   ## Feedback & Support
 

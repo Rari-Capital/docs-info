@@ -52,11 +52,11 @@ Now that you have supplied assets, you have the opportunity to borrow assets in 
 
 **Step 5: Understanding Liquidation Health**
 
-Ethereum based assets can be extremely volatile in price action, meaning your supplied amount can change rapidly which could cause the amount you can borrow to change abruptly based on price moments. 
+Ethereum-based assets can be extremely volatile in price action, meaning your supplied amount can change rapidly (in USD value for example) which could cause the amount you can borrow to change abruptly based on price moments. 
 
-A *Liquidation*  when your *Borrow Limit* reaches its full capacity. Once this health bar (at the top of your dashboard) reaches 100%, your balances will be liquidated. This can come from collateral (supplied amount) dropping in value, or borrowed assets surging in value. When you get liquidated, a computer within the community will repay a percentage of your outstanding borrowed amount, as well as keeping a reward  from your collateral based on the *liquidation incentive* percentage found on each Fuse pool's dashboard. 
+A *Liquidation*  is when your *Borrow Limit* reaches its full capacity. Once this health bar (at the top of your dashboard) reaches 100%, your balances will be liquidated. This can come from collateral (supplied amount) dropping in value, or borrowed assets surging in value. When you get liquidated, a computer within the community will repay a percentage of your outstanding borrowed amount, as well as keeping a reward  from your collateral based on the *liquidation incentive* percentage found on each Fuse pool's dashboard. 
 
-*Note: You should always do your own research regarding liquidations and find the safe haven for your health limit. When borrowing assets, you should consistently be checking the monitor to avoid unforeseen liquidations*
+*Note: You should always do your own research regarding liquidations and find a safe haven for your health limit. When borrowing assets, you should consistently be checking the analytics monitor to avoid unforeseen liquidations.*
 
 ## How to Withdraw
 
@@ -70,15 +70,15 @@ When you are ready to return back the borrowed asset, you will follow the same s
 
 **Step 6: Removing Collateral/Supplied Asset**
 
-If you would like to stop earning interest on your supplied asset and retain ownership of it in your Ethereum wallet, it is time to remove the token from the Fuse pool.
+If you would like to stop earning interest on your supplied asset and regain ownership of it in your Ethereum wallet, it is time to remove the token from the Fuse pool.
 
-*Note: In the background, you have now redeemed your fToken for the underlying amount that we discussed earlier. This is an example of a  system as the protocol never took custody of your funds.*
+*Note: In the background, you have now redeemed your fToken for the underlying amount that we discussed earlier. This is an example of a decentralized system as the protocol never took custody of your funds.*
 
-1. Select the asset that you are currently supply and press the withdraw tab
+1. Select the asset that you are currently supplying and press the withdraw tab.
 
    *Note: You will have an option to withdraw the max amount or type in your desired amount*
 
-We understand this process can be very tedious for your first time, but be proud of yourself for making it this far! You are on your way to becoming a strong DeFi user who takes advantage of the protocols aimed at removing the need to trust an institution for your finances. 
+We understand this process can be very tedious for your first time, but be proud of yourself for making it this far! You are on your way to becoming a strong DeFi user who understands and takes advantage of the protocols aimed at removing the need to trust an institution with your finances. 
 
 *The following parameters and customization preferences can be chosen by the pool creator when creating a Fuse pool:* 
 
@@ -92,7 +92,7 @@ If there is an oracle feed supported by the protocol that reports price informat
 
 - **Platform Fee**
 
-10% fee of all  accrued is distributed to the [$RGT community owned treasury](https://etherscan.io/address/0x10dB6Bce3F2AE1589ec91A872213DAE59697967a).
+10% of all fees accrued is distributed to the [$RGT community owned treasury](https://etherscan.io/address/0x10dB6Bce3F2AE1589ec91A872213DAE59697967a).
 
 - **Admin Fee**
 
@@ -100,11 +100,11 @@ Fuse pool creators can choose to add a fee on top of the protocol fee.
 
 - **Liquidation Incentive (Description From [Compound Finance](Compound.Finance))**
 
-The additional collateral given to liquidators as an incentive to perform liquidation of underwater accounts. For example, if the liquidation incentive is 1.1,  receive an extra 10% of the borrower's collateral for every unit they close. 
+This is the additional collateral given to liquidators as an incentive to perform liquidations of underwater accounts. For example, if the liquidation incentive is 1.1,  liquidators receive an extra 10% of the borrower's collateral for every unit they close. 
 
 - **Whitelist**
 
-Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road once we partner with a partner to help us build out the . 
+Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road for future partnerships helping to develop capital on-ramps. 
 
 - **Close Factor** **(Description From [Compound Finance](Compound.Finance))**
 
@@ -124,11 +124,11 @@ Generally, large or liquid assets have high collateral factors, while small or i
 
 The reserve factor defines the portion of borrower interest that is converted into reserves.
 
-Reserves are an accounting entry in each fToken contract that represents a portion of historical interest set aside as liquid cash which can be withdrawn or transferred through the protocol's governance. A small portion of borrower interest accrues into the protocol, determined by the reserve factor
+Reserves are an accounting entry in each fToken contract that represents a portion of historical interest set aside as liquid cash which can be withdrawn or transferred through the protocol's governance. A small portion of borrower interest accrues into the protocol, determined by the reserve factor.
 
 - **Pool Admin**
 
-Deployer and owner of the pool. This can be a singular Ethereum address, a multi-sig, DAO contract, etc. The address that owns and manages the pool is  for parameter upkeep. 
+Deployer and owner of the pool. This can be a singular Ethereum address, a multi-sig, DAO contract, etc. The address that owns and manages the pool is for parameter upkeep. 
 
 ## Supported Price Oracles
 

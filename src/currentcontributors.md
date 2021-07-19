@@ -29,10 +29,6 @@ Do you want to get involved? The community would love to have you! Reach out to 
   - Twitter
   - Discord
 
-- Ben Mayer
-
-  - Twitter
-  - Discord
 
 - Justin Yu
 

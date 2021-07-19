@@ -17,6 +17,8 @@ These scores will be displayed on our Fuse UI with the following grading system 
 
 Disclaimer: immediately following the launch of Fuse, markets may display low scores due to a lack of initial liquidity.
 
+![1_1yLbaKcrPXVlMXMj0n1IFg](https://user-images.githubusercontent.com/50163445/126051944-63c25c83-0423-4fcd-9391-d9f0311d8f73.jpeg)
+
 # Fuse with the Yield Aggregator and Tanks
 
 Ultimately, while these scores will educate users on market risks, it allows us to automate lending on Fuse. Essentially, as we move forward with Tanks and continue upgrading our base yield aggregator, with RSS we can create yield aggregator pools for dozens of Fuse supported assets to capture new yield for assets such as UNI, DIGG, YFI, etc. Furthermore, Tanks will also be able to automatically lend across the best and safest Fuse markets to borrow stables and fund the stable pool to earn additional yield. Interestingly, those stable pool funds could hypothetically be further lent on Fuse using RSS.

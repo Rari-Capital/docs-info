@@ -2,7 +2,7 @@
 
 ## The bubbles
 
-Each DAO will likely have their own organization structure but for Rari Capital, each task we pursue can be split into three main categories: 
+Every individual DAO will likely have its own organizational structure but for Rari Capital, each task we pursue can be split into three main categories: 
 
 1. **Operations:** Overseeing the protocol’s maintenance and conducting active management on the products. 
 2. **Strategy:** Ensuring that the protocol grows and stays competitive on a macro-scale. 
@@ -16,7 +16,7 @@ While these are the core categories, they are not very specific. For that, bubbl
 
 A bubble has a few main pieces: 
 
-1. **Mission:** The goal of the bubble, what it hopes to accomplish on a larger time scale. 
+1. **Mission:** The goal of the bubble; what it hopes to accomplish on a larger time scale. 
 2. **KPI’s:** The key performance indicators of that bubble. These can be quantitive or qualitative but need to be outlined on the creation of a bubble. Created by the lead and consistently (bi-weekly) tracked in a public environment. 
 3. **Lead:** The constituents of a bubble must vote on a lead. This person is responsible for hitting those KPI’s and ensuring the bubble hits its goals. This person can be voted out at anytime and if not their bubble may fork away. This person has no meaningful power over the other individuals in the bubble.
 
@@ -58,12 +58,12 @@ The grants that Samuel has designed [here](https://forums.rari.capital/d/89-intr
 
 The Rari Protocol needs to maintain access to the top talent in the ecosystem without forfeiting itself by making the recruitment process burdensome. The talent process can be split into the following 4 stages: 
 
-1. **Search / talent capture:** finding the top talent and attracting them directly to the DAO. 
+1. **Search / talent capture:** finding and attracting the top talent directly to the DAO. 
 2. **Talent applications:** getting data on the talent to ensure that they are a fit and placed in the right bubble(s). 
 3. **Onboarding the talent:** having the talent file for a formal application to the DAO, bringing them into the contributor Discord, etc. 
 4. **Keeping the talent:** continually providing benefits to the talent within the DAO. 
 
-I propose, that we do the following regarding how talent is handled within the DAO, split up by stage: 
+I propose that we do the following regarding how talent is handled within the DAO, split up by stage: 
 
 **Search / talent capture:**
 
@@ -91,9 +91,9 @@ I would also like the DAO to further explore the creation of a “Council” who
 
 ## Compensation
 
-The Rari Capital DAO should be an extremely aggressive and competent actor when it comes to compensation. While obviously, at the end of the day, it is up to the talent to decide on what they’d like to ask to the DAO, the recruiting bubble may provide insight (based on historical data and industry standards) into “suggested amounts.” 
+The Rari Capital DAO should be an extremely aggressive and competent actor when it comes to compensation. While obviously at the end of the day it is up to the talent to decide on what they’d like to ask to the DAO, the recruiting bubble may provide insight (based on historical data and industry standards) into “suggested amounts.” 
 
-To set the stage clear, currently, the Rari Capital DAO has little to no stables and ETH. The Rari Capital DAO is largely allocated into RGT. Though, this may change in the future via a fundraise. I believe once the protocol is able to pay salaries in stables, then the tokens should be vested for a minimum of 3 years when doing work for the DAO. In the meantime, direct RGT payments are the only way to stay competitive. 
+To set the stage clearly, currently, the Rari Capital DAO has little to no stables and ETH. The Rari Capital DAO is largely allocated into RGT, though this may change in the future via a fundraise. I believe once the protocol is able to pay salaries in stables, then the tokens should be vested for a minimum of 3 years when doing work for the DAO. In the meantime, direct RGT payments are the only way to stay competitive. 
 
 ## Ending Bad Talent (aka Firing) / Accountability
 
@@ -104,17 +104,17 @@ Bad talent came from a multitude of places like:
 
 But it is something that must be dealt with and planned around. For this reason, I propose that the DAO sets a clear way that this be handled. 
 
-It is likely that the current contributor set will be the first to realize the bad talent. It is for this reason, that the contributor set will have a monthly set of surveys that will be used to gauge key metrics: how is each contributor in their bubble contributing? how do each of the contributors get along? This survey will be exclusively viewed by the recruiting bubble and no actions will be taken on it (view sample [here](https://forms.gle/esjzr7Lkf4PXCGcK6)). 
+It is likely that the current contributor set will be the first to realize the bad talent. It is for this reason, that the contributor set will have a monthly set of surveys that will be used to gauge key metrics: how is each contributor in their bubble contributing? How do each of the contributors get along? This survey will be exclusively viewed by the recruiting bubble and no actions will be taken on it (view sample [here](https://forms.gle/esjzr7Lkf4PXCGcK6)). 
 
 The recruiting bubble will then consult members who have been flagged (for one of the many afforementioned issues). If a member has been flagged multiple times, either an individual of their bubble or the recruiting team may begin the governance process to terminate the flagged members. 
 
-However, in order for this to work effectively, standards need to be created by the DAO. There needs to be clear expectations of every individual (culturally and work-related) to ensure that everyone is on the same page. 
+However, in order for this to work effectively, standards need to be created by the DAO. There needs to be clear expectations of every individual (culturally and work-related) to ensure that everyone is on the same page.  I believe should also be clear communication between the relevant group members including the flagged individual, along with plenty of opportunities for dynamic changes to be made to resolve conflicts and allow unproductive activity to become productive.  
 
 ## Social & Cultural Expectations
 
-The Rari Capital DAO is focused on building the future of finance. At our core, the mission is to ***deliver the most yield to the most people\****.* This is a *social* mission that will most likely change the lives of many (if done correctly!) so I believe social change should be at the core of the protocol. I encourage fellow contributors to engage in conversations about social issues and the role that our DAO can play in helping the world. That being said, these issues should not distract or detract from protocol work, it should be used to fuel us, never to divide us.
+The Rari Capital DAO is focused on building the future of finance. At our core, the mission is to ***deliver the most yield to the most people\****.* This is a *social* mission that will most likely change the lives of many (if done correctly!) so I believe social change should be at the core of the protocol and implemented in a free and democratic way. I encourage fellow contributors to engage in conversations about social issues and the role that our DAO can play in helping the world. That being said, these issues should not distract or detract from protocol work, it should be used to fuel us, never to divide us.
 
-Each member of the DAO should be working at their highest degree of productivity. If not, they need to understand the potential consequences. Additionally, communication is key in the DAO. Make everything clear to fellow contributors, if you are struggling, if you are thriving, if you need something — let everybody (specifically your bubbles) know so that we are all on the same page. 
+Each member of the DAO should be working at their highest degree of productivity. If not, they need to understand the potential consequences. Additionally, communication is key in the DAO. Make everything clear to fellow contributors - if you are struggling, if you are thriving, if you need something — let everybody (specifically your bubbles) know so that we are all on the same page. 
 
 ## **Contributor Communications**
 
@@ -127,7 +127,7 @@ Members will onboard into this Discord server in one of two ways:
 - After being approved for a grant 
 - After being onboarded into the DAO
 
-This serves as an easy communications platform for all contributors. The contributors may exploring a hierarchy model based on duration of contribution, however, this is not necessary at the moment. 
+This serves as an easy communications platform for all contributors. The contributors may explore a hierarchy model based on duration of contribution, however this is not necessary at the moment. 
 
 Each member actively contributing to the DAO (and being paid as so) is expected to complete a daily standup in the #standup channel for all working days. 
 
