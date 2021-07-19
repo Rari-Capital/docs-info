@@ -25,7 +25,7 @@ module.exports = {
           { text: "Pool2", link: "/pool2.md" }
         ]
       },
-      { text: "Grants", link: "/ecosystem/" },
+      
       {
         text: "Security",
         ariaLabel: "Security Menu",
@@ -70,6 +70,7 @@ module.exports = {
           { text: "Discord", link: "http://discord.gg/mtb6W57Ap6" }
         ]
       },
+      { text: "Grants", link: "/ecosystem/" },
       { text: "Code Documentation", link: "https://docs.rari.capital/" }
     ],
 
