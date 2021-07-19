@@ -174,5 +174,3 @@ If you noticed anything throughout your experience that was not described in thi
 
 Thank you to [Compound Finance](Compound.Finance) for the detailed descriptions. Since each Fuse pool is its own version of the Compound Finance protocol, some of the descriptions below are copied directly from the [Compound Finance Docs](https://compound.finance/docs). 
 
-## 
-

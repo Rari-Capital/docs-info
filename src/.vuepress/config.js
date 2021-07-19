@@ -10,11 +10,11 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: "Rari-Capital/docs",
+    repo: "Rari-Capital/docs-info",
     docsDir: "src",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: 'Help us improve this documentation platform!',
+    editLinkText: "Help us improve this documentation platform!",
     nav: [
       {
         text: "Products",
@@ -26,7 +26,7 @@ module.exports = {
           { text: "Pool2", link: "/pool2.md" }
         ]
       },
-      
+
       {
         text: "Security",
         ariaLabel: "Security Menu",
