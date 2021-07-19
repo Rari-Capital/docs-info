@@ -1,5 +1,7 @@
 # DAO Structure
 
+Derived directly from Medium post, [Expanding the Rari Capital DAO: Organization, Onboarding and more.](https://medium.com/rari-capital/expanding-the-rari-capital-dao-organization-onboarding-and-more-dd3cdb9390ba)
+
 ## The bubbles
 
 Every individual DAO will likely have its own organizational structure but for Rari Capital, each task we pursue can be split into three main categories: 
@@ -131,4 +133,4 @@ This serves as an easy communications platform for all contributors. The contrib
 
 Each member actively contributing to the DAO (and being paid as so) is expected to complete a daily standup in the #standup channel for all working days. 
 
-One thing that the DAO *could* explore down the line would be a hierarchy of contributors. The hierarchy would be based on time contributing and the monthly performance reviews. This would be beneficial to the organization once it has reached peak communications, but that is unlikely to happen before *30-ish* people, so we don’t have to worry about this yet + I am still personally conflicted about this. 
+One thing that the DAO *could* explore down the line would be a hierarchy of contributors. The hierarchy would be based on time contributing and the monthly performance reviews. This would be beneficial to the organization once it has reached peak communications, but that is unlikely to happen before *30-ish* people.
