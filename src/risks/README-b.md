@@ -8,7 +8,7 @@ https://www.notion.so/rari/Capital-Allocation-Risks-f4bccf324a594f46b849e6358e0a
 
 ### **Underlying Risk**
 
-The Ethereum Virtual Machine, or EVM, is what powers everything on the Ethereum blockchain. As Rari is currently on the said blockchain, it has an innate risk tied to the EVM. If the EVM fails or breaks, Rari will break. However, this is extremely unlikely as such a bug could devastate the entire Ethereum ecosystem.
+The Ethereum Virtual Machine, or EVM, is what powers everything on the Ethereum blockchain. As Rari is currently on said blockchain, it has an innate risk tied to the EVM. If the EVM fails or breaks, Rari will break. However, this is extremely unlikely as the Ethereum ecosystem has been battle-tested for years with billions of dollars of TVL.
 
 ### **Integrated Protocols**
 
@@ -16,7 +16,7 @@ Since Rari has several protocols (currently including 0x, dYdX, and Compound) in
 
 ### **Customer Side**
 
-In terms of consumer side risk, there is always the possibility of a bug or hack of a user’s browser or OS which could cause a loss of funds, or, more mildly, it may temporarily break withdrawals.
+In terms of consumer side risk, there is always the possibility of a bug or hack of a user’s browser or OS which could cause a loss of funds, or, more mildly, it may temporarily break withdrawals.  Remember: never share your wallet's private key or seed phrase.
 
 ### **Rari Capital Yield Aggregator**
 
@@ -32,7 +32,7 @@ The rebalancer has a risk of a bug or hack of code/hosting or general theft of a
 
 ### **Contracts**
 
-The risk for our contracts lies in the possibility of a standard bug or hack of our Solidity code as well as the possibility of a hacker compromising 2 of the 3 keys in the Rari multisig federation and “upgrading” a contract to code that steals customer funds. A smaller source of risk is the use of the “experimental” feature of Solidity ABIEncoderv2 where we are using Solidity version 0.5.7. The known bugs are fixed and the feature is used widely, but it is still technically “experimental.”
+The security risk for our contracts lies in the possibility of a standard bug or hack of our Solidity code as well as the possibility of a hacker compromising 2 of the 3 keys in the Rari multisig federation and “upgrading” a contract to code that steals customer funds. A smaller source of risk is the use of the “experimental” feature of Solidity ABIEncoderv2 where we are using Solidity version 0.5.7. The known bugs are fixed and this feature is used widely, but it is still technically “experimental.”
 
 ### Divergence
 
