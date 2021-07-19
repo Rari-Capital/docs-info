@@ -22,7 +22,7 @@ A bubble has a few main pieces:
 2. **KPI’s:** The key performance indicators of that bubble. These can be quantitive or qualitative but need to be outlined on the creation of a bubble. Created by the lead and consistently (bi-weekly) tracked in a public environment. 
 3. **Lead:** The constituents of a bubble must vote on a lead. This person is responsible for hitting those KPI’s and ensuring the bubble hits its goals. This person can be voted out at anytime and if not their bubble may fork away. This person has no meaningful power over the other individuals in the bubble.
 
-The bubble organization enables accountability while maintaining a rather flat organization. I will also note that anybody can **“fork” a bubble and spin off their own “working group” on any topic if they feel that the current bubble is not fit for them. All that is needed to create a new bubble in general is sheer motivation.** I imagine that in the future there will be many, say “Design” bubbles, within the organization. This is a future where the protocol is not reliant on one individual but rather runs on bubbles. 
+The bubble organization enables accountability while maintaining a rather flat organization. I will also note that anybody can **“fork” a bubble and spin off their own “working group” on any topic if they feel that the current bubble is not fit for them. All that is needed to create a new bubble in general is sheer motivation.** In the future there will most likely be many, say “Design” bubbles, within the organization. This is a future where the protocol is not reliant on one individual but rather runs on bubbles. 
 
 You can view a diagram on what the current organization of Rari would look like under a bubble hierarchy: 
 
@@ -36,13 +36,9 @@ A visual representation of the bubble organizational scheme. Biggest face is eac
 
 Just because individuals are in bubbles, it doesn’t mean that the constituents will instantly be accountable. That is where the “Log” comes into place. The “Log” is a public accountability document where anybody can instantly view the performance of each bubble. It pushes for condensed knowledge while enabling each bubble to demonstrate their work with everyone. 
 
-![img](https://miro.medium.com/max/60/1*mWtHDypi7eSIVFbY_w8lWg.png?q=20)
-
 ![img](https://miro.medium.com/max/5404/1*mWtHDypi7eSIVFbY_w8lWg.png)
 
 A template of what a logging template can look like
-
-![img](https://miro.medium.com/max/60/1*PHv0es5hfjV8V7-KjLm5rg.png?q=20)
 
 ![img](https://miro.medium.com/max/4832/1*PHv0es5hfjV8V7-KjLm5rg.png)
 
@@ -114,7 +110,7 @@ However, in order for this to work effectively, standards need to be created by 
 
 ## Social & Cultural Expectations
 
-The Rari Capital DAO is focused on building the future of finance. At our core, the mission is to ***deliver the most yield to the most people\****.* This is a *social* mission that will most likely change the lives of many (if done correctly!) so I believe social change should be at the core of the protocol and implemented in a free and democratic way. I encourage fellow contributors to engage in conversations about social issues and the role that our DAO can play in helping the world. That being said, these issues should not distract or detract from protocol work, it should be used to fuel us, never to divide us.
+The Rari Capital DAO is focused on building the future of finance. At our core, the mission is to ***deliver the most yield to the most people\****.* This is a *social* mission that will most likely change the lives of many (if done correctly!) so social change should be at the core of the protocol and implemented in a free and democratic way. Fellow contributors are encouraged to engage in conversations about social issues and the role that our DAO can play in helping the world. That being said, these issues should not distract or detract from protocol work, it should be used to fuel us, never to divide us.
 
 Each member of the DAO should be working at their highest degree of productivity. If not, they need to understand the potential consequences. Additionally, communication is key in the DAO. Make everything clear to fellow contributors - if you are struggling, if you are thriving, if you need something — let everybody (specifically your bubbles) know so that we are all on the same page. 
 
