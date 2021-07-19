@@ -4,6 +4,12 @@
 
 If you would like an interactive version of this step-by-step process, we have published a [Fuse YouTube Tutorial](https://www.youtube.com/watch?v=V-JLIqZGWYo) to help guide you even more.
 
+## What Are The Fees?
+
+**10% of all lending and borrow interest**
+
+**ETH Pool: 17.5% of profits**
+
 ## How to Earn Interest 
 
 **Step 1: Connect a Wallet**

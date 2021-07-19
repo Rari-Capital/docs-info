@@ -66,6 +66,16 @@ The Rari Capital DAI Pool allows users to deposit ETH or any ERC20 token and rec
 
 If you are interested in learning more about each of the strategies and our framework for identifying which ones to implement, check it out [here](https://www.notion.so/Rari-Strategy-Assessment-Framework-2d1edffcf80f4750973f6e90e97b70a4).
 
+## What Are The Fees?
+
+**Stable Pool: 17.5% profits**
+
+**Yield Pool: 12.5% profits + 0.5% withdrawal**
+
+(The withdrawal fee is required to prevent arbitrage within this pool since it is composed of various stablecoins which may have minor price fluctuations)
+
+**ETH Pool: 17.5% of profits**
+
 ## How to Deposit
 
 **Step 1: Connect a Wallet**

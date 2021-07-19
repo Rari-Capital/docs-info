@@ -9,10 +9,12 @@ module.exports = {
       { name: "apple-mobile-web-app-status-bar-style", content: "black" }
     ]
   ],
-
   themeConfig: {
     repo: "Rari-Capital/docs",
-    docsDir: "/",
+    docsDir: "src",
+    docsBranch: "main",
+    editLinks: true,
+    editLinkText: 'Help us improve this documentation platform!',
     nav: [
       {
         text: "Products",
