@@ -14,7 +14,8 @@ module.exports = {
     docsDir: "src",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: "Caught a spelling error or just want to help improve this page? Hit us with a PR on Github!",
+    editLinkText:
+      "Caught a spelling error or just want to help improve this page? Hit us with a PR on Github!",
     nav: [
       {
         text: "Products",
@@ -71,7 +72,7 @@ module.exports = {
         ]
       },
       { text: "Grants", link: "/ecosystem/" },
-      { text: "Code Documentation", link: "https://docs.rari.capital/" }
+      { text: "Developer Documentation", link: "https://docs.rari.capital/" }
     ],
 
     sidebarDepth: 10,
