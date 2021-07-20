@@ -2,7 +2,8 @@
 
 [Fuse](app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rather than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference. 
 
-<img width="999" alt="Screen Shot 2021-07-19 at 8 51 36 PM" src="https://user-images.githubusercontent.com/50163445/126259342-601e644f-1f32-4c70-8275-5e67836806d2.png">
+<img width="1153" alt="Screen Shot 2021-07-19 at 8 52 03 PM" src="https://user-images.githubusercontent.com/50163445/126259437-9e2f8042-b36c-4c26-9ce3-380a724fd4c5.png">
+
 
 If you would like an interactive version of this step-by-step process, we have published a [Fuse YouTube Tutorial](https://www.youtube.com/watch?v=V-JLIqZGWYo) to help guide you even more.
 
