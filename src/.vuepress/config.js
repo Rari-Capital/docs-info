@@ -14,7 +14,7 @@ module.exports = {
     docsDir: "src",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: "Help us improve this documentation platform!",
+    editLinkText: "Caught a spelling error or just want to help improve this page? Hit us with a PR on Github!",
     nav: [
       {
         text: "Products",

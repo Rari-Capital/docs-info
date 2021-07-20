@@ -26,4 +26,4 @@ Once connected, users can now withdraw their Sushiswap LP Tokens by pressing the
 
 ------
 
-If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help!
+If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be willing to help!
