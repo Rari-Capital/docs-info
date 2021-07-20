@@ -26,7 +26,7 @@ The bubble organization enables accountability while maintaining a rather flat o
 
 You can view a diagram on what the current organization of Rari would look like under a bubble hierarchy: 
 
-![img](https://miro.medium.com/max/60/1*K4WSyJhCqRdiBJVe7r7LEA.png?q=20)
+![img](https://miro.medium.com/max/4800/1*mwZroqIs1JLeONHq1W0kWg.png)
 
 ![img](https://miro.medium.com/max/4268/1*K4WSyJhCqRdiBJVe7r7LEA.png)
 
@@ -102,9 +102,9 @@ Bad talent came from a multitude of places like:
 
 But it is something that must be dealt with and planned around. For this reason, I propose that the DAO sets a clear way that this be handled. 
 
-It is likely that the current contributor set will be the first to realize the bad talent. It is for this reason, that the contributor set will have a monthly set of surveys that will be used to gauge key metrics: how is each contributor in their bubble contributing? How do each of the contributors get along? This survey will be exclusively viewed by the recruiting bubble and no actions will be taken on it (view sample [here](https://forms.gle/esjzr7Lkf4PXCGcK6)). 
+It is likely that the current contributor set will be the first to realize the bad talent. It is for this reason that the contributor set will have a monthly set of surveys that will be used to gauge key metrics: how is each contributor in their bubble contributing? How do each of the contributors get along? This survey will be exclusively viewed by the recruiting bubble and no actions will be taken on it (view sample [here](https://forms.gle/esjzr7Lkf4PXCGcK6)). 
 
-The recruiting bubble will then consult members who have been flagged (for one of the many afforementioned issues). If a member has been flagged multiple times, either an individual of their bubble or the recruiting team may begin the governance process to terminate the flagged members. 
+The recruiting bubble will then consult members who have been flagged (for one of the many aforementioned issues). If a member has been flagged multiple times, either an individual of their bubble or the recruiting team may begin the governance process to terminate the flagged members. 
 
 However, in order for this to work effectively, standards need to be created by the DAO. There needs to be clear expectations of every individual (culturally and work-related) to ensure that everyone is on the same page.  I believe should also be clear communication between the relevant group members including the flagged individual, along with plenty of opportunities for dynamic changes to be made to resolve conflicts and allow unproductive activity to become productive.  
 

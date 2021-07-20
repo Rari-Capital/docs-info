@@ -2,14 +2,14 @@
 
 ### Overview
 
-When interacting with any type of DeFi protocol, there are risks, and for using in Rari Capital, there are a few sources of risk with varying levels of severity: underlying risk, the “lego” risk of our integrated protocols, customer side risk, and risk within the Rari product.
+When interacting with any type of DeFi protocol, there are risks, and while using Rari Capital there are a few sources of risk with varying levels of severity: underlying risk, the “lego” risk of our integrated protocols, customer-side risk, and risk within the Rari product.
 
 ![RariCapitalRiskFinal](https://user-images.githubusercontent.com/50163445/123555778-b6cf9880-d73c-11eb-9256-696054ee1f16.jpg)
 
 
 ### **Underlying Risk**
 
-The Ethereum Virtual Machine, or EVM, is what powers everything on the Ethereum blockchain. As Rari is currently on the said blockchain, it has an innate risk tied to the EVM. If the EVM fails or breaks, Rari will break. However, this is extremely unlikely as such a bug could devastate the entire Ethereum ecosystem.
+The Ethereum Virtual Machine (or EVM) is what powers everything on the Ethereum blockchain. As Rari is currently on said blockchain, it has an innate risk tied to the EVM. If the EVM fails or breaks, Rari will break. However, this is extremely unlikely as such a bug could devastate the entire Ethereum ecosystem.
 
 ### **Integrated Protocols**
 

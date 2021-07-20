@@ -22,24 +22,24 @@ Use backtests and risk scores to get a better understanding.
 
 #### Supply cap
 
-Ensure there is enough liquidity in the market so that suffient portion of collateral supplied can be liquidated if needed. Either use a supply cap or reduce collateral factor to ensure there isn't too much collateral in the Fuse pool.
+Ensure there is enough liquidity in the market so that sufficient portion of collateral supplied can be liquidated if needed. Either use a supply cap or reduce collateral factor to ensure there isn't too much collateral in the Fuse pool.
 
 #### Admin fees
 
-If pool is upgradeable, set lower admin fees to start with, and increase once demand is found. Upto `20%` may be sustainable depending on how much the overall interest rate is.
+If pool is upgradeable, set lower admin fees to start with, and increase once demand is found. Up to `20%` may be sustainable depending on how much the overall interest rate is.
 
 #### Reserve fees
 
-Reserve fees charge early users of the pool additional interest, which is kept in a reserve to protect later users in case of a default. Setting to `0` is acceptable. Else set anything upto `30%` depending on how much of a reserve you wish to build up for the pool.
+Reserve fees charge early users of the pool additional interest, which is kept in a reserve to protect later users in case of a default. Setting to `0` is acceptable. Else set anything up to `30%` depending on how much of a reserve you wish to build up for the pool.
 
 #### Interest rate at 80% utilisation
 
 If pool is upgradeable, you may set a lower interest rate and then increase it once demand is found. Near-80% utilisation is what you should be aiming for.
 
-Stablecoins are the most popularly borrowed, compare with market-wide rates and set accordingly. Set higher interest rates on stablecoins if the pool supports more risky collaterals (i.e. not blue chips).
+Stablecoins are the most popularly borrowed, so compare with market-wide rates and set accordingly. Set higher interest rates on stablecoins if the pool supports more risky collaterals (i.e. not blue chips).
 
-Other assets are borrowed usually for yield farming or shorting. Try estimating yield or potential profit from such operations, be it farming or shorting, and set interest rates accordinly.
+Other assets are borrowed usually for yield farming or shorting. Try estimating yield or potential profit from such operations, be it farming or shorting, and set interest rates accordingly.
 
 #### Interest rate at 100% utilisation
 
-Set very high rate, atleast greater than `100% APY` because borrowers can take a pool hostage if they're willing to pay the rate at 100% utilisation. 100% APY ensures your pool can be taken hostage for one year before all collateral is earned back in the form of interest.
+Set very high rate, at least greater than `100% APY` because borrowers can take a pool hostage if they're willing to pay the rate at 100% utilisation. 100% APY ensures your pool can be taken hostage for one year before all collateral is earned back in the form of interest.

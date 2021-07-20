@@ -206,6 +206,10 @@ The coding language that is used to write Smart Contracts.
 
 1:1 USD equivalent in digital form on the blockchain. Some maintain a $1 US peg, while some suffer from volatility like DAI.
 
+### Supply Cap
+
+In reference to our pools, a limit placed on supply to ensure there isn't too much collateral in the pool to effectively liquidate if necessary.
+
 ### **Transaction Block**
 
 Basket of data that flows through the blockchain.
@@ -213,6 +217,14 @@ Basket of data that flows through the blockchain.
 ### TVL
 
 TVL stands for "total value locked" within a protocol; the amount of assets a protocol has.
+
+### TWAP Oracles
+
+Time Weighted Average Price. TWAP oracles are implemented by Uniswap and Sushiswap, and utilized by Rari. As they are a lagging indicator, TWAP oracles tend to balance security over freshness.
+
+### VWAP Oracles
+
+Volume Weighted Average Price. Chainlink price feeds are an example of this.They track prices on all exchanges - CEX and DEX - and weight by real volume.
 
 ### **yEarn**
 

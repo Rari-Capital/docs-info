@@ -22,13 +22,13 @@ Once connected, users will see *Supply Balance* and *Borrow Balance.* It's okay 
 
 **Step 3: Supply Assets to Fuse**
 
-1. Select the asset that you would like to supply
+1. Select the asset that you would like to supply.
 
 2. Enable permissions for the Fuse protocol to interact with your asset by confirming the Ethereum transaction. 
 
    *Note: this will cost gas.*
 
-3. A new window will pop up on your screen displaying the current supply APY and it will adjust based on the amount you type in
+3. A new window will pop up on your screen displaying the current supply APY and it will adjust based on the amount you type in.
 
 4. Now that the token has been enabled and you have typed in your desired amount to lend, click Supply and you are all done! 
 
@@ -36,7 +36,7 @@ Once connected, users will see *Supply Balance* and *Borrow Balance.* It's okay 
 
 You have now supplied your first asset to a Fuse pool! On your main dashboard, you see will see *Supply Balance* populate with the equivalent amount (in dollars) to your newly supplied asset. 
 
-*Note: This asset will no longer appear in your wallet as it is now in the Fuse Protocol. You will immediately  an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
+*Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately  an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
 
 *You will only earn interest when the pool is being utilized by borrowers*
 
@@ -48,9 +48,9 @@ Now that you have supplied assets, you have the opportunity to borrow assets in 
 
 *Note: There is a significant amount of risk when borrowing assets, and you should do your own research and education before using this functionality*
 
-1. Select the asset that you would like to borrow 
+1. Select the asset that you would like to borrow.
 
-2. A new window will pop up on your screen displaying the current borrow APY and it will adjust based on the amount you type in
+2. A new window will pop up on your screen displaying the current borrow APY and it will adjust based on the amount you type in.
 
 3. Now that the token has been selected and you have typed in your desired amount to borrow, click borrow and you are all done! 
 
