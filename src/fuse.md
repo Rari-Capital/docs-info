@@ -8,8 +8,6 @@ If you would like an interactive version of this step-by-step process, we have p
 
 **10% of all lending and borrow interest**
 
-**ETH Pool: 17.5% of profits**
-
 ## How to Earn Interest 
 
 **Step 1: Connect a Wallet**
