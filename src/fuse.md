@@ -87,7 +87,9 @@ If you would like to stop earning interest on your supplied asset and regain own
 
 We understand this process can be very tedious for your first time, but be proud of yourself for making it this far! You are on your way to becoming a strong DeFi user who understands and takes advantage of the protocols aimed at removing the need to trust an institution with your finances. 
 
-*The following parameters and customization preferences can be chosen by the pool creator when creating a Fuse pool:* 
+<img width="1147" alt="Screen Shot 2021-07-19 at 8 52 28 PM" src="https://user-images.githubusercontent.com/50163445/126259606-9c39a025-adaa-4151-9ee7-501fff057b26.png">
+
+**The following parameters and customization preferences can be chosen by the pool creator when creating a Fuse pool:** 
 
 - **Custom Assets**
 
