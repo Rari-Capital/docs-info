@@ -15,7 +15,7 @@ If you would like an interactive version of this step-by-step process, we have p
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
+The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
 
 **Step 2: Become Friendly With the Fuse Dashboard**
 
@@ -39,7 +39,7 @@ You have now supplied your first asset to a Fuse pool! On your main dashboard, y
 
 *Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately  an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
 
-*You will only earn interest when the pool is being utilized by borrowers*
+*You will only earn interest when the pool is being utilized by borrowers.*
 
 ## How to Borrow
 
@@ -107,7 +107,7 @@ If there is an oracle feed supported by the protocol that reports price informat
 
 Fuse pool creators can choose to add a fee on top of the protocol fee. 
 
-- **Liquidation Incentive (Description From [Compound Finance](Compound.Finance))**
+- **Liquidation Incentive (Description From [Compound Finance](https://compound.finance/))**
 
 This is the additional collateral given to liquidators as an incentive to perform liquidations of underwater accounts. For example, if the liquidation incentive is 1.1,  liquidators receive an extra 10% of the borrower's collateral for every unit they close. 
 
@@ -115,7 +115,7 @@ This is the additional collateral given to liquidators as an incentive to perfor
 
 Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road for future partnerships helping to develop capital on-ramps. 
 
-- **Close Factor** **(Description From [Compound Finance](Compound.Finance))**
+- **Close Factor** **(Description From [Compound Finance](https://compound.finance/))**
 
 The percent, ranging from 0% to 100%, of a liquidatable account's borrow that can be repaid in a single liquidate transaction. If a user has multiple borrowed assets, the closeFactor applies to any single borrowed asset, not the aggregated value of a user’s outstanding borrowing.
 
@@ -123,13 +123,13 @@ The percent, ranging from 0% to 100%, of a liquidatable account's borrow that ca
 
 When the upgradability function is turned ON, the underlying Fuse pool Smart Contracts can be modified, as well as any pool parameters that were set during the pool creation stage. 
 
-- **Collateral Factor (Description Altered From [Compound Finance](Compound.Finance))**
+- **Collateral Factor (Description Altered From [Compound Finance](https://compound.finance/))**
 
 A fToken's (Fuse liquidity proof token) collateral factor can range from 0-90%, and represents the proportionate increase in liquidity (borrow limit) that an account receives by minting the fToken.
 
 Generally, large or liquid assets have high collateral factors, while small or illiquid assets have low collateral factors. If an asset has a 0% collateral factor, it can't be used as collateral (or seized in liquidation), though it can still be borrowed.
 
-- **Reserve Factor (Description Altered From [Compound Finance](Compound.Finance))**
+- **Reserve Factor (Description Altered From [Compound Finance](https://compound.finance/))**
 
 The reserve factor defines the portion of borrower interest that is converted into reserves.
 
@@ -173,7 +173,7 @@ Deployer and owner of the pool. This can be a singular Ethereum address, a multi
 
 ------
 
-If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help!
+If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](https://discord.gg/9SHdAGdW) for assistance and a community member will always be wiling to help!
 
-Thank you to [Compound Finance](Compound.Finance) for the detailed descriptions. Since each Fuse pool is its own version of the Compound Finance protocol, some of the descriptions below are copied directly from the [Compound Finance Docs](https://compound.finance/docs). 
+Thank you to [Compound Finance](https://compound.finance/) for the detailed descriptions. Since each Fuse pool is its own version of the Compound Finance protocol, some of the descriptions below are copied directly from the [Compound Finance Docs](https://compound.finance/docs). 
 

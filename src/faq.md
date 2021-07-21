@@ -69,5 +69,5 @@
   If you have feedback or think you've found a bug, please post it here:
 
   - [Github](https://github.com/Rari-Capital)
-  - [Forums](forums.rari.capital)
+  - [Forums](https://forums.rari.capital)
 
