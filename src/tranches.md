@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as Saffron Finance's native token [SFI](Coingecko.com/SFI) emissions as an added incentive for providing liquidity. 
+The Rari Capital DAI pool is integrated within [Saffron Finance](https://saffron.finance/), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as Saffron Finance's native token [SFI](https://www.coingecko.com/en/coins/saffron-finance) emissions as an added incentive for providing liquidity. 
 
 Starting December 27th at 6am UTC, users begun providing liquidity to the [Saffron/Rari DAI adapter pool](https://app.saffron.finance/#liquidity) as part of [Epoch 4](https://medium.com/saffron-finance/saffron-epoch-4-85dda2f9e0bb). 
 
@@ -38,7 +38,7 @@ If you would like an interactive version of this step-by-step process, the Saffr
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
+The Rari Capital Protocol currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
 
 **Step 2: Choose a DAI Tranche That Fits Your Desired Risk Profile**
 
