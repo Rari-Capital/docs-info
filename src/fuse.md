@@ -37,9 +37,9 @@ Once connected, users will see *Supply Balance* and *Borrow Balance.* It's okay 
 
 You have now supplied your first asset to a Fuse pool! On your main dashboard, you see will see *Supply Balance* populate with the equivalent amount (in dollars) to your newly supplied asset. 
 
-*Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately  an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
+*Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately receive an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance.*
 
-*You will only earn interest when the pool is being utilized by borrowers*
+*You will only earn interest when the pool is being utilized by borrowers.*
 
 ## How to Borrow
 
@@ -73,7 +73,7 @@ When you are ready to return back the borrowed asset, you will follow the same s
 
 1. Select the asset that you are currently borrowing and press the re-pay tab. 
 
-   *Note: You will have an option to re-pay the max amount or type in your desired amount*
+   *Note: You will have an option to re-pay the max amount or type in your desired amount.*
 
 **Step 6: Removing Collateral/Supplied Asset**
 
@@ -83,7 +83,7 @@ If you would like to stop earning interest on your supplied asset and regain own
 
 1. Select the asset that you are currently supplying and press the withdraw tab.
 
-   *Note: You will have an option to withdraw the max amount or type in your desired amount*
+   *Note: You will have an option to withdraw the max amount or type in your desired amount.*
 
 We understand this process can be very tedious for your first time, but be proud of yourself for making it this far! You are on your way to becoming a strong DeFi user who understands and takes advantage of the protocols aimed at removing the need to trust an institution with your finances. 
 
@@ -175,5 +175,5 @@ Deployer and owner of the pool. This can be a singular Ethereum address, a multi
 
 If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord](Discord.xjfjfjdf) for assistance and a community member will always be wiling to help!
 
-Thank you to [Compound Finance](Compound.Finance) for the detailed descriptions. Since each Fuse pool is its own version of the Compound Finance protocol, some of the descriptions below are copied directly from the [Compound Finance Docs](https://compound.finance/docs). 
+Thank you to [Compound Finance](https://compound.finance/) for the detailed descriptions. Since each Fuse pool is its own version of the Compound Finance protocol, some of the descriptions below are copied directly from the [Compound Finance Docs](https://compound.finance/docs). 
 
