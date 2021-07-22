@@ -1,96 +1,83 @@
-<!--# Products-->
+# Tranches With Saffron Finance
 
-## Yield Aggregator
+## Overview
 
-The Rari Capital yield aggregator consists of a series of three pools that are constantly searching for the highest yield autonomously across DeFi lending protocols. 
+The Rari Capital DAI pool is integrated within [Saffron Finance](Saffron.Finance), a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranteed rates as well as Saffron Finance's native token [SFI](Coingecko.com/SFI) emissions as an added incentive for providing liquidity.
 
-## How does Rari Capital earn yield?
+Starting December 27th at 6am UTC, users begun providing liquidity to the [Saffron/Rari DAI adapter pool](https://app.saffron.finance/#liquidity) as part of [Epoch 4](https://medium.com/saffron-finance/saffron-epoch-4-85dda2f9e0bb).
 
-Currently, the yield aggregator protocol optimizes for yield across a series of stable-assets (swapping via 0x) in the USDC and DAI pools, and Ethereum in the ETH pool. The pools earn users' yield by lending and farming across various DeFi protocols such as Compound Finance, dYdX, KeeperDAO, mStable, yEarn, Aave, and now Fuse Pools! We are actively expanding our strategy set to focus on more sustainable yields off of the chain. We expect lending to compose the minority of the pool's allocation once mass protocol expansion has begun. In the coming months, we will be exploring using Fuse strategies exclusively in the yield earning pools. This will allow for a more controlled environment as well as reduce smart contract risk by integrating external strategies. 
+## What is a Tranche?
 
-## Rari Capital USDC Pool
+Tranches allow users further dynamic exposure based on personal risk appetite and preferences. Saffron Finance has 3 different user-facing tranches:
 
-The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token to mint the native token, $RSPT. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). Once a token holder, the Rari protocol is working autonomously to deliver the highest yield on your USDC.
+**AA Tranche**: LPs adding to this tranche earn less interest but in return are covered in the case of platform risk or loss. This tranche also earns 95% of SFI tokens.
 
-- **Lending USDC on [Compound Finance](https://compound.finance/)**
-- **Lending USDC on [Aave](https://aave.com/)**
-- **Lending USDC on [dYdX](https://dydx.exchange/)**
-- **Providing liquidity to [mStable](https://mstable.org/)**
+**A Tranche**: These LPs earn more interest but lose their principal and interest in the case of platform risk.
 
-## Rari Capital DAI Pool
+**S Tranche**: This tranche is used to balance with the AA and A tranches to maintain equilibirum in reference to the tranche interest rate multiplier.
 
-The Rari Capital DAI Pool allows users to deposit DAI or any ERC20 token to mint the native token, $RDPT. All ERC20s will be swapped to DAI (meaning there is slippage for all deposits except DAI). Once a token holder, the Rari Capital protocol will work autonomously to deliver the highest yield on your DAI.
+[For reference: Saffron Finance Documentation](https://app.saffron.finance/#docs)
 
-- **Lending DAI on [Compound Finance](https://compound.finance/)**
-- **Lending DAI on [Aave](https://aave.com/)**
-- **Lending DAI on [dYdX](https://dydx.exchange/)**
-- **Providing liquidity to [mStable](https://mstable.org/)**
+What Does This Mean for Rari Capital Users?
 
+Saffron Finance has opened up a DAI tranche specifically designed for Rari’s new DAI pool! Why would they do this? The Rari Capital DAI Pool lends across multiple lending protocols, including Fuse, and is constantly rebalancing and optimizing for the highest yield possible. **This is very special for users in DeFi as this is the first known tranche that allows anyone to take advantage of a yield aggregator like Rari Capital performing as the underlying interest-generating machine within the trance.**
 
+As part of this partnership, Saffron Finance has integrated the Rari DAI Pool into their tranche offerings and at Rari Capital we designed and built our own interface to easily interact with the latest tranche.
 
-## Rari Capital ETH Pool
+Whether you use the Saffron Finance website or the Rari Capital portal, you will easily be able to deposit/withdraw/track all of your positions!
 
-The Rari Capital ETH Pool allows Rari users to deposit ETH or any ERC20 tokens to immediately start earning interest through the $REPT. While maintaining exposure to the price of ETH, users are earning yield through various means like:
+_Note: Saffron Finance follows an Epoch schedule, meaning every two weeks you must withdraw and re-deposit (if you wish to stay), in order to maintain your interest earning potential_
 
-- **Earning yield from liquidations (facilitated by [KeeperDAO](https://app.keeperdao.com/))**
-- **Lending DAI on [Compound Finance](https://compound.finance/)**
-- **Lending DAI on [Aave](https://aave.com/)**
-- **Lending DAI on [dYdX](https://dydx.exchange/)**
-- **Providing liquidity to [mStable](https://mstable.org/)**
+## Liquidity Incentives
 
-If you are interested in learning more about each of the strategies and our framework for identifying which ones to implement, check it out [here](https://www.notion.so/Rari-Strategy-Assessment-Framework-2d1edffcf80f4750973f6e90e97b70a4).
+The DAI/Rari pool is incentivized with a new amount of SFI every two weeks! This means that all deposits into this trance will be rewarded with SFI distributions throughout each epoch.
 
-## How to Deposit
+## How to Deposit Into Saffron/Rari DAI Tranche
 
-**Step 1: Connect a wallet**
+If you would like an interactive version of this step-by-step process, the Saffron Finance team published a [Tranche YouTube Tutorial](https://www.youtube.com/watch?v=yX2Nf6rdikk) to help guide you even more.
 
-The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. If you do not have a wallet, we recommend you refer to [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1) for MetaMask. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [v2.rari.capital](https://v2.rari.capital/).
+**Step 1: Connect a Wallet**
 
-**Step 2: Choose a pool**
+The Rari Capital Protocol currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Portal Tranches](https://app.rari.capital/tranches).
 
-Once connected, users can view the multi-pool dashboard, equipped with a comparative graph of the returns between each pool. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a supported asset of their choice to deposit.
+**Step 2: Choose a DAI Tranche That Fits Your Desired Risk Profile**
 
-**Step 3: Deposit a supported asset**
+- S Tranche
 
-After choosing a pool and selecting the deposit button, users can then select any of the supported crypto-assets and deposit them within the pool. This can be done by selecting the asset menu, choosing your desired asset, inputting your desired amount, or hitting the "max" button to select the maximum amount in your wallet, and hitting the deposit button. For MetaMask users, you will then receive a transaction approval window, where first-time users must approve contract interactions, and all users must approve of individual transactions.
+  - Liquidity added to other tranches as needed.
+  - SFI Earnings: **90%**
 
-It is worth noting that depositing in a currently active token will require less gas for the transaction than depositing an inactive asset. This means that it will use more gas to deposit an inactive asset, as it will also need more swaps to reach an active asset.
+- AA Tranche (Not active yet)
 
-Additionally, you are able to deposit hundreds of different assets that will instantly be swapped on deposit through our integration with 0x.
+  - Reduced interest earned. Covered in case of failure by A tranche.
+  - SFI Earnings: **0%**
 
-**Step 4: Track your interest accrued**
+- A Tranche
+  - 10x interest earned. Cover provided to AA tranche in case of failure.
+  - SFI Earnings: **10%**
 
-After depositing, your returns can be viewed either within the individual pool dashboards or on the multi-pool dashboard, where you can rotate through returns across the entire protocol for various time periods.
+**Step 4: Track Your Interest and SFI Rewards Accrued**
+
+After depositing, your returns and rewards can be viewed within the [Tranches Dashboard](https://app.rari.capital/tranches).
 
 ## How to Withdraw
 
-**Step 1: Connect a wallet**
+**Step 1: Choose The DAI Tranche That Holds Your Deposit**
 
-The Rari Protocol currently supports MetaMask, WalletConnect, Portis, Torus, Formatic, and Authereum. Users can connect their wallets by selecting the "Connect Wallet" button on the Rari Capital App landing page at [app.rari.capital](http://app.rari.capital/). This allows users to view and interact with their deposited funds.
+- S Tranche
 
-**Step 2: Choose a pool**
+- AA Tranche (Not active yet)
 
-Once connected, users can view the multi-pool dashboard. Users may then withdraw from the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt a new window.
+- A Tranche
 
-**Step 3: Withdraw into a supported asset**
+**Step 2: Withdraw Into a Supported Asset**
 
-After choosing a pool and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, select any of the supported crypto-assets and withdraw from the pool. This can be done by selecting the asset menu, choosing your desired asset, the amount, and by pressing the "Withdraw" button.
+After choosing the tranche you deposited into and selecting the transaction button, users can then toggle the withdrawal function with the gear button in the top right. Then, withdraw DAI from the pool. You will no longer be a user of the DAI tranche and your DAI can now be found in your Ethereum wallet.
 
-It is worth noting that it will cost less gas to withdraw in any tokens currently active within the protocol, as it will require fewer swaps. Conversely, this means that it will require more gas for withdrawals in assets not currently active.
+---
 
-## Tranches
+If you noticed anything throughout your experience that was not described in this tutorial, we encourage you to reach out in our [Discord]([https://discord.gg/HzUMPuT) for assistance and a community member will always be wiling to help. Saffron Finance is in our Discord server as well.
 
-The Rari Capital DAI pool is integrated within Saffron Finance, a protocol pioneering in risk mitigation and steady interest rates across DeFi. Users who deposit into these tranches receive guaranted rates as well as SFI (Saffron's token) emmissions as added incentives.
+## About Saffron Finance
 
-
-
-## Pool2
-
-The Rari Capital DAO is incentizing decentralized exchange liquidity of RGT on Sushiswap. Once you stake both RGT and ETH on Sushiswap in the RGT-ETH pool, you can stake your SLP tokens on the Pool2 dashboard to earn RGT rewards. 
-
-## Fuse
-
-Fuse is an open interest rate protocol that allows DeFi users to lend and borrow ERC20 tokens. The Fuse platform enables anyone to instantly create their own lending and borrowing pool. Each Fuse pool is essentially a fork of the Compound Finance protocol. This product allows users to choose all of their custom parameters and isolate risk, rater than using a large lending and borrowing pool on other platforms. 
-
-## 
-
+Launched in October 2020, the development team at Saffron Finance have come together to deliver a brilliant innovation in the decentralized finance sector. This decentralized protocol optimizes yield for users contributing liquidity with various predetermined tranches set at different risk levels. These tranches are set to two week epochs, where those contributing liquidity across the provided pairs receive payouts in exchange for locking their funds up for two weeks. Saffron successfully mitigates significant effects of impermanent loss by categorizing risk and return while allowing its users to choose their risk level.
