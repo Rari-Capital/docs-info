@@ -2,6 +2,8 @@
 
 [Fuse](app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rather than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference.
 
+<img width="1153" alt="Screen Shot 2021-07-19 at 8 52 03 PM" src="https://user-images.githubusercontent.com/50163445/126259437-9e2f8042-b36c-4c26-9ce3-380a724fd4c5.png">
+
 If you would like an interactive version of this step-by-step process, we have published a [Fuse YouTube Tutorial](https://www.youtube.com/watch?v=V-JLIqZGWYo) to help!
 
 ## What Are The Fees?
@@ -14,11 +16,11 @@ However some pools have lower fee rates as voted on by governance.
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
+The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Fuse Portal](https://app.rari.capital/Fuse).
 
 **Step 2: Become Friendly With the Fuse Dashboard**
 
-Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay for these to both be \$0 when you connect for the first time. Now that you are looking at the main dashboard, It's time to start getting comfortable with the user experience. Normally when you enter an open interest rate protocol portal like [Compound Finance](compound.finance), [Aave](aave.com), or [CREAM](Cream.Finance), you will immediately see supply and borrow tabs. This is different for Fuse, as you have to select the pool you want to lend or borrow to first! Once you select the pool that fits your choice of assets and parameters, you will now be looking at a screen with two sides: Supply and Borrow. The Supply side shows assets that you can supply to this specific Fuse pool to earn interest, while the Borrow side shows assets that you can borrow from this specific Fuse pool. Remember, everything you do in one Fuse pool is kept isolated from the rest of the pools on the platform.
+Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay for these to both be \$0 when you connect for the first time. Now that you are looking at the main dashboard, It's time to start getting comfortable with the user experience. Normally when you enter an open interest rate protocol portal like [Compound Finance](https://compound.finance/), [Aave](https://aave.com/), or [CREAM](https://cream.finance/), you will immediately see supply and borrow tabs. This is different for Fuse, as you have to select the pool you want to lend or borrow to first! Once you select the pool that fits your choice of assets and parameters, you will now be looking at a screen with two sides: Supply and Borrow. The Supply side shows assets that you can supply to this specific Fuse pool to earn interest, while the Borrow side shows assets that you can borrow from this specific Fuse pool. Remember, everything you do in one Fuse pool is kept isolated from the rest of the pools on the platform.
 
 **Step 3: Supply Assets to Fuse**
 
@@ -38,7 +40,7 @@ You have now supplied your first asset to a Fuse pool! On your main dashboard, y
 
 _Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance._
 
-_You will only earn interest when the pool is being utilized by borrowers_
+_You will only earn interest when the pool is being utilized by borrowers._
 
 ## How to Borrow
 
@@ -86,7 +88,9 @@ _Note: In the background, you have now redeemed your fToken for the underlying a
 
 We understand this process can be very tedious for your first time, but be proud of yourself for making it this far! You are on your way to becoming a strong DeFi user who understands and takes advantage of the protocols aimed at removing the need to trust an institution with your finances.
 
-_The following parameters and customization preferences can be chosen by the pool creator when creating a Fuse pool:_
+<img width="1147" alt="Screen Shot 2021-07-19 at 8 52 28 PM" src="https://user-images.githubusercontent.com/50163445/126259606-9c39a025-adaa-4151-9ee7-501fff057b26.png">
+
+## The following parameters and preferences are chosen by the pool creator when creating a Fuse pool:
 
 - **Custom Assets**
 
@@ -104,7 +108,7 @@ If there is an oracle feed supported by the protocol that reports price informat
 
 Fuse pool creators can choose to add a fee on top of the protocol fee.
 
-- **Liquidation Incentive (Description From [Compound Finance](Compound.Finance))**
+- **Liquidation Incentive (Description From [Compound Finance](https://compound.finance/))**
 
 This is the additional collateral given to liquidators as an incentive to perform liquidations of underwater accounts. For example, if the liquidation incentive is 1.1, liquidators receive an extra 10% of the borrower's collateral for every unit they close.
 
@@ -112,21 +116,21 @@ This is the additional collateral given to liquidators as an incentive to perfor
 
 Fuse pool creators can choose for a pool to be permissioned for select Ethereum addresses if they choose. This could be for KYC purposes down the road for future partnerships helping to develop capital on-ramps.
 
-- **Close Factor** **(Description From [Compound Finance](Compound.Finance))**
+- **Close Factor** **(Description From [Compound Finance](https://compound.finance/))**
 
 The percent, ranging from 0% to 100%, of a liquidatable account's borrow that can be repaid in a single liquidate transaction. If a user has multiple borrowed assets, the closeFactor applies to any single borrowed asset, not the aggregated value of a user’s outstanding borrowing.
 
-- **Upgradability**
+- **Upgradeability**
 
-When the upgradability function is turned ON, the underlying Fuse pool Smart Contracts can be modified, as well as any pool parameters that were set during the pool creation stage.
+When the upgradeability function is turned ON, the underlying Fuse pool Smart Contracts can be modified, as well as any pool parameters that were set during the pool creation stage.
 
-- **Collateral Factor (Description Altered From [Compound Finance](Compound.Finance))**
+- **Collateral Factor (Description Altered From [Compound Finance](https://compound.finance/))**
 
 A fToken's (Fuse liquidity proof token) collateral factor can range from 0-90%, and represents the proportionate increase in liquidity (borrow limit) that an account receives by minting the fToken.
 
 Generally, large or liquid assets have high collateral factors, while small or illiquid assets have low collateral factors. If an asset has a 0% collateral factor, it can't be used as collateral (or seized in liquidation), though it can still be borrowed.
 
-- **Reserve Factor (Description Altered From [Compound Finance](Compound.Finance))**
+- **Reserve Factor (Description Altered From [Compound Finance](https://compound.finance/))**
 
 The reserve factor defines the portion of borrower interest that is converted into reserves.
 
@@ -137,8 +141,6 @@ Reserves are an accounting entry in each fToken contract that represents a porti
 Deployer and owner of the pool. This can be a singular Ethereum address, a multi-sig, DAO contract, etc. The address that owns and manages the pool is for parameter upkeep.
 
 ## Supported Price Oracles
-
-_Is there an oracle missing? Ping a moderator in the [Discord](<[http://discord.gg/mtb6W57Ap6](https://t.co/nGY7gkihfQ?amp=1)>) #Fuse channel to have it added!_
 
 - AlphaHomora V1
 - AlphaHomora V2
