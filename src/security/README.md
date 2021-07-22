@@ -1,4 +1,4 @@
--# Security
+# Security
 
 Securing all Rari Capital products is the most important aspect of this protocol's development process. All code is thoroughly tested and audited before public deployment. Contributors to the protocol care deeply about the code that they produce and proceed through all safety measures before releasing products to our users.
 
