@@ -1,4 +1,4 @@
-# Yield Aggregator
+# Earn
 
 The yield aggregator is our autonomous algorithm that searches for the highest yield through a collection of safety-assessed DeFi lending protocols. To participate, you can choose from three distinct pools to deposit into: USDC, DAI, and ETH. You will earn yield on your deposit, typically seen as APY%, and you may withdraw your funds at any time into any of our supported assets.
 
