@@ -9,14 +9,13 @@ As always, DeFi is experiential technology in the financial sector and you shoul
 The Rari Capital products have been audited by [Quantstamp](https://quantstamp.com/),[Omniscia](https://omniscia.io/),and [OpenZeppelin](https://openzeppelin.com/). (Some reports are not public yet, but will be shared soon once finalized.)
 
 1. [Rari Capital Yield Aggregator V1 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital)
-
 2. [Rari Capital Yield Aggregator V2 by Quantstamp](https://certificate.quantstamp.com/full/rari-capital-v-2)
-
 3. [Rari Capital Fuse by Quantstamp](https://certificate.quantstamp.com/full/fuse-contracts)
+4. [Rari Capital On-Chain Governance by Quantstamp](https://certificate.quantstamp.com/full/rari-capital-on-chain-governance)
 
 ## Bug Bounty Program
 
-[The Rari Capital DAO has partnered with to host a bug bounty program for all of the Rari Capital protocol smart contracts.](https://immunefi.com/bounty/raricapital/)
+[The Rari Capital DAO has partnered with Immunefi to host a bug bounty program for all of the Rari Capital protocol smart contracts.](https://immunefi.com/bounty/raricapital/)
 
 No KYC is required to earn up to:
 
