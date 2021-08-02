@@ -66,6 +66,8 @@ A _Liquidation_ is when your _Borrow Limit_ reaches its full capacity. Once this
 
 _Note: You should always do your own research regarding liquidations and find a safe haven for your health limit. When borrowing assets, you should consistently be checking the analytics monitor to avoid unforeseen liquidations._
 
+_Note: You should be aware that sending your fToken (Fuse ownership asset) to another wallet that is affiliated with a current borrowing postion, you will be liqudiated as the protocol does not see your collateral position anymore._
+
 ## How to Withdraw
 
 **Step 6: Re-Paying Loans**
