@@ -36,12 +36,12 @@ module.exports = {
 
           items: [
             { text: "Governance Process", link: "/governance/" },
-            { text: "Making a proposal", link: "/makeproposal/" },
-            { text: "Organization Structure", link: "/Govstructure/" },
-            { text: "Privellaged Roles and Code Upgradeability", link: "/on-chain/" },
-            { text: "Market XYZ", link: "/market/" },
-            { text: "Infrastructure", link: "/infrastructure/" },
-            { text: "Application", link: "/genapp/" },
+            { text: "Making a proposal", link: "/governance/makeproposal/" },
+            //{ text: "Organization Structure", link: "/governance/Govstructure/" },
+            { text: "Privellaged Roles and Code Upgradeability", link: "/governance/on-chain/"},
+            { text: "Market XYZ", link: "/governance/market/" },
+            { text: "Infrastructure", link: "/governance/infrastructure/" },
+            { text: "Application", link: "/governance/genapp/" },
 
           ]
         },
