@@ -4,9 +4,9 @@ Building a front-end and business for the Rari Protocol that are accessible to a
 
 Taskforce coordinators: Rahul and Erik
 
-[Link to Market.xyz homepage](market.xyz)
+[Link to Market.xyz homepage](https://market.xyz)
 
-# Reports and proposals
+## Reports and proposals
 
 Here are the latest proposals and reports by this taskforce to the DAO.
 

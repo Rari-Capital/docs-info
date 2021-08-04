@@ -1,6 +1,6 @@
 # On-chain governance and upgradeability
 
-On-chain governance is controlled by RGT tokenholders through [GovernorBravo](), a simple but powerful governance system forked off Compound. Delegation of votes is supported.
+On-chain governance is controlled by RGT tokenholders through [GovernorBravo](https://compound.finance/docs/governance), a simple but powerful governance system forked off Compound. Delegation of votes is supported.
 
 Vote or delegate:
 

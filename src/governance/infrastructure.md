@@ -6,25 +6,25 @@ This taskforce consists of most of the founding members of Rari. It has two broa
 
 Taskforce coordinators: Jack and Samuel
 
-This taskforce is further subdivided into 3 groups - contracts, frontend and business development
+This taskforce is further divided into 3 groups - contracts, frontend and business development
 
 ## Members
 
-## Contracts
+### Contracts
 
 Contract lead: David
 
 Members: 
 Grantees (with link to grant work):
 
-## Frontend
+### Frontend
 
 Frontend lead: Sharad
 
 Members: 
 Grantees (with link to grant work): 
 
-## Business development
+### Business development
 
 Business development lead: Jack
 
