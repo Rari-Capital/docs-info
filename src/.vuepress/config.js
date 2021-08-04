@@ -37,7 +37,10 @@ module.exports = {
           items: [
             { text: "Governance Process", link: "/governance/" },
             { text: "Organization Structure", link: "/Govstructure/" },
-            { text: "Privellaged Roles and Code Upgradeability", link: "/Roles/" },
+            { text: "Privellaged Roles and Code Upgradeability", link: "/on-chain/" },
+            { text: "Market XYZ", link: "/market/" },
+            { text: "Infrastructure", link: "/infrastructure/" },
+            { text: "Application", link: "/genapp/" },
 
           ]
         },
