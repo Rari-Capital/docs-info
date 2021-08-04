@@ -31,8 +31,17 @@ module.exports = {
 
       { text: "Security", link: "/security/" },
       { text: "Grants", link: "/ecosystem/" },
-      { text: "Governance", link: "/governance/" },
+        {
+          text: "Governance",
 
+          items: [
+            { text: "Governance Process", link: "/governance/" },
+            { text: "Organization Structure", link: "/governance/" },
+            { text: "Privellaged Roles and Code Upgradeability", link: "/governance/" },
+
+          ]
+        },
+      
       {
         text: "Risk",
 
@@ -60,4 +69,5 @@ module.exports = {
     sidebar: "auto",
     smoothScroll: true
   }
+
 };
