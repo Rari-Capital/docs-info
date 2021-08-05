@@ -1,10 +1,11 @@
 # Making a proposal
 
 A governance proposal may attempt to:
- - Get signalling in favour of some off-chain proposal
- - Execute changes on-chain
 
-It is highly recommended that all proposals are first posted to the forum for atleast 2 days. Proposals must follow the [proposal format](#proposal-format).
+- Get signalling in favour of some off-chain proposal
+- Execute changes on-chain
+
+It is highly recommended that all proposals are first posted to the forum for at least 2 days. Proposals must follow the [proposal format](#proposal-format).
 
 [Forum](https://forums.rari.capital/)
 
