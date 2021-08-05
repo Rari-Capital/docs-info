@@ -8,7 +8,7 @@ Vote or delegate:
 
 ## Making a proposal
 
-Please see the article on [Making a proposal](MakeProposal.md).
+Please see the article on [Making a proposal](/MakeProposal/).
 
 ## Governance parameters
 
