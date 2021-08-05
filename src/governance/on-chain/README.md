@@ -8,7 +8,19 @@ Vote or delegate:
 
 ## Making a proposal
 
-It is recommended that you make a post on the forum for at least 2 days before attempting an on-chain proposal. It is also recommended that you contact the infrastructure team before making a proposal, during this transition phase.
+Please see the article on [Making a proposal](MakeProposal.md).
+
+## Governance parameters
+
+[Verify on-chain](https://etherscan.io/address/0x9ecc58d2d68da2c20e8630b000af55cb8324c759#readProxyContract)
+
+```
+proposalMaxOperations = 10
+proposalThreshold = 65,000 RGT
+quorumVotes = 400,000 RGT
+votingDelay = 13140 blocks = 2 days approx
+votingPeriod = 19710 blocks = 3 days approx
+```
 
 ## Roles
 

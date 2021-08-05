@@ -1,6 +1,6 @@
 # Organization and governance
 
-_Rari Capital DAO is in the process of changing its organizational structure and governance. We envision a structure that ensures sufficient efficiency and scalability, while maintaining creative freedom for its members. For more details on this vision, check out these [resources](#Additional-resources)._
+_Rari Capital DAO is in the process of changing its organizational structure and governance. We envision a structure that ensures sufficient efficiency and scalability, while maintaining creative freedom for its members. For more details on this vision, check out these [resources](#additional-resources)._
 
 At a high-level, the Rari Capital DAO is governed by its community of RGT holders. All members are responsible for providing the vision and goals for Rari, and for interacting with its active contributors to help build this vision. Contributors are organized in the form of independent working groups called taskforces, as outlined below. If you'd like to know how you can contribute, [click here]()
 

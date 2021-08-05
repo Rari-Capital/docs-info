@@ -1,26 +1,24 @@
-# Governance Proposals
+# Making a proposal
 
-## Rari Capital DAO Improvement Proposals
+A governance proposal may attempt to:
+ - Get signalling in favour of some off-chain proposal
+ - Execute changes on-chain
 
-To post and formulate a governance proposal for the Rari Capital DAO, users must follow a specific template and follow all directions on the according links:
+It is highly recommended that all proposals are first posted to the forum for atleast 2 days. Proposals must follow the [proposal format](#proposal-format).
 
-1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
-2. Post final proposal to [Rari Capital DAO Improvement Proposals](https://forums.rari.capital/t/rari-capital-dao-improvement-proposals) and discuss there for 2 days
-3. Post to [Rari Capital DAO Snapshot page](https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
+[Forum](https://forums.rari.capital/)
 
-## Rari Capital DAO Fuse Pool Proposals
+After this, proposals may go for vote. Proposals that only require RGT holders to signal in favour can be posted for a 2-day vote on Snapshot.
 
-To post and formulate a governance proposal for the Rari Capital DAO Fuse Pools, users must follow a specific template and follow all directions on the according links:
+[Snapshot voting](https://vote.rari.capital/#/)
 
-1. Start the conversation on [Discord](https://discord.gg/mtb6W57Ap6)
-2. Post final proposal to [Rari Capital DAO Fuse Proposals](https://forums.rari.capital/t/rari-capital-dao-fuse-pool-proposals) and discuss there for 2 days
-3. Post to [Rari Capital DAO Snapshot page](https://vote.rari.capital/#/) to cast the final vote and leave voting open for 2 days
+Proposals that directly execute changes on-chain are posted through on-chain governance via GovernorBravo. For a full scope of what is controlled on-chain, see [On-chain governance and upgradeability](on-chain.md).
 
-## Template
+[On-chain governance UI - Tally](https://www.withtally.com/governance/rari)
 
-When making a proposal, begin by gauging interest for your idea from the Rari Capital community through our Discord. Once the community is aware of your proposal, please proceed with the following steps:
+## Proposal format
 
-_Please follow the template below for all forum posts:_
+Please follow the template below for all proposals:
 
 **Summary:** A simple description of the proposal's end result and desired change; should be no more than a few succinct sentences.
 
