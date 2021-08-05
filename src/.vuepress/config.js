@@ -38,10 +38,10 @@ module.exports = {
             { text: "Governance Process", link: "/governance/" },
             { text: "Making a proposal", link: "/governance/makeproposal/" },
             //{ text: "Organization Structure", link: "/governance/Govstructure/" },
-            { text: "Privellaged Roles and Code Upgradeability", link: "/governance/on-chain/"},
-            { text: "Market XYZ", link: "/governance/market/" },
-            { text: "Infrastructure", link: "/governance/infrastructure/" },
-            { text: "Application", link: "/governance/genapp/" },
+            { text: "Privileged Roles and Code Upgradeability", link: "/governance/on-chain/"},
+            { text: "Market XYZ Task Force", link: "/governance/market/" },
+            { text: "Infrastructure Task Force", link: "/governance/infrastructure/" },
+            { text: "Application Task Force", link: "/governance/genapp/" },
 
           ]
         },
