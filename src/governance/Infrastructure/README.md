@@ -15,7 +15,7 @@ This taskforce is further divided into 3 groups - contracts, frontend and busine
 
 Contract lead: [David](https://twitter.com/davidslucid)
 
-Members and grantees: [Ben - t11s](https://twitter.com/transmissions11), [Jet](https://twitter.com/hexamesh)
+Members and grantees: [t11s](https://twitter.com/transmissions11), [Jet](https://twitter.com/hexamesh)
 
 ### Frontend
 
