@@ -1,8 +1,8 @@
 # Organization and governance
 
-_Rari Capital DAO is in the process of changing its organizational structure and governance. We envision a structure that ensures sufficient efficiency and scalability, while maintaining creative freedom for its members. For more details on this vision, check out these [resources](#additional-resources)._
+_Rari Capital DAO is in the process of changing its organizational structure and governance. We envision a structure that ensures sufficient efficiency and scalability, while maintaining creative freedom for its members. For more details on this vision, check out these [resources](https://info.rari.capital/ecosystem/)._
 
-At a high-level, the Rari Capital DAO is governed by its community of RGT holders. All members are responsible for providing the vision and goals for Rari, and for interacting with its active contributors to help build this vision. Contributors are organized in the form of independent working groups called taskforces, as outlined below. If you'd like to know how you can contribute, [click here]()
+At a high-level, the Rari Capital DAO is governed by its community of RGT holders. All members are responsible for providing the vision and goals for Rari, and for interacting with its active contributors to help build this vision. Contributors are organized in the form of independent working groups called taskforces, as outlined below. If you'd like to know how you can contribute, [click here](https://info.rari.capital/ecosystem/)
 
 ## Organization structure
 
@@ -10,9 +10,9 @@ Contributors to Rari are organized in the form of taskforces. Each taskforce is 
 
 ### Current taskforces
 
-- [Infrastructure taskforce:](/infrastructure/) Building the most robust underlying lending and borrowing protocol and setting up the proper infrastructure to enable it to thrive without the infrastructure team. Coordinators: Jack and Samuel
-- [Market XYZ taskforce:](/market/) Building a front-end and business for the Rari Protocol that are accessible to all. Exploring some more exotic use cases of the underlying protocol (ie idea markets). Emphasis on Layer 2. Coordinators: Rahul and Erik
-- [Generalised applications taskforce:](/genapp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David and ??
+- [Infrastructure taskforce:](https://info.rari.capital/governance/infrastructure/#members) Building the most robust underlying lending and borrowing protocol and setting up the proper infrastructure to enable it to thrive without the infrastructure team. Coordinators: Jack and Samuel
+- [Market XYZ taskforce:](https://info.rari.capital/governance/market/) Building a front-end and business for the Rari Protocol that are accessible to all. Exploring some more exotic use cases of the underlying protocol (ie idea markets). Emphasis on Layer 2. Coordinators: Rahul and Erik
+- [Generalized applications taskforce:](https://info.rari.capital/governance/genApp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David, Jai, and Ben
 
 ## Community governance
 
@@ -22,7 +22,7 @@ See how to [Make a proposal](https://info.rari.capital/governance/makeProposal/#
 
 ## On-chain governance
 
-On-chain governance is controlled by RGT token holders through [GovernorBravo](), a simple but powerful governance system forked off Compound. Delegation of votes is supported.
+On-chain governance is controlled by RGT token holders through [GovernorBravo](https://medium.com/tally-blog/understanding-governor-bravo-69b06f1875da), a simple but powerful governance system forked off Compound. Delegation of votes is supported.
 
 [Governance UI - Tally](https://www.withtally.com/governance/rari)
 
