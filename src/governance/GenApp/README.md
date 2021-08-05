@@ -1,3 +1,3 @@
-# Generalised applications taskforce
+# Generalized applications taskforce
 
 This taskforce is in construction
