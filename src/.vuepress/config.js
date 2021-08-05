@@ -36,7 +36,7 @@ module.exports = {
 
           items: [
             { text: "Governance Process", link: "/governance/" },
-            { text: "Making a proposal", link: "/governance/makeproposal/" },
+            { text: "Making a Proposal", link: "/governance/makeproposal/" },
             //{ text: "Organization Structure", link: "/governance/Govstructure/" },
             { text: "Privileged Roles and Code Upgradeability", link: "/governance/on-chain/"},
             { text: "Market XYZ Task Force", link: "/governance/market/" },
