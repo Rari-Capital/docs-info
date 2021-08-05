@@ -31,21 +31,25 @@ module.exports = {
 
       { text: "Security", link: "/security/" },
       { text: "Grants", link: "/ecosystem/" },
-        {
-          text: "Governance",
+      {
+        text: "Governance",
 
-          items: [
-            { text: "Governance Process", link: "/governance/" },
-            { text: "Making a Proposal", link: "/governance/makeproposal/" },
-            //{ text: "Organization Structure", link: "/governance/Govstructure/" },
-            { text: "Privileged Roles and Code Upgradeability", link: "/governance/on-chain/"},
-            { text: "Market XYZ Task Force", link: "/governance/market/" },
-            { text: "Infrastructure Task Force", link: "/governance/infrastructure/" },
-            { text: "Application Task Force", link: "/governance/genapp/" },
+        items: [
+          { text: "Governance Process", link: "/governance/" },
+          { text: "Making a Proposal", link: "/governance/makeProposal/" },
+          {
+            text: "Privileged Roles and Code Upgradeability",
+            link: "/governance/on-chain/"
+          },
+          { text: "Market XYZ Task Force", link: "/governance/market/" },
+          {
+            text: "Infrastructure Task Force",
+            link: "/governance/infrastructure/"
+          },
+          { text: "Application Task Force", link: "/governance/genApp/" }
+        ]
+      },
 
-          ]
-        },
-      
       {
         text: "Risk",
 
@@ -73,5 +77,4 @@ module.exports = {
     sidebar: "auto",
     smoothScroll: true
   }
-
 };

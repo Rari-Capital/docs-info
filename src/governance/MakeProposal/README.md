@@ -33,4 +33,3 @@ _Please follow the template below for all forum posts:_
 **Against:** Illustrate in one or two sentences what this position supports.
 
 Finally, please add a poll option on your forum post as well.
-

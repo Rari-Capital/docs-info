@@ -9,7 +9,3 @@ Taskforce coordinators: Rahul and Erik
 ## Reports and proposals
 
 Here are the latest proposals and reports by this taskforce to the DAO.
-
-## Additional resources
-
---

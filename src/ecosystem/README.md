@@ -6,37 +6,31 @@ _Questions? Please join the Rari Capital Discord: http://discord.gg/mtb6W57Ap6 a
 
 _Looking forward to seeing you there and having you as a contributor to the Rari Capital DAO!_
 
-## Technical Roles 
-
-------
-
-
+## Technical Roles
 
 ### <u>Front-End Development</u>
 
 #### Fuse Subgraph (1500 USDC or RGT equivalent)
 
-<u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph) 
+<u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph)
 
-<u>Why? :</u> A Subgraph is a massively important piece of infrastructure which ensures consistent data querying across the multitude of clients that will interface with the Rari Protocol. Previous grantees have attempted to build one but it does not fully work. All Rari devs would massively benefit from a properly built subgraph. 
+<u>Why? :</u> A Subgraph is a massively important piece of infrastructure which ensures consistent data querying across the multitude of clients that will interface with the Rari Protocol. Previous grantees have attempted to build one but it does not fully work. All Rari devs would massively benefit from a properly built subgraph.
 
 <u>Spec:</u> Index Underlying AssetsIndex Fuse Pools and data about their underlying CTokens.Ensure the proper bi-directional and nested Array/Object relationships exist between Entities. For example FusePools <-> CTokens or UnderlyingAsset <-> FusePools
 
-<u>Comments:</u> Core devs would be happy to assist a competent developer interested in active development and maintenance of this project. 
+<u>Comments:</u> Core devs would be happy to assist a competent developer interested in active development and maintenance of this project.
 
-**Extra 1000 USDC if developed quickly and it works as expected (1-2 weeks).** 
+**Extra 1000 USDC if developed quickly and it works as expected (1-2 weeks).**
 
-#### Design and Implement a robust search service for the Rari Protocol (1000 USDC or RGT equiv.) 
+#### Design and Implement a robust search service for the Rari Protocol (1000 USDC or RGT equiv.)
 
-<u>Criteria:</u> Design and Build a service that enables efficient and robust search across all Rari Protocol products. 
+<u>Criteria:</u> Design and Build a service that enables efficient and robust search across all Rari Protocol products.
 
-<u>Why?:</u> Currently knowledge on opportunities in the Rari ecosystem is fragmented. There is no current service that efficiently aggregates live data about the best opportunities across all Rari products. 
+<u>Why?:</u> Currently knowledge on opportunities in the Rari ecosystem is fragmented. There is no current service that efficiently aggregates live data about the best opportunities across all Rari products.
 
 <u>Spec:</u> For any token or a set of tokens, what opportunities across products (Vaults, Fuse, Plugins, Nova (L2), Tranches) exist for this asset? Of these, what are the **best** opportunities and what is their risk level?
 
-<u>Comments:</u> This project would be massively aided by a subgraph. If a developer wants they could tackle both grants at the same time, or work with another dev who is building the subgraph. 
-
-
+<u>Comments:</u> This project would be massively aided by a subgraph. If a developer wants they could tackle both grants at the same time, or work with another dev who is building the subgraph.
 
 #### PWA + Push notifications ( 400 USDC or RGT equiv.)
 
@@ -44,7 +38,7 @@ _Looking forward to seeing you there and having you as a contributor to the Rari
 
 <u>Why?:</u> This would be badassSpec:The rari-dapp is already a PWA. We can make some tweaks to the PWA logic to implement push notifications. If this ends up not working, we can use http://hal.xyz/
 
-<u>Comments:</u> 0xNosedrop wants to do this and has already started development. 
+<u>Comments:</u> 0xNosedrop wants to do this and has already started development.
 
 #### Governance Dashboard (400 USDC or RGT equiv).
 
@@ -54,7 +48,7 @@ _Looking forward to seeing you there and having you as a contributor to the Rari
 
 <u>Spec:</u> Figma has designs,
 
-#### UX + Design Audit (700 USDC or RGT equiv) 
+#### UX + Design Audit (700 USDC or RGT equiv)
 
 <u>Criteria:</u> Audit the design and UX of the main Rari Capital site, and offer clear solutions on how to improve it.
 
@@ -71,8 +65,6 @@ Up to 2 different mobile frontends may be built by 2 persons / groups.
 Pay: 4k USDC or RGT equiv. for eachOffer open until: September 2021. Skills needed: UI/UX, web3 for mobile, previous experience in a mobile web3 app preferred
 
 Define a theme of your choice - preferably after discussion with team. Create a working frontend that displays well on mobile. It should integrate with existing Fuse and yield aggregator contracts that match your chosen theme.
-
-
 
 ### <u>Smart Contract Development</u>
 
@@ -124,9 +116,7 @@ Must integrate well with existing UI and theme. Allow users to chat using just e
 
 ## Non-Technical Roles
 
-------
-
-
+---
 
 ### Artwork
 
