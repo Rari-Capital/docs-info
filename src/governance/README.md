@@ -12,7 +12,7 @@ Contributors to Rari are organized in the form of taskforces. Each taskforce is 
 
 - [Infrastructure taskforce:](/infrastructure/) Building the most robust underlying lending and borrowing protocol and setting up the proper infrastructure to enable it to thrive without the infrastructure team. Coordinators: Jack and Samuel
 - [Market XYZ taskforce:](/market/) Building a front-end and business for the Rari Protocol that are accessible to all. Exploring some more exotic use cases of the underlying protocol (ie idea markets). Emphasis on Layer 2. Coordinators: Rahul and Erik
-- [Generalised applications taskforce:](/genapp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David and ??
+- [Generalized applications taskforce:](/genapp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David and ??
 
 ## Community governance
 
