@@ -3,7 +3,7 @@
 This taskforce consists of most of the founding members of Rari. It has two broad objectives:
 
 - Building the most robust product for yield generation, lending and borrowing
-- Setting up proper infrastructure so that Rari can thrive safely without depending on the team
+- Setting up proper infrastructure so that Rari Capital can thrive safely without depending on the team
 
 Taskforce coordinators: [Jack](https://twitter.com/JackLipstone) and [Samuel](https://twitter.com/SamuelShadrach4)
 

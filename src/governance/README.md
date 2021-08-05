@@ -18,7 +18,7 @@ Contributors to Rari are organized in the form of taskforces. Each taskforce is 
 
 Governance includes both an on-chain and an off-chain component. Consensus amongst community members is often formed off-chain, therefore we place significant importance on ensuring robust processes for the same to develop. The DAO will host regular community calls, and maintain social channels such as discord and the forum where various members can express their opinion. Each taskforce will additionally have their own way of communicating with the community, and onboard more active contributors.
 
-See how to [Make a proposal](/MakeProposal/).
+See how to [Make a proposal](https://info.rari.capital/governance/makeProposal/#proposal-format).
 
 ## On-chain governance
 
@@ -26,4 +26,4 @@ On-chain governance is controlled by RGT token holders through [GovernorBravo]()
 
 [Governance UI - Tally](https://www.withtally.com/governance/rari)
 
-On-chain governance is responsible for setting critical parameters in various Rari Capital products, managing contract interactions and upgrades, and allocating resources to the taskforces. On-chain governance may also delegate certain non-critical functions to other multisigs or DAOs. For a detailed overview of the scope of on-chain governance, see [on-chain governance and upgradeability](/on-chain/).
+On-chain governance is responsible for setting critical parameters in various Rari Capital products, managing contract interactions and upgrades, and allocating resources to the taskforces. On-chain governance may also delegate certain non-critical functions to other multisigs or DAOs. For a detailed overview of the scope of on-chain governance, see [on-chain governance and upgradeability](https://info.rari.capital/governance/on-chain/).

@@ -12,7 +12,7 @@ After this, proposals may go for vote. Proposals that only require RGT holders t
 
 [Snapshot voting](https://vote.rari.capital/#/)
 
-Proposals that directly execute changes on-chain are posted through on-chain governance via GovernorBravo. For a full scope of what is controlled on-chain, see [On-chain governance and upgradeability](/on-chain/).
+Proposals that directly execute changes on-chain are posted through on-chain governance via GovernorBravo. For a full scope of what is controlled on-chain, see [On-chain governance and upgradeability](https://info.rari.capital/governance/on-chain/).
 
 [On-chain governance UI - Tally](https://www.withtally.com/governance/rari)
 
