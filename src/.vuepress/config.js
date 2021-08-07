@@ -41,7 +41,7 @@ module.exports = {
       },
 
 
-      { text: "Grants", link: "/ecosystem/" },
+     // { text: "Grants", link: "/ecosystem/" },
       {
         text: "Governance",
 
