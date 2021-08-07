@@ -30,6 +30,17 @@ module.exports = {
       },
 
       { text: "Security", link: "/security/" },
+
+      {
+        text: "Contribute",
+
+        items: [
+          { text: "Overview", link: "/ecosystem" },
+          { text: "Grants", link: "/grants/" },
+        ]
+      },
+
+
       { text: "Grants", link: "/ecosystem/" },
       {
         text: "Governance",
