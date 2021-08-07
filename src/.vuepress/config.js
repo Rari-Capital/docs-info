@@ -35,7 +35,7 @@ module.exports = {
         text: "Contribute",
 
         items: [
-          { text: "Overview", link: "/ecosystem" },
+          { text: "Overview", link: "/ecosystem/" },
           { text: "Grants", link: "/grants/" },
         ]
       },
