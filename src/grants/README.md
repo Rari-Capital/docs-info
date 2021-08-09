@@ -4,13 +4,11 @@ Grants are provided for any short-term (2 to 6 week) contribution to the DAO. Yo
 
 Each taskforce may have their own grants and onboarding process.
 
-Apply here:
-
-[Contributors onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSexJhf3HFr4bPRXIwn6MYKdGJrMFmvP-h1Co-k1DgJ0uP0yTg/viewform).
+**Apply here:** [Contributors onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSexJhf3HFr4bPRXIwn6MYKdGJrMFmvP-h1Co-k1DgJ0uP0yTg/viewform).
 
 We regularly go through the responses and will contact you shortly. We also have dedicated channels for grants and community contributors in our [discord](http://discord.gg/mtb6W57Ap6).
 
-_Looking forward to seeing you there and having you as a contributor to the Rari Capital DAO!_
+_Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 ## Infrastructure: Frontend
 
