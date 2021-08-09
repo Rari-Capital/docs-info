@@ -1,6 +1,6 @@
-# Grant Opportunities
+# Grants and Full-time Opportunities
 
-Grants are provided for any short-term (2 to 6 week) contribution to the DAO. You are allowed to propose work outside of this list. You are also allowed to apply without having a specific piece of work in mind. Grants are also a low-commitment means to screen people for full-time onboarding, although people may be onboarded full-time directly as well. Pay is negotiable.
+Grants are provided for any short-term (2 to 6 week) contribution to the DAO. You may propose work outside of this list. You may also apply without having a specific piece of work in mind. Grants are also a low-commitment means to screen people for full-time onboarding, although people may be onboarded full-time directly as well. Pay is negotiable.
 
 Each taskforce may have their own grants and onboarding process.
 
@@ -10,8 +10,9 @@ We regularly go through the responses and will contact you shortly. We also have
 
 _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
-## Infrastructure: Frontend
+## <summary> Infrastructure: Frontend </summary>
 
+<details>
 #### Fuse Subgraph (1500 USDC or RGT equivalent)
 
 <u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph)
@@ -76,10 +77,14 @@ Create a chat trollbox for each Fuse pool so that pool owners can publicly chat 
 
 Must integrate well with existing UI and theme. Allow users to chat using just ethereum addresses. Resolve ENS in chat. Store chat via IPFS/Arweave, link it to pool owner’s ENS, provide easy UI to abstract this away from end user. Other tools such as 3box may also be used.
 
-
+</details>
 
 
 ## Infrastructure: Smart Contract Development
+
+#### *Full-time* Smart Contract developer
+
+Engage with existing smart contract developers to engage in a variety of projects and responsibilites. Needs to be good at communication, willing to take responsbility, passionate about what we are building. Must have sufficient expertise.
 
 #### Asset supply caps
 
@@ -124,6 +129,10 @@ Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link 
 
 
 ## Infrastructure: Business development
+
+#### *Full-time* community moderator and outreach manager
+
+Manage Rari discord. Willing to stay up-to-date and technical enough to answer users' doubt. Actively engage with the community, maintain good vibes and be passionate about the project. Host events for outreach.
 
 #### Artwork
 
