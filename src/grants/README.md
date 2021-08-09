@@ -13,6 +13,7 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 ## <summary> Infrastructure: Frontend </summary>
 
 <details>
+
 #### Fuse Subgraph (1500 USDC or RGT equivalent)
 
 <u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph)
