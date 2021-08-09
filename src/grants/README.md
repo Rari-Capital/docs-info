@@ -4,7 +4,11 @@ Grants are provided for any short-term (2 to 6 week) contribution to the DAO. Yo
 
 Each taskforce may have their own grants and onboarding process.
 
-Apply using the [Contributors onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSexJhf3HFr4bPRXIwn6MYKdGJrMFmvP-h1Co-k1DgJ0uP0yTg/viewform). We regularly go through the responses and will contact you shortly. We also have dedicated channels for grants and community contributors in our [discord](http://discord.gg/mtb6W57Ap6).
+Apply here:
+
+[Contributors onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSexJhf3HFr4bPRXIwn6MYKdGJrMFmvP-h1Co-k1DgJ0uP0yTg/viewform).
+
+We regularly go through the responses and will contact you shortly. We also have dedicated channels for grants and community contributors in our [discord](http://discord.gg/mtb6W57Ap6).
 
 _Looking forward to seeing you there and having you as a contributor to the Rari Capital DAO!_
 
@@ -103,13 +107,13 @@ Write highly reliable and customisable code that accesses APIs of all centralise
 
 Exchanges to be supported are Binance, FTX, Okex, [gate.io](http://gate.io/), in addition to checking on Uniswap and Sushiswap. Additional exchanges may also be added.
 
-### Tornado clone for deposits
+#### Tornado clone for deposits
 
 Pay: 10k USDC or RGT equiv.
 
 Clone Tornado Cash contracts to accept a general ERC20 token as deposit. Admin contract connected to Rari’s GovernorBravo controls which tokens to list.
 
-### Frontend for Tornado clone
+#### Frontend for Tornado clone
 
 Pay: 5k USDC or RGT equiv.
 
@@ -125,7 +129,7 @@ Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link 
 
 #### Artwork
 
-Pay: Variable, depending on skill, Up to 3k USDC or RGT equiv. per set. Offer open until: September 2021. Skills needed: Digital artwork.
+Pay: Variable, depending on skill, Up to 3k USDC or RGT equiv. per set.
 
 Create professional digital artwork that matches the existing Rari Capital theme.
 
