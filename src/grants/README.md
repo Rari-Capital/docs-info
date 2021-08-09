@@ -1,6 +1,6 @@
 # Grants and Full-time Opportunities
 
-Grants are provided for any short-term (2 to 6 week) contribution to the DAO. You may propose work outside of this list. You may also apply without having a specific piece of work in mind. Grants are also a low-commitment means to screen people for full-time onboarding, although people may be onboarded full-time directly as well. Pay is negotiable.
+Grants are provided for any short-term (2 to 6 week) contribution to the DAO. You may propose work outside of this list. You may also apply without having a specific piece of work in mind. Grants can be used as a low-commitment means to transition to a full-time role. Full-time roles can be directly offered as well. Pay is negotiable.
 
 Each taskforce may have their own grants and onboarding process.
 
