@@ -10,7 +10,9 @@ We regularly go through the responses and will contact you shortly. We also have
 
 _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
-## <summary> Infrastructure: Frontend </summary>
+## Infrastructure: Frontend
+
+<summary> Opportunities available </summary>
 
 <details>
 
@@ -83,6 +85,10 @@ Must integrate well with existing UI and theme. Allow users to chat using just e
 
 ## Infrastructure: Smart Contract Development
 
+<summary> Opportunities available </summary>
+
+<details>
+
 #### *Full-time* Smart Contract developer
 
 Engage with existing smart contract developers to engage in a variety of projects and responsibilites. Needs to be good at communication, willing to take responsbility, passionate about what we are building. Must have sufficient expertise.
@@ -125,11 +131,15 @@ Design and build a frontend for the Tornado clone contracts.
 
 Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link this via github. Provide documentation for the contracts. Provide documentation for anyone to redeploy the frontend on their own domain or IPFS or locally.
 
-
+</details>
 
 
 
 ## Infrastructure: Business development
+
+<summary> Opportunities available </summary>
+
+<details>
 
 #### *Full-time* community moderator and outreach manager
 
@@ -157,7 +167,7 @@ Translate content. Manage language-specific channel or discord. Work on building
 
 Solicited languages: French, Chinese, German, Hindi. Other languages may also be proposed.
 
-
+</details>
 
 
 ## Market XYZ
