@@ -54,7 +54,7 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <u>Spec:</u> Figma has designs,
 
-#### UX + Design Audit (700 USDC or RGT equiv)
+#### UX + Design Audit (600 USDC or RGT equiv)
 
 <u>Criteria:</u> Audit the design and UX of the main Rari Capital site, and offer clear solutions on how to improve it.
 
