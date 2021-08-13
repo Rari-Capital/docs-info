@@ -68,6 +68,12 @@ _Note: You should always do your own research regarding liquidations and find a 
 
 _Note: You should be aware that sending your fToken (Fuse ownership asset) to another wallet that is affiliated with a current borrowing postion, you will be liqudiated as the protocol does not see your collateral position anymore._
 
+<u>*What’s an example of when an account needs liquidation?*</u> Let’s follow this same example to illustrate it. $1m in OHM as collateral. $100k USDC borrowed. $333k borrow limit. Now let’s say OHM collapses to 1/4th of its previous value. My collateral is now worth $250,000 and my borrow limit would be $83k USDC but I have $100k USDC borrowed. This account is under-collateralized and needs a liquidation.
+
+What happens once it needs liquidation? A liquidator will come along, and repay some or all of your USDC debt. For every $1 of your debt they repay, they get to take $1.12 of your collateral. This $0.12 bonus is defined as the liquidator incentive and is used to ensure the pool stays healthy. This amount is chosen by the pool creator.
+
+The liquidation mechanic is necessary to prevent the pool from going underwater, however, **most users will want to avoid being liquidated if possible.**
+
 ## How to Withdraw
 
 **Step 6: Re-Paying Loans**
