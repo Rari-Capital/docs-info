@@ -16,18 +16,6 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <details>
 
-#### Fuse Subgraph (1500 USDC or RGT equivalent)
-
-<u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph)
-
-<u>Why? :</u> A Subgraph is a massively important piece of infrastructure which ensures consistent data querying across the multitude of clients that will interface with the Rari Protocol. Previous grantees have attempted to build one but it does not fully work. All Rari devs would massively benefit from a properly built subgraph.
-
-<u>Spec:</u> Index Underlying AssetsIndex Fuse Pools and data about their underlying CTokens.Ensure the proper bi-directional and nested Array/Object relationships exist between Entities. For example FusePools <-> CTokens or UnderlyingAsset <-> FusePools
-
-<u>Comments:</u> Core devs would be happy to assist a competent developer interested in active development and maintenance of this project.
-
-**Extra 1000 USDC if developed quickly and it works as expected (1-2 weeks).**
-
 #### Design and Implement a robust search service for the Rari Protocol (1000 USDC or RGT equiv.)
 
 <u>Criteria:</u> Design and Build a service that enables efficient and robust search across all Rari Protocol products.
@@ -82,14 +70,13 @@ Must integrate well with existing UI and theme. Allow users to chat using just e
 
 </details>
 
-
 ## Infrastructure: Smart Contract Development
 
 <summary> Opportunities available </summary>
 
 <details>
 
-#### *Full-time* Smart Contract developer
+#### _Full-time_ Smart Contract developer
 
 Engage with existing smart contract developers to engage in a variety of projects and responsibilites. Needs to be good at communication, willing to take responsbility, passionate about what we are building. Must have sufficient expertise.
 
@@ -133,15 +120,13 @@ Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link 
 
 </details>
 
-
-
 ## Infrastructure: Business development
 
 <summary> Opportunities available </summary>
 
 <details>
 
-#### *Full-time* community moderator and outreach manager
+#### _Full-time_ community moderator and outreach manager
 
 Manage Rari discord. Willing to stay up-to-date and technical enough to answer users' doubt. Actively engage with the community, maintain good vibes and be passionate about the project. Host events for outreach.
 
@@ -168,7 +153,6 @@ Translate content. Manage language-specific channel or discord. Work on building
 Solicited languages: French, Chinese, German, Hindi. Other languages may also be proposed.
 
 </details>
-
 
 ## Market XYZ
 
