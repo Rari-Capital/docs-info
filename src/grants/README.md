@@ -16,6 +16,16 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <details>
 
+#### Build an embeddable widget to interact with Fuse Pools. (2000 USDC or RGT equiv.)
+<u>Criteria:</u> Build an embeddable widget that other websites can use to embed Fuse Pools directly in their site, such that people can borrow and lend on a Fuse Pool directly through this interface. It should aim to offer some visual customization as well.
+
+<u>Why?:</u> More defi projects are hosting and seeding their own Fuse pools to provide greater capital productivity on that project's assets. With an embeddable Fuse pool widget, users of these projects can now easily access lending and borrowing through another project's interface.
+
+<u>Spec:</u> Recommended technologies: React/Svelte.js, utilizing Rari SDK or direct contract calls. Preferably utilizes Ether.js over web3.js. Must be as lightweight as possible. Must support color customization. Could be built as a node module or a standalone HTML/CSS/JS embed.  
+
+<u><b>Bonus</b> - (<b>300 USDC</b> or RGT equiv):</u> Build 2 additional UIs for this embeddable widget, one that is more fully featured and a "simple" UI, such that a project can choose which UI for Fuse they would like to embed.
+
+
 #### Design and Implement a robust search service for the Rari Protocol (1000 USDC or RGT equiv.)
 
 <u>Criteria:</u> Design and Build a service that enables efficient and robust search across all Rari Protocol products.
@@ -32,7 +42,6 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <u>Why?:</u> This would be badassSpec:The rari-dapp is already a PWA. We can make some tweaks to the PWA logic to implement push notifications. If this ends up not working, we can use http://hal.xyz/
 
-<u>Comments:</u> 0xNosedrop wants to do this and has already started development.
 
 #### Governance Dashboard (400 USDC or RGT equiv).
 
