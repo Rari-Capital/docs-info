@@ -89,12 +89,6 @@ Must integrate well with existing UI and theme. Allow users to chat using just e
 
 Engage with existing smart contract developers to engage in a variety of projects and responsibilites. Needs to be good at communication, willing to take responsbility, passionate about what we are building. Must have sufficient expertise.
 
-#### Asset supply caps
-
-Pay: 2k USD or RGT equiv.
-
-Implement asset-wise caps for each Fuse pool that can be controlled by pool admin.
-
 #### Clone Rari Capital for another chain
 
 Pay: 50% of all revenue generated from clone.
@@ -104,6 +98,12 @@ Maintain a Rari Capital clone on an alternate chain. Includes deploying contract
 Profit-sharing arrangement to be finalised. Possible arrangement could include streaming revenues to a treasury controlled by a new token. 50% of supply of this token would be controlled by RGT governance. Remaining 50% allocation to be decided by you (developer allocation, liquidity mining, etc).
 
 Some possible chains: BSC, Solana
+  
+#### Curve liquidity gauges
+
+Pay: 5k USD or RGT equiv.
+
+Create a Curve liquidity gauge (we are planning to launch veRGT in the near future) that controls the reward distribution speeds on our RewardsDistributor contract (which is just Compound's COMP rewards logic split off from the Comptroller): https://github.com/Rari-Capital/compound-protocol/blob/fuse-flywheel/contracts/RewardsDistributor.sol
 
 #### CEX liquidator bot
 
@@ -115,17 +115,11 @@ Exchanges to be supported are Binance, FTX, Okex, [gate.io](http://gate.io/), in
 
 #### Tornado clone for deposits
 
-Pay: 10k USDC or RGT equiv.
+Pay: 15k USDC or RGT equiv.
 
 Clone Tornado Cash contracts to accept a general ERC20 token as deposit. Admin contract connected to Rari’s GovernorBravo controls which tokens to list.
 
-#### Frontend for Tornado clone
-
-Pay: 5k USDC or RGT equiv.
-
-Design and build a frontend for the Tornado clone contracts.
-
-Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link this via github. Provide documentation for the contracts. Provide documentation for anyone to redeploy the frontend on their own domain or IPFS or locally.
+Design and build a frontend for the Tornado clone contracts. Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link this via github. Provide documentation for the contracts. Provide documentation for anyone to redeploy the frontend on their own domain or IPFS or locally.
 
 </details>
 
