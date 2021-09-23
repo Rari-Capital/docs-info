@@ -22,7 +22,7 @@ Are you ready to **_break free_** from your current lifestyle? Now is your time.
 
 ## Overview
 
-This website contains a robust collection of documentation to educate you on the Rari Capital products, and the surrounding DeFi ecosystem. All of the code can be found on [Github](Github.com/raricapital) and is sustained by core contributors and the community.
+This website contains a robust collection of documentation to educate you on the Rari Capital products, and the surrounding DeFi ecosystem. All of the code can be found on [Github](https://github.com/Rari-Capital/docs-info) and is sustained by core contributors and the community.
 
 Throughout this guide, you will find:
 
