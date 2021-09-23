@@ -12,7 +12,7 @@ The Yield Aggregator system optimizes for the highest returns across a series of
 
 ## Rari Capital USDC Pool
 
-The Rari Capital Stable Pool allows users to deposit USDC or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of \$RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
+The Rari Capital USDC Pool allows users to deposit USDC or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of \$RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
 
 **Integrated Strategies:**
 
