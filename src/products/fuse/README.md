@@ -36,7 +36,7 @@ Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay 
 
    _Note: this is a transaction that will cost gas._
 
-You have now supplied your first asset to a Fuse pool! On your main dashboard, you see will see _Supply Balance_ populate with the equivalent amount (in dollars) to your newly supplied asset.
+You have now supplied your first asset to a Fuse pool! On your main dashboard, you will see _Supply Balance_ populate with the equivalent amount (in dollars) to your newly supplied asset.
 
 _Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately receive an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance._
 
