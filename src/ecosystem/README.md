@@ -2,7 +2,7 @@
 
 The Rari Capital DAO is a community-run protocol that utilizes contributors to push the protocol forward. This could be affiliated products, integrations, and so much more. Let's build together!
 
-We'd like to be able to accommodate persons with varying skillsets, backgrounds and time commitments they can make, as long as they can meaningful further the vision of this DAO. Here are the ways you can contribute.
+We'd like to be able to accommodate persons with varying skillsets, backgrounds and time commitments they can make, as long as they can meaningfully further the vision of this DAO. Here are the ways you can contribute.
 
 1. Spread the word about us, the opportunities we offer or the products we work on.
 2. Provide feedback on [Forums](https://forums.rari.capital/) and [Discord](http://discord.gg/HzUMPuT).
