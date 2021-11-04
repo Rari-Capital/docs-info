@@ -2,7 +2,7 @@
 
 ## Decentralized Exchange Liquidity Incentives
 
-The Rari Capital DAO is incentivizing decentralized exchange liquidity of RGT on [Sushiswap](Sushi.com). Once you stake both RGT and ETH on Sushiswap in the [RGT-ETH Pool](https://app.sushi.com/add/ETH/0xd291e7a03283640fdc51b121ac401383a46cc623), you can stake your SLP tokens on the Pool2 dashboard to earn RGT rewards.
+The Rari Capital DAO is incentivizing decentralized exchange liquidity of RGT on [Sushiswap](https://sushi.com). Once you stake both RGT and ETH on Sushiswap in the [RGT-ETH Pool](https://app.sushi.com/add/ETH/0xd291e7a03283640fdc51b121ac401383a46cc623), you can stake your SLP tokens on the Pool2 dashboard to earn RGT rewards.
 
 ## How to Deposit
 

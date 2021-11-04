@@ -12,7 +12,7 @@ The Yield Aggregator system optimizes for the highest returns across a series of
 
 ## Rari Capital USDC Pool
 
-The Rari Capital Stable Pool allows users to deposit ETH or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of \$RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
+The Rari Capital USDC Pool allows users to deposit USDC or any ERC20 token and receive $RSPT in return. The $RSPT token tracks your interest-accruing position. All ERC20s will be swapped to USDC (meaning there is slippage for all deposits except USDC). As a holder of \$RSPT, the Yield Aggregator protocol is working autonomously to deliver the highest yield on your principle.
 
 **Integrated Strategies:**
 
@@ -77,7 +77,7 @@ If you are interested in learning more about each of the strategies and our fram
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](metamask.io), [WalletConnect](walletconnect.org), [Portis](portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Earn Portal](https://app.rari.capital/Earn).
+The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Earn Portal](https://app.rari.capital/Earn).
 
 **Step 2: Choose a Pool**
 

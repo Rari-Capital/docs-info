@@ -16,17 +16,15 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <details>
 
-#### Fuse Subgraph (1500 USDC or RGT equivalent)
+#### Build an embeddable widget to interact with Fuse Pools. (2000 USDC or RGT equiv.)
+<u>Criteria:</u> Build an embeddable widget that other websites can use to embed Fuse Pools directly in their site, such that people can borrow and lend on a Fuse Pool directly through this interface. It should aim to offer some visual customization as well.
 
-<u>Criteria:</u> Build a fully functional Subgraph for Fuse (or fix the existing subgraph)
+<u>Why?:</u> More defi projects are hosting and seeding their own Fuse pools to provide greater capital productivity on that project's assets. With an embeddable Fuse pool widget, users of these projects can now easily access lending and borrowing through another project's interface.
 
-<u>Why? :</u> A Subgraph is a massively important piece of infrastructure which ensures consistent data querying across the multitude of clients that will interface with the Rari Protocol. Previous grantees have attempted to build one but it does not fully work. All Rari devs would massively benefit from a properly built subgraph.
+<u>Spec:</u> Recommended technologies: React/Svelte.js, utilizing Rari SDK or direct contract calls. Preferably utilizes Ether.js over web3.js. Must be as lightweight as possible. Must support color customization. Could be built as a node module or a standalone HTML/CSS/JS embed.  
 
-<u>Spec:</u> Index Underlying AssetsIndex Fuse Pools and data about their underlying CTokens.Ensure the proper bi-directional and nested Array/Object relationships exist between Entities. For example FusePools <-> CTokens or UnderlyingAsset <-> FusePools
+<u><b>Bonus</b> - (<b>300 USDC</b> or RGT equiv):</u> Build 2 additional UIs for this embeddable widget, one that is more fully featured and a "simple" UI, such that a project can choose which UI for Fuse they would like to embed.
 
-<u>Comments:</u> Core devs would be happy to assist a competent developer interested in active development and maintenance of this project.
-
-**Extra 1000 USDC if developed quickly and it works as expected (1-2 weeks).**
 
 #### Design and Implement a robust search service for the Rari Protocol (1000 USDC or RGT equiv.)
 
@@ -44,7 +42,6 @@ _Looking forward to having you as a contributor to the Rari Capital DAO!_
 
 <u>Why?:</u> This would be badassSpec:The rari-dapp is already a PWA. We can make some tweaks to the PWA logic to implement push notifications. If this ends up not working, we can use http://hal.xyz/
 
-<u>Comments:</u> 0xNosedrop wants to do this and has already started development.
 
 #### Governance Dashboard (400 USDC or RGT equiv).
 
@@ -82,22 +79,15 @@ Must integrate well with existing UI and theme. Allow users to chat using just e
 
 </details>
 
-
 ## Infrastructure: Smart Contract Development
 
 <summary> Opportunities available </summary>
 
 <details>
 
-#### *Full-time* Smart Contract developer
+#### _Full-time_ Smart Contract developer
 
 Engage with existing smart contract developers to engage in a variety of projects and responsibilites. Needs to be good at communication, willing to take responsbility, passionate about what we are building. Must have sufficient expertise.
-
-#### Asset supply caps
-
-Pay: 2k USD or RGT equiv.
-
-Implement asset-wise caps for each Fuse pool that can be controlled by pool admin.
 
 #### Clone Rari Capital for another chain
 
@@ -108,6 +98,12 @@ Maintain a Rari Capital clone on an alternate chain. Includes deploying contract
 Profit-sharing arrangement to be finalised. Possible arrangement could include streaming revenues to a treasury controlled by a new token. 50% of supply of this token would be controlled by RGT governance. Remaining 50% allocation to be decided by you (developer allocation, liquidity mining, etc).
 
 Some possible chains: BSC, Solana
+  
+#### Curve liquidity gauges
+
+Pay: 5k USD or RGT equiv.
+
+Create a Curve liquidity gauge (we are planning to launch veRGT in the near future) that controls the reward distribution speeds on our RewardsDistributor contract (which is just Compound's COMP rewards logic split off from the Comptroller): https://github.com/Rari-Capital/compound-protocol/blob/fuse-flywheel/contracts/RewardsDistributor.sol
 
 #### CEX liquidator bot
 
@@ -119,21 +115,13 @@ Exchanges to be supported are Binance, FTX, Okex, [gate.io](http://gate.io/), in
 
 #### Tornado clone for deposits
 
-Pay: 10k USDC or RGT equiv.
+Pay: 15k USDC or RGT equiv.
 
 Clone Tornado Cash contracts to accept a general ERC20 token as deposit. Admin contract connected to Rari’s GovernorBravo controls which tokens to list.
 
-#### Frontend for Tornado clone
-
-Pay: 5k USDC or RGT equiv.
-
-Design and build a frontend for the Tornado clone contracts.
-
-Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link this via github. Provide documentation for the contracts. Provide documentation for anyone to redeploy the frontend on their own domain or IPFS or locally.
+Design and build a frontend for the Tornado clone contracts. Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link this via github. Provide documentation for the contracts. Provide documentation for anyone to redeploy the frontend on their own domain or IPFS or locally.
 
 </details>
-
-
 
 ## Infrastructure: Business development
 
@@ -141,7 +129,7 @@ Host frontend on your own domain. Host frontend on IPFS. Arweave optional. Link 
 
 <details>
 
-#### *Full-time* community moderator and outreach manager
+#### _Full-time_ community moderator and outreach manager
 
 Manage Rari discord. Willing to stay up-to-date and technical enough to answer users' doubt. Actively engage with the community, maintain good vibes and be passionate about the project. Host events for outreach.
 
@@ -168,7 +156,6 @@ Translate content. Manage language-specific channel or discord. Work on building
 Solicited languages: French, Chinese, German, Hindi. Other languages may also be proposed.
 
 </details>
-
 
 ## Market XYZ
 

@@ -1,6 +1,6 @@
 # Fuse
 
-[Fuse](app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rather than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference.
+[Fuse](https://app.rari.capital/fuse) is an open interest rate protocol that allows users to lend and borrow digital assets. The Fuse protocol enables anyone to instantly create and deploy their own lending and borrowing pool. This protocol allows users to choose all of their custom parameters and isolate risk, rather than using a large lending and borrowing pool on other platforms. Pools can be made public or private depending on the creator's preference.
 
 <img width="1153" alt="Screen Shot 2021-07-19 at 8 52 03 PM" src="https://user-images.githubusercontent.com/50163445/126259437-9e2f8042-b36c-4c26-9ce3-380a724fd4c5.png">
 
@@ -20,7 +20,7 @@ The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [
 
 **Step 2: Become Friendly With the Fuse Dashboard**
 
-Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay for these to both be \$0 when you connect for the first time. Now that you are looking at the main dashboard, It's time to start getting comfortable with the user experience. Normally when you enter an open interest rate protocol portal like [Compound Finance](https://compound.finance/), [Aave](https://aave.com/), or [CREAM](https://cream.finance/), you will immediately see supply and borrow tabs. This is different for Fuse, as you have to select the pool you want to lend or borrow to first! Once you select the pool that fits your choice of assets and parameters, you will now be looking at a screen with two sides: Supply and Borrow. The Supply side shows assets that you can supply to this specific Fuse pool to earn interest, while the Borrow side shows assets that you can borrow from this specific Fuse pool. Remember, everything you do in one Fuse pool is kept isolated from the rest of the pools on the platform.
+Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay for these to both be \$0 when you connect for the first time. Now that you are looking at the main dashboard, it's time to start getting comfortable with the user experience. Normally when you enter an open interest rate protocol portal like [Compound Finance](https://compound.finance/), [Aave](https://aave.com/), or [CREAM](https://cream.finance/), you will immediately see supply and borrow tabs. This is different for Fuse, as you have to select the pool you want to lend or borrow to first! Once you select the pool that fits your choice of assets and parameters, you will now be looking at a screen with two sides: Supply and Borrow. The Supply side shows assets that you can supply to this specific Fuse pool to earn interest, while the Borrow side shows assets that you can borrow from this specific Fuse pool. Remember, everything you do in one Fuse pool is kept isolated from the rest of the pools on the platform.
 
 **Step 3: Supply Assets to Fuse**
 
@@ -36,9 +36,9 @@ Once connected, users will see _Supply Balance_ and _Borrow Balance._ It's okay 
 
    _Note: this is a transaction that will cost gas._
 
-You have now supplied your first asset to a Fuse pool! On your main dashboard, you see will see _Supply Balance_ populate with the equivalent amount (in dollars) to your newly supplied asset.
+You have now supplied your first asset to a Fuse pool! On your main dashboard, you will see _Supply Balance_ populate with the equivalent amount (in dollars) to your newly supplied asset.
 
-_Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance._
+_Note: This asset will no longer appear in your wallet as it is now within the Fuse Protocol. You will immediately receive an fToken that represents your share in the pool. You will not have to worry about this token, but when you withdraw, your fToken will be used to redeem the underlying supply balance._
 
 _You will only earn interest when the pool is being utilized by borrowers._
 

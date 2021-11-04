@@ -10,9 +10,9 @@ Contributors to Rari are organized in the form of taskforces. Each taskforce is 
 
 ### Current taskforces
 
-- [Infrastructure taskforce:](https://info.rari.capital/governance/infrastructure/#members) Building the most robust underlying lending and borrowing protocol and setting up the proper infrastructure to enable it to thrive without the infrastructure team. Coordinators: Jack and Samuel
-- [Market XYZ taskforce:](https://info.rari.capital/governance/market/) Building a front-end and business for the Rari Protocol that are accessible to all. Exploring some more exotic use cases of the underlying protocol (ie idea markets). Emphasis on Layer 2. Coordinators: Rahul and Erik
-- [Generalized applications taskforce:](https://info.rari.capital/governance/genApp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David, Jai, and Ben
+- [Infrastructure taskforce:](/governance/infrastructure/#members) Building the most robust underlying lending and borrowing protocol and setting up the proper infrastructure to enable it to thrive without the infrastructure team. Coordinators: Jack and Samuel
+- [Market XYZ taskforce:](/governance/market/) Building a front-end and business for the Rari Protocol that are accessible to all. Exploring some more exotic use cases of the underlying protocol (ie idea markets). Emphasis on Layer 2. Coordinators: Rahul and Erik
+- [Generalized applications taskforce:](/governance/genApp/) Building out integrations and applications on top of the Rari Protocol. In early stages. Coordinators: David, Jai, and Ben
 
 See [How to contribute](/ecosystem/).
 
@@ -20,7 +20,7 @@ See [How to contribute](/ecosystem/).
 
 Governance includes both an on-chain and an off-chain component. Consensus amongst community members is often formed off-chain, therefore we place significant importance on ensuring robust processes for the same to develop. The DAO will host regular community calls, and maintain social channels such as discord and the forum where various members can express their opinion. Each taskforce will additionally have their own way of communicating with the community, and onboard more active contributors.
 
-See how to [Make a proposal](https://info.rari.capital/governance/makeProposal/#proposal-format).
+See how to [Make a proposal](/governance/makeProposal/#proposal-format).
 
 ## On-chain governance
 
