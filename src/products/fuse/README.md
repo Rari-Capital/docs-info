@@ -66,7 +66,7 @@ A _Liquidation_ is when your _Borrow Limit_ reaches its full capacity. Once this
 
 _Note: You should always do your own research regarding liquidations and find a safe haven for your health limit. When borrowing assets, you should consistently be checking the analytics monitor to avoid unforeseen liquidations._
 
-_Note: You should be aware that sending your fToken (Fuse ownership asset) to another wallet that is affiliated with a current borrowing postion, you will be liqudiated as the protocol does not see your collateral position anymore._
+_Note: You should be aware that sending your fToken (Fuse ownership asset) to another wallet that is affiliated with a current borrowing postion, you will be liquidated as the protocol does not see your collateral position anymore._
 
 <u>*What’s an example of when an account needs liquidation?*</u> Let’s follow this same example to illustrate it. $1m in OHM as collateral. $100k USDC borrowed. $333k borrow limit. Now let’s say OHM collapses to 1/4th of its previous value. My collateral is now worth $250,000 and my borrow limit would be $83k USDC but I have $100k USDC borrowed. This account is under-collateralized and needs a liquidation.
 
