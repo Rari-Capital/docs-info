@@ -8,7 +8,7 @@ The Rari Capital DAO is incentivizing decentralized exchange liquidity of RGT on
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://app.rari.capital/Pool2).
+The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Formtatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://Metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Pool2 Portal](https://v2.rari.capital/pool2).
 
 **Step 2: Choose RGT-ETH Pool**
 
