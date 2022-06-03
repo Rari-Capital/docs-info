@@ -77,8 +77,7 @@ If you are interested in learning more about each of the strategies and our fram
 
 **Step 1: Connect a Wallet**
 
-The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://metamask.io). Users can connect their wallets by selecting the "Connect Wallet" button on the [Rari Capital Earn Portal](https://app.rari.capital/Earn).
-
+The Rari Capital ecosystem currently supports [MetaMask](https://metamask.io), [WalletConnect](https://walletconnect.org), [Portis](https://portis.io), [Torus](https://tor.us/), [Fortmatic](https://fortmatic.com/), and [Authereum](https://authereum.com/). If you do not have a wallet, we recommend you refer to [this guide ](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1)for [MetaMask](https://metamask.io).
 **Step 2: Choose a Pool**
 
 Once connected, users are able to view the multi-pool dashboard, equipped with a comparative graph of the returns between each pool. Users may then deposit into the pool(s) of their choosing by selecting the transaction button (the button with two arrows). This will prompt the deposit window, where users can select a supported asset of their choice to deposit.
